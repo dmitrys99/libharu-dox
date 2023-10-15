@@ -1,0 +1,27 @@
+var struct__HPDF__FontDef__Rec =
+[
+    [ "ascent", "struct__HPDF__FontDef__Rec.html#ac305e5de264d0cae0519369e8dfefb72", null ],
+    [ "attr", "struct__HPDF__FontDef__Rec.html#a83ec4c588d31e9489a8ab858fafc4420", null ],
+    [ "avg_width", "struct__HPDF__FontDef__Rec.html#a3adddbce941b0dfb649ed30f3a1d15d8", null ],
+    [ "base_font", "struct__HPDF__FontDef__Rec.html#ab4394637eb41cede9d8bfbc3e65d569f", null ],
+    [ "cap_height", "struct__HPDF__FontDef__Rec.html#af136c839bf0e3faa450283904fb984dd", null ],
+    [ "clean_fn", "struct__HPDF__FontDef__Rec.html#a6bd76c8767b6a508b0dbd21b5fe6a88d", null ],
+    [ "data", "struct__HPDF__FontDef__Rec.html#aa3efea87b7caa8ee303b5ffe32a0bbc6", null ],
+    [ "descent", "struct__HPDF__FontDef__Rec.html#a2d98bfda4799c9843aabb3eda83770de", null ],
+    [ "descriptor", "struct__HPDF__FontDef__Rec.html#a1d5e14e6d308ff17d727614297fdfa80", null ],
+    [ "error", "struct__HPDF__FontDef__Rec.html#a216512eacc2594a8a8b8a0d5ffcc8f5f", null ],
+    [ "flags", "struct__HPDF__FontDef__Rec.html#ad03c3629350a9ad490058f582f6fe8b0", null ],
+    [ "font_bbox", "struct__HPDF__FontDef__Rec.html#af3b1a4b5fb95d9e0e5f8f60716292169", null ],
+    [ "free_fn", "struct__HPDF__FontDef__Rec.html#a216955c23f23d886c4637ac6e9b4f742", null ],
+    [ "init_fn", "struct__HPDF__FontDef__Rec.html#a7f568252438a64bcb7bb5180b288adb4", null ],
+    [ "italic_angle", "struct__HPDF__FontDef__Rec.html#ad50553aa6a07c842f3d6d7de3a8e65ff", null ],
+    [ "max_width", "struct__HPDF__FontDef__Rec.html#acc63390f97e5e6323bd3a3c17c32b10c", null ],
+    [ "missing_width", "struct__HPDF__FontDef__Rec.html#ac8e87e36ee6fbe5efd1926b30a80b544", null ],
+    [ "mmgr", "struct__HPDF__FontDef__Rec.html#a49b06770ef75ff1150ad2976a345d5ad", null ],
+    [ "sig_bytes", "struct__HPDF__FontDef__Rec.html#a9f4f92843befa65592a67f355cf9f6d1", null ],
+    [ "stemh", "struct__HPDF__FontDef__Rec.html#ac5dbf1d444c8ec67742d070c50f7b032", null ],
+    [ "stemv", "struct__HPDF__FontDef__Rec.html#a66ad45ec7e45d0908abea8408d1fcaa0", null ],
+    [ "type", "struct__HPDF__FontDef__Rec.html#adc0f19b130981a50fc4c06c6a7870eee", null ],
+    [ "valid", "struct__HPDF__FontDef__Rec.html#af5fa09b682e40ed2df1e9f8fca87015e", null ],
+    [ "x_height", "struct__HPDF__FontDef__Rec.html#aff7409a875aeab4005054215e438864f", null ]
+];

@@ -1,0 +1,26 @@
+var struct__HPDF__TTFontDefAttr__Rec =
+[
+    [ "base_font", "struct__HPDF__TTFontDefAttr__Rec.html#a9bdd5300807b82be255a0f8a2b520829", null ],
+    [ "char_set", "struct__HPDF__TTFontDefAttr__Rec.html#a5a2997ff0c22210369c4f2b5beda504d", null ],
+    [ "cmap", "struct__HPDF__TTFontDefAttr__Rec.html#abaa8d579713172b205c010b70e5a5e4e", null ],
+    [ "code_page_range1", "struct__HPDF__TTFontDefAttr__Rec.html#a8799809ff3bae95a8a2faf10b697dda5", null ],
+    [ "code_page_range2", "struct__HPDF__TTFontDefAttr__Rec.html#a7ce74d8d056d0abcc42a393d0a835fa8", null ],
+    [ "embedding", "struct__HPDF__TTFontDefAttr__Rec.html#ade1fbbde0e7a393fe11dbacf38a4f819", null ],
+    [ "first_char", "struct__HPDF__TTFontDefAttr__Rec.html#a6d498df3be564761ef8fe4e41ecf3794", null ],
+    [ "fs_type", "struct__HPDF__TTFontDefAttr__Rec.html#ac852961e139d2c0f12635b8a2ef1474a", null ],
+    [ "glyph_tbl", "struct__HPDF__TTFontDefAttr__Rec.html#a3c9b24d77c50e1bd69cd47734d96807e", null ],
+    [ "h_metric", "struct__HPDF__TTFontDefAttr__Rec.html#ab7592782a0e36756ee194fc35a2de3b3", null ],
+    [ "header", "struct__HPDF__TTFontDefAttr__Rec.html#a1ef6982d02db63ad5329f178a6d51bbb", null ],
+    [ "is_cidfont", "struct__HPDF__TTFontDefAttr__Rec.html#a6ce9daefa5a657d7cb599da726e7d130", null ],
+    [ "last_char", "struct__HPDF__TTFontDefAttr__Rec.html#ad600cc6bcf5c76b54bf0d1f70e6bf73c", null ],
+    [ "length1", "struct__HPDF__TTFontDefAttr__Rec.html#ab2591047c0aa735f5854764ddd9b250c", null ],
+    [ "name_tbl", "struct__HPDF__TTFontDefAttr__Rec.html#a6e7bb91de891bf4a447d1fc21c5ed487", null ],
+    [ "num_glyphs", "struct__HPDF__TTFontDefAttr__Rec.html#af6fa3cfff4f4fb317b468b868f7307b8", null ],
+    [ "num_h_metric", "struct__HPDF__TTFontDefAttr__Rec.html#a69b7975e5a1720b5fad3f4319613d993", null ],
+    [ "offset_tbl", "struct__HPDF__TTFontDefAttr__Rec.html#ac06ecac920d16a904d347d1330e4682d", null ],
+    [ "panose", "struct__HPDF__TTFontDefAttr__Rec.html#a3a82b532fe23ac685a081f41d5598f63", null ],
+    [ "sfamilyclass", "struct__HPDF__TTFontDefAttr__Rec.html#adf361cf11777e56100a9f28b2f22a7a2", null ],
+    [ "stream", "struct__HPDF__TTFontDefAttr__Rec.html#a35185bec7ab602ba0dcbf224ed25592f", null ],
+    [ "tag_name", "struct__HPDF__TTFontDefAttr__Rec.html#a8c664cc4a1e11a5f7cf8c8ebf012cefe", null ],
+    [ "tag_name2", "struct__HPDF__TTFontDefAttr__Rec.html#ace81c601fd171dc8b6fed89baff00f8d", null ]
+];
