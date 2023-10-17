@@ -115,6 +115,7 @@ $(document).ready(function(){initNavTree('minimal_8c-example.html',''); initResi
 <div class="line">    <a name="_a1"></a><a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a> page;</div>
 <div class="line">    <span class="keywordtype">char</span> fname[11] = <span class="stringliteral">&quot;minimal.pdf&quot;</span>;</div>
 <div class="line"> </div>
+<div class="line">    <span class="comment">/* create document object*/</span></div>
 <div class="line">    pdf = <a name="a2"></a><a class="code" href="group__doc.html#gab67288af90e6b56d92261df2f2ea2439">HPDF_New</a> (demo_error_handler, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> (!pdf) {</div>
 <div class="line">        printf (<span class="stringliteral">&quot;error: cannot create PdfDoc object\n&quot;</span>);</div>
@@ -132,7 +133,7 @@ $(document).ready(function(){initNavTree('minimal_8c-example.html',''); initResi
 <div class="line">    <span class="comment">/* set up added page */</span></div>
 <div class="line">    <a name="a5"></a><a class="code" href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a> (page, <a name="a6"></a><a class="code" href="hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c">HPDF_PAGE_SIZE_A4</a>, <a name="a7"></a><a class="code" href="hpdf__types_8h.html#a9975729eeae492084d64839f91063e77ab15dd466632f2da7e877a1d2b63ed1e2">HPDF_PAGE_LANDSCAPE</a>);</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">/* save the document to a file */</span></div>
+<div class="line">    <span class="comment">/* save document to a file */</span></div>
 <div class="line">    <a name="a8"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* clean up */</span></div>
@@ -140,9 +141,6 @@ $(document).ready(function(){initNavTree('minimal_8c-example.html',''); initResi
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="line"> </div>
-<div class="line"> </div>
-<div class="line"> </div>
 <div class="ttc" id="agroup__doc_html_ga5bcc7381654651771342dff7ff2b0414"><div class="ttname"><a href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a></div><div class="ttdeci">HPDF_STATUS HPDF_SaveToFile(HPDF_Doc pdf, const char *filename)</div><div class="ttdoc">Saves the current document to file.</div></div>
 <div class="ttc" id="agroup__doc_html_ga7d8f4fbb4e08ba7472cfe0d079f93b38"><div class="ttname"><a href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a></div><div class="ttdeci">void HPDF_Free(HPDF_Doc pdf)</div><div class="ttdoc">Revoke a document object and all resources.</div></div>
 <div class="ttc" id="agroup__doc_html_gab67288af90e6b56d92261df2f2ea2439"><div class="ttname"><a href="group__doc.html#gab67288af90e6b56d92261df2f2ea2439">HPDF_New</a></div><div class="ttdeci">HPDF_Doc HPDF_New(HPDF_Error_Handler user_error_fn, void *user_data)</div><div class="ttdoc">Create an instance of a document object and initialize it.</div></div>
