@@ -1,5 +1,6 @@
 var hpdf_8h =
 [
+    [ "HPDF_HANDLER", "hpdf_8h.html#a490e294d740d4b9823db55e0dda67939", null ],
     [ "HPDF_UNUSED", "hpdf_8h.html#a8394e68ae882d840f812fde462c60789", null ],
     [ "HPDF_3DAnnotExData_Set3DMeasurement", "hpdf_8h.html#a95cf277e72a603a86dcc1327a71201a8", null ],
     [ "HPDF_3DC3DMeasure_SetProjectionAnotation", "hpdf_8h.html#a931cfdaef8d8ed8ef91adc29adf66b28", null ],

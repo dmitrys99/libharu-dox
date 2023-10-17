@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['color_20spaces_4393',['Color spaces',['../colorspaces.html',1,'']]]
+  ['color_20spaces_4397',['Color spaces',['../colorspaces.html',1,'']]]
 ];
