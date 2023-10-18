@@ -1228,414 +1228,420 @@ $(document).ready(function(){initNavTree('hpdf_8h_source.html',''); initResizabl
 <div class="line"><a name="l03394"></a><span class="lineno"> 3394</span>&#160; </div>
 <div class="line"><a name="l03395"></a><span class="lineno"> 3395</span>&#160;<span class="comment">/*--- General graphics state ---------------------------------------------*/</span></div>
 <div class="line"><a name="l03396"></a><span class="lineno"> 3396</span>&#160; </div>
-<div class="line"><a name="l03424"></a><span class="lineno"> 3424</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03425"></a><span class="lineno"><a class="line" href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b"> 3425</a></span>&#160;<a class="code" href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b">HPDF_Page_SetLineWidth</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l03426"></a><span class="lineno"> 3426</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  line_width);</div>
-<div class="line"><a name="l03427"></a><span class="lineno"> 3427</span>&#160; </div>
-<div class="line"><a name="l03455"></a><span class="lineno"> 3455</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03456"></a><span class="lineno"><a class="line" href="group__graphics.html#ga82d08b512db23ffb4b1dd8343a1a1a47"> 3456</a></span>&#160;<a class="code" href="group__graphics.html#ga82d08b512db23ffb4b1dd8343a1a1a47">HPDF_Page_SetLineCap</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>     page,</div>
-<div class="line"><a name="l03457"></a><span class="lineno"> 3457</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a153246cd94a11057b3e3629e72b2f29c">HPDF_LineCap</a>  line_cap);</div>
-<div class="line"><a name="l03458"></a><span class="lineno"> 3458</span>&#160; </div>
-<div class="line"><a name="l03486"></a><span class="lineno"> 3486</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03487"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa649b722622e476e270667d4931d032e"> 3487</a></span>&#160;<a class="code" href="group__graphics.html#gaa649b722622e476e270667d4931d032e">HPDF_Page_SetLineJoin</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>      page,</div>
-<div class="line"><a name="l03488"></a><span class="lineno"> 3488</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a16a670fc1dbae681aee35bbd5873012b">HPDF_LineJoin</a>  line_join);</div>
-<div class="line"><a name="l03489"></a><span class="lineno"> 3489</span>&#160; </div>
-<div class="line"><a name="l03511"></a><span class="lineno"> 3511</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03512"></a><span class="lineno"><a class="line" href="group__graphics.html#gade32129595418adbb3a3a5918b67a57b"> 3512</a></span>&#160;<a class="code" href="group__graphics.html#gade32129595418adbb3a3a5918b67a57b">HPDF_Page_SetMiterLimit</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l03513"></a><span class="lineno"> 3513</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  miter_limit);</div>
-<div class="line"><a name="l03514"></a><span class="lineno"> 3514</span>&#160; </div>
-<div class="line"><a name="l03553"></a><span class="lineno"> 3553</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03554"></a><span class="lineno"><a class="line" href="group__graphics.html#gacdf2924531eac77bc2c53275c40e9580"> 3554</a></span>&#160;<a class="code" href="group__graphics.html#gacdf2924531eac77bc2c53275c40e9580">HPDF_Page_SetDash</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>           page,</div>
-<div class="line"><a name="l03555"></a><span class="lineno"> 3555</span>&#160;                    const <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    *dash_pattern,</div>
-<div class="line"><a name="l03556"></a><span class="lineno"> 3556</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a47cf73f26b8868af2be7f8ce82995b90">HPDF_UINT</a>           num_elem,</div>
-<div class="line"><a name="l03557"></a><span class="lineno"> 3557</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>           phase);</div>
+<div class="line"><a name="l03419"></a><span class="lineno"> 3419</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03420"></a><span class="lineno"><a class="line" href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b"> 3420</a></span>&#160;<a class="code" href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b">HPDF_Page_SetLineWidth</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l03421"></a><span class="lineno"> 3421</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  line_width);</div>
+<div class="line"><a name="l03422"></a><span class="lineno"> 3422</span>&#160; </div>
+<div class="line"><a name="l03450"></a><span class="lineno"> 3450</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03451"></a><span class="lineno"><a class="line" href="group__graphics.html#ga82d08b512db23ffb4b1dd8343a1a1a47"> 3451</a></span>&#160;<a class="code" href="group__graphics.html#ga82d08b512db23ffb4b1dd8343a1a1a47">HPDF_Page_SetLineCap</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>     page,</div>
+<div class="line"><a name="l03452"></a><span class="lineno"> 3452</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a153246cd94a11057b3e3629e72b2f29c">HPDF_LineCap</a>  line_cap);</div>
+<div class="line"><a name="l03453"></a><span class="lineno"> 3453</span>&#160; </div>
+<div class="line"><a name="l03481"></a><span class="lineno"> 3481</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03482"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa649b722622e476e270667d4931d032e"> 3482</a></span>&#160;<a class="code" href="group__graphics.html#gaa649b722622e476e270667d4931d032e">HPDF_Page_SetLineJoin</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>      page,</div>
+<div class="line"><a name="l03483"></a><span class="lineno"> 3483</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a16a670fc1dbae681aee35bbd5873012b">HPDF_LineJoin</a>  line_join);</div>
+<div class="line"><a name="l03484"></a><span class="lineno"> 3484</span>&#160; </div>
+<div class="line"><a name="l03510"></a><span class="lineno"> 3510</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03511"></a><span class="lineno"><a class="line" href="group__graphics.html#gade32129595418adbb3a3a5918b67a57b"> 3511</a></span>&#160;<a class="code" href="group__graphics.html#gade32129595418adbb3a3a5918b67a57b">HPDF_Page_SetMiterLimit</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l03512"></a><span class="lineno"> 3512</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  miter_limit);</div>
+<div class="line"><a name="l03513"></a><span class="lineno"> 3513</span>&#160; </div>
+<div class="line"><a name="l03552"></a><span class="lineno"> 3552</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03553"></a><span class="lineno"><a class="line" href="group__graphics.html#gacdf2924531eac77bc2c53275c40e9580"> 3553</a></span>&#160;<a class="code" href="group__graphics.html#gacdf2924531eac77bc2c53275c40e9580">HPDF_Page_SetDash</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>           page,</div>
+<div class="line"><a name="l03554"></a><span class="lineno"> 3554</span>&#160;                    const <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    *dash_pattern,</div>
+<div class="line"><a name="l03555"></a><span class="lineno"> 3555</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a47cf73f26b8868af2be7f8ce82995b90">HPDF_UINT</a>           num_elem,</div>
+<div class="line"><a name="l03556"></a><span class="lineno"> 3556</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>           phase);</div>
+<div class="line"><a name="l03557"></a><span class="lineno"> 3557</span>&#160; </div>
 <div class="line"><a name="l03558"></a><span class="lineno"> 3558</span>&#160; </div>
 <div class="line"><a name="l03559"></a><span class="lineno"> 3559</span>&#160; </div>
-<div class="line"><a name="l03560"></a><span class="lineno"> 3560</span>&#160; </div>
-<div class="line"><a name="l03561"></a><span class="lineno"> 3561</span>&#160;<span class="comment">/* ri --not implemented yet */</span></div>
-<div class="line"><a name="l03562"></a><span class="lineno"> 3562</span>&#160; </div>
-<div class="line"><a name="l03563"></a><span class="lineno"> 3563</span>&#160;<span class="comment">/* i */</span></div>
-<div class="line"><a name="l03564"></a><span class="lineno"> 3564</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03565"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a41043bda6f5e81beb5720c9077a5b9e7"> 3565</a></span>&#160;<a class="code" href="hpdf_8h.html#a41043bda6f5e81beb5720c9077a5b9e7">HPDF_Page_SetFlat</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l03566"></a><span class="lineno"> 3566</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    flatness);</div>
-<div class="line"><a name="l03567"></a><span class="lineno"> 3567</span>&#160; </div>
-<div class="line"><a name="l03586"></a><span class="lineno"> 3586</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03587"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa26be353784f1585db2aa75396cf6165"> 3587</a></span>&#160;<a class="code" href="group__graphics.html#gaa26be353784f1585db2aa75396cf6165">HPDF_Page_SetExtGState</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>        page,</div>
-<div class="line"><a name="l03588"></a><span class="lineno"> 3588</span>&#160;                         <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_ExtGState</a>   ext_gstate);</div>
-<div class="line"><a name="l03589"></a><span class="lineno"> 3589</span>&#160; </div>
-<div class="line"><a name="l03590"></a><span class="lineno"> 3590</span>&#160;<span class="comment">/* sh */</span></div>
-<div class="line"><a name="l03591"></a><span class="lineno"> 3591</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03592"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a6745dcd98c363cf2fa7603cce91504da"> 3592</a></span>&#160;<a class="code" href="hpdf_8h.html#a6745dcd98c363cf2fa7603cce91504da">HPDF_Page_SetShading</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l03593"></a><span class="lineno"> 3593</span>&#160;                       <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Shading</a> shading);</div>
+<div class="line"><a name="l03560"></a><span class="lineno"> 3560</span>&#160;<span class="comment">/* ri --not implemented yet */</span></div>
+<div class="line"><a name="l03561"></a><span class="lineno"> 3561</span>&#160; </div>
+<div class="line"><a name="l03562"></a><span class="lineno"> 3562</span>&#160;<span class="comment">/* i */</span></div>
+<div class="line"><a name="l03563"></a><span class="lineno"> 3563</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03564"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a41043bda6f5e81beb5720c9077a5b9e7"> 3564</a></span>&#160;<a class="code" href="hpdf_8h.html#a41043bda6f5e81beb5720c9077a5b9e7">HPDF_Page_SetFlat</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l03565"></a><span class="lineno"> 3565</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    flatness);</div>
+<div class="line"><a name="l03566"></a><span class="lineno"> 3566</span>&#160; </div>
+<div class="line"><a name="l03585"></a><span class="lineno"> 3585</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03586"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa26be353784f1585db2aa75396cf6165"> 3586</a></span>&#160;<a class="code" href="group__graphics.html#gaa26be353784f1585db2aa75396cf6165">HPDF_Page_SetExtGState</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>        page,</div>
+<div class="line"><a name="l03587"></a><span class="lineno"> 3587</span>&#160;                         <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_ExtGState</a>   ext_gstate);</div>
+<div class="line"><a name="l03588"></a><span class="lineno"> 3588</span>&#160; </div>
+<div class="line"><a name="l03589"></a><span class="lineno"> 3589</span>&#160;<span class="comment">/* sh */</span></div>
+<div class="line"><a name="l03590"></a><span class="lineno"> 3590</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03591"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a6745dcd98c363cf2fa7603cce91504da"> 3591</a></span>&#160;<a class="code" href="hpdf_8h.html#a6745dcd98c363cf2fa7603cce91504da">HPDF_Page_SetShading</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l03592"></a><span class="lineno"> 3592</span>&#160;                       <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Shading</a> shading);</div>
+<div class="line"><a name="l03593"></a><span class="lineno"> 3593</span>&#160; </div>
 <div class="line"><a name="l03594"></a><span class="lineno"> 3594</span>&#160; </div>
-<div class="line"><a name="l03595"></a><span class="lineno"> 3595</span>&#160; </div>
-<div class="line"><a name="l03596"></a><span class="lineno"> 3596</span>&#160;<span class="comment">/*--- Special graphic state operator --------------------------------------*/</span></div>
-<div class="line"><a name="l03597"></a><span class="lineno"> 3597</span>&#160; </div>
-<div class="line"><a name="l03639"></a><span class="lineno"> 3639</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03640"></a><span class="lineno"><a class="line" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295"> 3640</a></span>&#160;<a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page);</div>
-<div class="line"><a name="l03641"></a><span class="lineno"> 3641</span>&#160; </div>
-<div class="line"><a name="l03660"></a><span class="lineno"> 3660</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03661"></a><span class="lineno"><a class="line" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1"> 3661</a></span>&#160;<a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page);</div>
-<div class="line"><a name="l03662"></a><span class="lineno"> 3662</span>&#160; </div>
-<div class="line"><a name="l03711"></a><span class="lineno"> 3711</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03712"></a><span class="lineno"><a class="line" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289"> 3712</a></span>&#160;<a class="code" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l03713"></a><span class="lineno"> 3713</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    a,</div>
-<div class="line"><a name="l03714"></a><span class="lineno"> 3714</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    b,</div>
-<div class="line"><a name="l03715"></a><span class="lineno"> 3715</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    c,</div>
-<div class="line"><a name="l03716"></a><span class="lineno"> 3716</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    d,</div>
-<div class="line"><a name="l03717"></a><span class="lineno"> 3717</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
-<div class="line"><a name="l03718"></a><span class="lineno"> 3718</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
-<div class="line"><a name="l03719"></a><span class="lineno"> 3719</span>&#160; </div>
-<div class="line"><a name="l03720"></a><span class="lineno"> 3720</span>&#160;<span class="comment">/*--- Path construction operator ------------------------------------------*/</span></div>
-<div class="line"><a name="l03721"></a><span class="lineno"> 3721</span>&#160; </div>
-<div class="line"><a name="l03743"></a><span class="lineno"> 3743</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03744"></a><span class="lineno"><a class="line" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c"> 3744</a></span>&#160;<a class="code" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c">HPDF_Page_MoveTo</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l03745"></a><span class="lineno"> 3745</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
-<div class="line"><a name="l03746"></a><span class="lineno"> 3746</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
-<div class="line"><a name="l03747"></a><span class="lineno"> 3747</span>&#160; </div>
-<div class="line"><a name="l03767"></a><span class="lineno"> 3767</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03768"></a><span class="lineno"><a class="line" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451"> 3768</a></span>&#160;<a class="code" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451">HPDF_Page_LineTo</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l03769"></a><span class="lineno"> 3769</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
-<div class="line"><a name="l03770"></a><span class="lineno"> 3770</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
-<div class="line"><a name="l03771"></a><span class="lineno"> 3771</span>&#160; </div>
-<div class="line"><a name="l03796"></a><span class="lineno"> 3796</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03797"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa2797f5e49af49d53eeb49b1d9c78917"> 3797</a></span>&#160;<a class="code" href="group__graphics.html#gaa2797f5e49af49d53eeb49b1d9c78917">HPDF_Page_CurveTo</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l03798"></a><span class="lineno"> 3798</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x1,</div>
-<div class="line"><a name="l03799"></a><span class="lineno"> 3799</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y1,</div>
-<div class="line"><a name="l03800"></a><span class="lineno"> 3800</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x2,</div>
-<div class="line"><a name="l03801"></a><span class="lineno"> 3801</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y2,</div>
-<div class="line"><a name="l03802"></a><span class="lineno"> 3802</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x3,</div>
-<div class="line"><a name="l03803"></a><span class="lineno"> 3803</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y3);</div>
-<div class="line"><a name="l03804"></a><span class="lineno"> 3804</span>&#160; </div>
-<div class="line"><a name="l03827"></a><span class="lineno"> 3827</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03828"></a><span class="lineno"><a class="line" href="group__graphics.html#ga23bab59d5ab58b5d6aef5891300297e4"> 3828</a></span>&#160;<a class="code" href="group__graphics.html#ga23bab59d5ab58b5d6aef5891300297e4">HPDF_Page_CurveTo2</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l03829"></a><span class="lineno"> 3829</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x2,</div>
-<div class="line"><a name="l03830"></a><span class="lineno"> 3830</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y2,</div>
-<div class="line"><a name="l03831"></a><span class="lineno"> 3831</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x3,</div>
-<div class="line"><a name="l03832"></a><span class="lineno"> 3832</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y3);</div>
-<div class="line"><a name="l03833"></a><span class="lineno"> 3833</span>&#160; </div>
-<div class="line"><a name="l03858"></a><span class="lineno"> 3858</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03859"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3ec31d750c7fd9be4aa934abab59bdc0"> 3859</a></span>&#160;<a class="code" href="group__graphics.html#ga3ec31d750c7fd9be4aa934abab59bdc0">HPDF_Page_CurveTo3</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l03860"></a><span class="lineno"> 3860</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  x1,</div>
-<div class="line"><a name="l03861"></a><span class="lineno"> 3861</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y1,</div>
-<div class="line"><a name="l03862"></a><span class="lineno"> 3862</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  x3,</div>
-<div class="line"><a name="l03863"></a><span class="lineno"> 3863</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y3);</div>
+<div class="line"><a name="l03595"></a><span class="lineno"> 3595</span>&#160;<span class="comment">/*--- Special graphic state operator --------------------------------------*/</span></div>
+<div class="line"><a name="l03596"></a><span class="lineno"> 3596</span>&#160; </div>
+<div class="line"><a name="l03638"></a><span class="lineno"> 3638</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03639"></a><span class="lineno"><a class="line" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295"> 3639</a></span>&#160;<a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page);</div>
+<div class="line"><a name="l03640"></a><span class="lineno"> 3640</span>&#160; </div>
+<div class="line"><a name="l03659"></a><span class="lineno"> 3659</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03660"></a><span class="lineno"><a class="line" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1"> 3660</a></span>&#160;<a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page);</div>
+<div class="line"><a name="l03661"></a><span class="lineno"> 3661</span>&#160; </div>
+<div class="line"><a name="l03710"></a><span class="lineno"> 3710</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03711"></a><span class="lineno"><a class="line" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289"> 3711</a></span>&#160;<a class="code" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l03712"></a><span class="lineno"> 3712</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    a,</div>
+<div class="line"><a name="l03713"></a><span class="lineno"> 3713</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    b,</div>
+<div class="line"><a name="l03714"></a><span class="lineno"> 3714</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    c,</div>
+<div class="line"><a name="l03715"></a><span class="lineno"> 3715</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    d,</div>
+<div class="line"><a name="l03716"></a><span class="lineno"> 3716</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
+<div class="line"><a name="l03717"></a><span class="lineno"> 3717</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
+<div class="line"><a name="l03718"></a><span class="lineno"> 3718</span>&#160; </div>
+<div class="line"><a name="l03719"></a><span class="lineno"> 3719</span>&#160;<span class="comment">/*--- Path construction operator ------------------------------------------*/</span></div>
+<div class="line"><a name="l03720"></a><span class="lineno"> 3720</span>&#160; </div>
+<div class="line"><a name="l03742"></a><span class="lineno"> 3742</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03743"></a><span class="lineno"><a class="line" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c"> 3743</a></span>&#160;<a class="code" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c">HPDF_Page_MoveTo</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l03744"></a><span class="lineno"> 3744</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
+<div class="line"><a name="l03745"></a><span class="lineno"> 3745</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
+<div class="line"><a name="l03746"></a><span class="lineno"> 3746</span>&#160; </div>
+<div class="line"><a name="l03766"></a><span class="lineno"> 3766</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03767"></a><span class="lineno"><a class="line" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451"> 3767</a></span>&#160;<a class="code" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451">HPDF_Page_LineTo</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l03768"></a><span class="lineno"> 3768</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
+<div class="line"><a name="l03769"></a><span class="lineno"> 3769</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
+<div class="line"><a name="l03770"></a><span class="lineno"> 3770</span>&#160; </div>
+<div class="line"><a name="l03795"></a><span class="lineno"> 3795</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03796"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa2797f5e49af49d53eeb49b1d9c78917"> 3796</a></span>&#160;<a class="code" href="group__graphics.html#gaa2797f5e49af49d53eeb49b1d9c78917">HPDF_Page_CurveTo</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l03797"></a><span class="lineno"> 3797</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x1,</div>
+<div class="line"><a name="l03798"></a><span class="lineno"> 3798</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y1,</div>
+<div class="line"><a name="l03799"></a><span class="lineno"> 3799</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x2,</div>
+<div class="line"><a name="l03800"></a><span class="lineno"> 3800</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y2,</div>
+<div class="line"><a name="l03801"></a><span class="lineno"> 3801</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x3,</div>
+<div class="line"><a name="l03802"></a><span class="lineno"> 3802</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y3);</div>
+<div class="line"><a name="l03803"></a><span class="lineno"> 3803</span>&#160; </div>
+<div class="line"><a name="l03826"></a><span class="lineno"> 3826</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03827"></a><span class="lineno"><a class="line" href="group__graphics.html#ga23bab59d5ab58b5d6aef5891300297e4"> 3827</a></span>&#160;<a class="code" href="group__graphics.html#ga23bab59d5ab58b5d6aef5891300297e4">HPDF_Page_CurveTo2</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l03828"></a><span class="lineno"> 3828</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x2,</div>
+<div class="line"><a name="l03829"></a><span class="lineno"> 3829</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y2,</div>
+<div class="line"><a name="l03830"></a><span class="lineno"> 3830</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x3,</div>
+<div class="line"><a name="l03831"></a><span class="lineno"> 3831</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y3);</div>
+<div class="line"><a name="l03832"></a><span class="lineno"> 3832</span>&#160; </div>
+<div class="line"><a name="l03857"></a><span class="lineno"> 3857</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03858"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3ec31d750c7fd9be4aa934abab59bdc0"> 3858</a></span>&#160;<a class="code" href="group__graphics.html#ga3ec31d750c7fd9be4aa934abab59bdc0">HPDF_Page_CurveTo3</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l03859"></a><span class="lineno"> 3859</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  x1,</div>
+<div class="line"><a name="l03860"></a><span class="lineno"> 3860</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y1,</div>
+<div class="line"><a name="l03861"></a><span class="lineno"> 3861</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  x3,</div>
+<div class="line"><a name="l03862"></a><span class="lineno"> 3862</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y3);</div>
+<div class="line"><a name="l03863"></a><span class="lineno"> 3863</span>&#160; </div>
 <div class="line"><a name="l03864"></a><span class="lineno"> 3864</span>&#160; </div>
-<div class="line"><a name="l03865"></a><span class="lineno"> 3865</span>&#160; </div>
-<div class="line"><a name="l03886"></a><span class="lineno"> 3886</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03887"></a><span class="lineno"><a class="line" href="group__graphics.html#gaceb6623316770759899c7a971ff90e74"> 3887</a></span>&#160;<a class="code" href="group__graphics.html#gaceb6623316770759899c7a971ff90e74">HPDF_Page_ClosePath</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l03888"></a><span class="lineno"> 3888</span>&#160; </div>
-<div class="line"><a name="l03910"></a><span class="lineno"> 3910</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03911"></a><span class="lineno"><a class="line" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f"> 3911</a></span>&#160;<a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l03912"></a><span class="lineno"> 3912</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  x,</div>
-<div class="line"><a name="l03913"></a><span class="lineno"> 3913</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y,</div>
-<div class="line"><a name="l03914"></a><span class="lineno"> 3914</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  width,</div>
-<div class="line"><a name="l03915"></a><span class="lineno"> 3915</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  height);</div>
+<div class="line"><a name="l03885"></a><span class="lineno"> 3885</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03886"></a><span class="lineno"><a class="line" href="group__graphics.html#gaceb6623316770759899c7a971ff90e74"> 3886</a></span>&#160;<a class="code" href="group__graphics.html#gaceb6623316770759899c7a971ff90e74">HPDF_Page_ClosePath</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l03887"></a><span class="lineno"> 3887</span>&#160; </div>
+<div class="line"><a name="l03909"></a><span class="lineno"> 3909</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03910"></a><span class="lineno"><a class="line" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f"> 3910</a></span>&#160;<a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l03911"></a><span class="lineno"> 3911</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  x,</div>
+<div class="line"><a name="l03912"></a><span class="lineno"> 3912</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y,</div>
+<div class="line"><a name="l03913"></a><span class="lineno"> 3913</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  width,</div>
+<div class="line"><a name="l03914"></a><span class="lineno"> 3914</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  height);</div>
+<div class="line"><a name="l03915"></a><span class="lineno"> 3915</span>&#160; </div>
 <div class="line"><a name="l03916"></a><span class="lineno"> 3916</span>&#160; </div>
-<div class="line"><a name="l03917"></a><span class="lineno"> 3917</span>&#160; </div>
-<div class="line"><a name="l03918"></a><span class="lineno"> 3918</span>&#160;<span class="comment">/*--- Path painting operator ---------------------------------------------*/</span></div>
-<div class="line"><a name="l03919"></a><span class="lineno"> 3919</span>&#160; </div>
-<div class="line"><a name="l03938"></a><span class="lineno"> 3938</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03939"></a><span class="lineno"><a class="line" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88"> 3939</a></span>&#160;<a class="code" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88">HPDF_Page_Stroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l03940"></a><span class="lineno"> 3940</span>&#160; </div>
-<div class="line"><a name="l03959"></a><span class="lineno"> 3959</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03960"></a><span class="lineno"><a class="line" href="group__graphics.html#gaffe05e499b65c0bf1a108688584ce5aa"> 3960</a></span>&#160;<a class="code" href="group__graphics.html#gaffe05e499b65c0bf1a108688584ce5aa">HPDF_Page_ClosePathStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l03961"></a><span class="lineno"> 3961</span>&#160; </div>
-<div class="line"><a name="l03980"></a><span class="lineno"> 3980</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l03981"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a"> 3981</a></span>&#160;<a class="code" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a">HPDF_Page_Fill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l03982"></a><span class="lineno"> 3982</span>&#160; </div>
-<div class="line"><a name="l04001"></a><span class="lineno"> 4001</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04002"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf583450c2b69fb851213d0cd7fb28f0f"> 4002</a></span>&#160;<a class="code" href="group__graphics.html#gaf583450c2b69fb851213d0cd7fb28f0f">HPDF_Page_Eofill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04003"></a><span class="lineno"> 4003</span>&#160; </div>
-<div class="line"><a name="l04022"></a><span class="lineno"> 4022</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04023"></a><span class="lineno"><a class="line" href="group__graphics.html#ga8e85dd356a417613578d4bef30f0acdd"> 4023</a></span>&#160;<a class="code" href="group__graphics.html#ga8e85dd356a417613578d4bef30f0acdd">HPDF_Page_FillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l03917"></a><span class="lineno"> 3917</span>&#160;<span class="comment">/*--- Path painting operator ---------------------------------------------*/</span></div>
+<div class="line"><a name="l03918"></a><span class="lineno"> 3918</span>&#160; </div>
+<div class="line"><a name="l03937"></a><span class="lineno"> 3937</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03938"></a><span class="lineno"><a class="line" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88"> 3938</a></span>&#160;<a class="code" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88">HPDF_Page_Stroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l03939"></a><span class="lineno"> 3939</span>&#160; </div>
+<div class="line"><a name="l03958"></a><span class="lineno"> 3958</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03959"></a><span class="lineno"><a class="line" href="group__graphics.html#gaffe05e499b65c0bf1a108688584ce5aa"> 3959</a></span>&#160;<a class="code" href="group__graphics.html#gaffe05e499b65c0bf1a108688584ce5aa">HPDF_Page_ClosePathStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l03960"></a><span class="lineno"> 3960</span>&#160; </div>
+<div class="line"><a name="l03979"></a><span class="lineno"> 3979</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l03980"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a"> 3980</a></span>&#160;<a class="code" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a">HPDF_Page_Fill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l03981"></a><span class="lineno"> 3981</span>&#160; </div>
+<div class="line"><a name="l04000"></a><span class="lineno"> 4000</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04001"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf583450c2b69fb851213d0cd7fb28f0f"> 4001</a></span>&#160;<a class="code" href="group__graphics.html#gaf583450c2b69fb851213d0cd7fb28f0f">HPDF_Page_Eofill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04002"></a><span class="lineno"> 4002</span>&#160; </div>
+<div class="line"><a name="l04021"></a><span class="lineno"> 4021</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04022"></a><span class="lineno"><a class="line" href="group__graphics.html#ga8e85dd356a417613578d4bef30f0acdd"> 4022</a></span>&#160;<a class="code" href="group__graphics.html#ga8e85dd356a417613578d4bef30f0acdd">HPDF_Page_FillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04023"></a><span class="lineno"> 4023</span>&#160; </div>
 <div class="line"><a name="l04024"></a><span class="lineno"> 4024</span>&#160; </div>
-<div class="line"><a name="l04025"></a><span class="lineno"> 4025</span>&#160; </div>
-<div class="line"><a name="l04043"></a><span class="lineno"> 4043</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04044"></a><span class="lineno"><a class="line" href="group__graphics.html#gadf9c880d18c80de6a33accaffc2bc0fa"> 4044</a></span>&#160;<a class="code" href="group__graphics.html#gadf9c880d18c80de6a33accaffc2bc0fa">HPDF_Page_EofillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04045"></a><span class="lineno"> 4045</span>&#160; </div>
-<div class="line"><a name="l04063"></a><span class="lineno"> 4063</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04064"></a><span class="lineno"><a class="line" href="group__graphics.html#ga13bd835af9daa235ec6d81f7ceec2cd6"> 4064</a></span>&#160;<a class="code" href="group__graphics.html#ga13bd835af9daa235ec6d81f7ceec2cd6">HPDF_Page_ClosePathFillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04065"></a><span class="lineno"> 4065</span>&#160; </div>
-<div class="line"><a name="l04083"></a><span class="lineno"> 4083</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04084"></a><span class="lineno"><a class="line" href="group__graphics.html#ga6da4d5f7a88843555eb5be3030e85298"> 4084</a></span>&#160;<a class="code" href="group__graphics.html#ga6da4d5f7a88843555eb5be3030e85298">HPDF_Page_ClosePathEofillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04085"></a><span class="lineno"> 4085</span>&#160; </div>
-<div class="line"><a name="l04104"></a><span class="lineno"> 4104</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04105"></a><span class="lineno"><a class="line" href="group__graphics.html#ga0253d1437eb4943ac646cc62eb60717a"> 4105</a></span>&#160;<a class="code" href="group__graphics.html#ga0253d1437eb4943ac646cc62eb60717a">HPDF_Page_EndPath</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04042"></a><span class="lineno"> 4042</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04043"></a><span class="lineno"><a class="line" href="group__graphics.html#gadf9c880d18c80de6a33accaffc2bc0fa"> 4043</a></span>&#160;<a class="code" href="group__graphics.html#gadf9c880d18c80de6a33accaffc2bc0fa">HPDF_Page_EofillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04044"></a><span class="lineno"> 4044</span>&#160; </div>
+<div class="line"><a name="l04062"></a><span class="lineno"> 4062</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04063"></a><span class="lineno"><a class="line" href="group__graphics.html#ga13bd835af9daa235ec6d81f7ceec2cd6"> 4063</a></span>&#160;<a class="code" href="group__graphics.html#ga13bd835af9daa235ec6d81f7ceec2cd6">HPDF_Page_ClosePathFillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04064"></a><span class="lineno"> 4064</span>&#160; </div>
+<div class="line"><a name="l04082"></a><span class="lineno"> 4082</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04083"></a><span class="lineno"><a class="line" href="group__graphics.html#ga6da4d5f7a88843555eb5be3030e85298"> 4083</a></span>&#160;<a class="code" href="group__graphics.html#ga6da4d5f7a88843555eb5be3030e85298">HPDF_Page_ClosePathEofillStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04084"></a><span class="lineno"> 4084</span>&#160; </div>
+<div class="line"><a name="l04103"></a><span class="lineno"> 4103</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04104"></a><span class="lineno"><a class="line" href="group__graphics.html#ga0253d1437eb4943ac646cc62eb60717a"> 4104</a></span>&#160;<a class="code" href="group__graphics.html#ga0253d1437eb4943ac646cc62eb60717a">HPDF_Page_EndPath</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04105"></a><span class="lineno"> 4105</span>&#160; </div>
 <div class="line"><a name="l04106"></a><span class="lineno"> 4106</span>&#160; </div>
-<div class="line"><a name="l04107"></a><span class="lineno"> 4107</span>&#160; </div>
-<div class="line"><a name="l04108"></a><span class="lineno"> 4108</span>&#160;<span class="comment">/*--- Clipping paths operator --------------------------------------------*/</span></div>
-<div class="line"><a name="l04109"></a><span class="lineno"> 4109</span>&#160; </div>
-<div class="line"><a name="l04138"></a><span class="lineno"> 4138</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04139"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa398a65088a381581c2fd8c5d7f18784"> 4139</a></span>&#160;<a class="code" href="group__graphics.html#gaa398a65088a381581c2fd8c5d7f18784">HPDF_Page_Clip</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04140"></a><span class="lineno"> 4140</span>&#160; </div>
-<div class="line"><a name="l04167"></a><span class="lineno"> 4167</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04168"></a><span class="lineno"><a class="line" href="group__graphics.html#ga37571afec5e6c48ffd1a7d4dbc50b822"> 4168</a></span>&#160;<a class="code" href="group__graphics.html#ga37571afec5e6c48ffd1a7d4dbc50b822">HPDF_Page_Eoclip</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04107"></a><span class="lineno"> 4107</span>&#160;<span class="comment">/*--- Clipping paths operator --------------------------------------------*/</span></div>
+<div class="line"><a name="l04108"></a><span class="lineno"> 4108</span>&#160; </div>
+<div class="line"><a name="l04137"></a><span class="lineno"> 4137</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04138"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa398a65088a381581c2fd8c5d7f18784"> 4138</a></span>&#160;<a class="code" href="group__graphics.html#gaa398a65088a381581c2fd8c5d7f18784">HPDF_Page_Clip</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04139"></a><span class="lineno"> 4139</span>&#160; </div>
+<div class="line"><a name="l04166"></a><span class="lineno"> 4166</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04167"></a><span class="lineno"><a class="line" href="group__graphics.html#ga37571afec5e6c48ffd1a7d4dbc50b822"> 4167</a></span>&#160;<a class="code" href="group__graphics.html#ga37571afec5e6c48ffd1a7d4dbc50b822">HPDF_Page_Eoclip</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04168"></a><span class="lineno"> 4168</span>&#160; </div>
 <div class="line"><a name="l04169"></a><span class="lineno"> 4169</span>&#160; </div>
-<div class="line"><a name="l04170"></a><span class="lineno"> 4170</span>&#160; </div>
-<div class="line"><a name="l04171"></a><span class="lineno"> 4171</span>&#160;<span class="comment">/*--- Text object operator -----------------------------------------------*/</span></div>
-<div class="line"><a name="l04172"></a><span class="lineno"> 4172</span>&#160; </div>
-<div class="line"><a name="l04192"></a><span class="lineno"> 4192</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04193"></a><span class="lineno"><a class="line" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a"> 4193</a></span>&#160;<a class="code" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04194"></a><span class="lineno"> 4194</span>&#160; </div>
-<div class="line"><a name="l04215"></a><span class="lineno"> 4215</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04216"></a><span class="lineno"><a class="line" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455"> 4216</a></span>&#160;<a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04217"></a><span class="lineno"> 4217</span>&#160; </div>
-<div class="line"><a name="l04218"></a><span class="lineno"> 4218</span>&#160;<span class="comment">/*--- Text state ---------------------------------------------------------*/</span></div>
-<div class="line"><a name="l04219"></a><span class="lineno"> 4219</span>&#160; </div>
-<div class="line"><a name="l04239"></a><span class="lineno"> 4239</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04240"></a><span class="lineno"><a class="line" href="group__graphics.html#ga121388468bd4aff11a4e99fd533266c2"> 4240</a></span>&#160;<a class="code" href="group__graphics.html#ga121388468bd4aff11a4e99fd533266c2">HPDF_Page_SetCharSpace</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04241"></a><span class="lineno"> 4241</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
-<div class="line"><a name="l04242"></a><span class="lineno"> 4242</span>&#160; </div>
-<div class="line"><a name="l04262"></a><span class="lineno"> 4262</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04263"></a><span class="lineno"><a class="line" href="group__graphics.html#ga88181c4b826795191c4e00b5c92c4d91"> 4263</a></span>&#160;<a class="code" href="group__graphics.html#ga88181c4b826795191c4e00b5c92c4d91">HPDF_Page_SetWordSpace</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04264"></a><span class="lineno"> 4264</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
-<div class="line"><a name="l04265"></a><span class="lineno"> 4265</span>&#160; </div>
-<div class="line"><a name="l04287"></a><span class="lineno"> 4287</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04288"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3fcd2d3fe1503e9f6973f9d1c471e0f1"> 4288</a></span>&#160;<a class="code" href="group__graphics.html#ga3fcd2d3fe1503e9f6973f9d1c471e0f1">HPDF_Page_SetHorizontalScalling</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04289"></a><span class="lineno"> 4289</span>&#160;                                  <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
-<div class="line"><a name="l04290"></a><span class="lineno"> 4290</span>&#160; </div>
-<div class="line"><a name="l04310"></a><span class="lineno"> 4310</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04311"></a><span class="lineno"><a class="line" href="group__graphics.html#ga44eed527a7be80b2a1210aab97cea595"> 4311</a></span>&#160;<a class="code" href="group__graphics.html#ga44eed527a7be80b2a1210aab97cea595">HPDF_Page_SetTextLeading</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04312"></a><span class="lineno"> 4312</span>&#160;                           <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
-<div class="line"><a name="l04313"></a><span class="lineno"> 4313</span>&#160; </div>
-<div class="line"><a name="l04333"></a><span class="lineno"> 4333</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04334"></a><span class="lineno"><a class="line" href="group__graphics.html#ga90bb0ba6368c193774b13630b11f2a7e"> 4334</a></span>&#160;<a class="code" href="group__graphics.html#ga90bb0ba6368c193774b13630b11f2a7e">HPDF_Page_SetFontAndSize</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04335"></a><span class="lineno"> 4335</span>&#160;                           <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Font</a>  font,</div>
-<div class="line"><a name="l04336"></a><span class="lineno"> 4336</span>&#160;                           <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  size);</div>
-<div class="line"><a name="l04337"></a><span class="lineno"> 4337</span>&#160; </div>
-<div class="line"><a name="l04372"></a><span class="lineno"> 4372</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04373"></a><span class="lineno"><a class="line" href="group__graphics.html#gae0b6e2d0a3a6ae97a7e3f0325181247c"> 4373</a></span>&#160;<a class="code" href="group__graphics.html#gae0b6e2d0a3a6ae97a7e3f0325181247c">HPDF_Page_SetTextRenderingMode</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>               page,</div>
-<div class="line"><a name="l04374"></a><span class="lineno"> 4374</span>&#160;                                 <a class="code" href="hpdf__types_8h.html#a4dd7022d4a42f60751ab955e978bba8e">HPDF_TextRenderingMode</a>  mode);</div>
-<div class="line"><a name="l04375"></a><span class="lineno"> 4375</span>&#160; </div>
-<div class="line"><a name="l04401"></a><span class="lineno"> 4401</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04402"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa1099c4490ee57dd5a44b9b228c39151"> 4402</a></span>&#160;<a class="code" href="group__graphics.html#gaa1099c4490ee57dd5a44b9b228c39151">HPDF_Page_SetTextRise</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
-<div class="line"><a name="l04403"></a><span class="lineno"> 4403</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
-<div class="line"><a name="l04404"></a><span class="lineno"> 4404</span>&#160; </div>
-<div class="line"><a name="l04432"></a><span class="lineno"> 4432</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04433"></a><span class="lineno"><a class="line" href="group__graphics.html#ga4f4ff1d0715264728e7cc05b7057f55e"> 4433</a></span>&#160;<a class="code" href="group__graphics.html#ga4f4ff1d0715264728e7cc05b7057f55e">HPDF_Page_SetTextRaise</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
-<div class="line"><a name="l04434"></a><span class="lineno"> 4434</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
-<div class="line"><a name="l04435"></a><span class="lineno"> 4435</span>&#160; </div>
-<div class="line"><a name="l04436"></a><span class="lineno"> 4436</span>&#160;<span class="comment">/*--- Text positioning ---------------------------------------------------*/</span></div>
-<div class="line"><a name="l04437"></a><span class="lineno"> 4437</span>&#160; </div>
-<div class="line"><a name="l04459"></a><span class="lineno"> 4459</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04460"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d"> 4460</a></span>&#160;<a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
-<div class="line"><a name="l04461"></a><span class="lineno"> 4461</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   x,</div>
-<div class="line"><a name="l04462"></a><span class="lineno"> 4462</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   y);</div>
-<div class="line"><a name="l04463"></a><span class="lineno"> 4463</span>&#160; </div>
-<div class="line"><a name="l04487"></a><span class="lineno"> 4487</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04488"></a><span class="lineno"><a class="line" href="group__graphics.html#gac0db505b9415eca01701f6fcca2e5c38"> 4488</a></span>&#160;<a class="code" href="group__graphics.html#gac0db505b9415eca01701f6fcca2e5c38">HPDF_Page_MoveTextPos2</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04489"></a><span class="lineno"> 4489</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   x,</div>
-<div class="line"><a name="l04490"></a><span class="lineno"> 4490</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   y);</div>
-<div class="line"><a name="l04491"></a><span class="lineno"> 4491</span>&#160; </div>
-<div class="line"><a name="l04492"></a><span class="lineno"> 4492</span>&#160;<span class="comment">/* Tm */</span></div>
-<div class="line"><a name="l04493"></a><span class="lineno"> 4493</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04494"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc"> 4494</a></span>&#160;<a class="code" href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc">HPDF_Page_SetTextMatrix</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>         page,</div>
-<div class="line"><a name="l04495"></a><span class="lineno"> 4495</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    a,</div>
-<div class="line"><a name="l04496"></a><span class="lineno"> 4496</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    b,</div>
-<div class="line"><a name="l04497"></a><span class="lineno"> 4497</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    c,</div>
-<div class="line"><a name="l04498"></a><span class="lineno"> 4498</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    d,</div>
-<div class="line"><a name="l04499"></a><span class="lineno"> 4499</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
-<div class="line"><a name="l04500"></a><span class="lineno"> 4500</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
+<div class="line"><a name="l04170"></a><span class="lineno"> 4170</span>&#160;<span class="comment">/*--- Text object operator -----------------------------------------------*/</span></div>
+<div class="line"><a name="l04171"></a><span class="lineno"> 4171</span>&#160; </div>
+<div class="line"><a name="l04191"></a><span class="lineno"> 4191</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04192"></a><span class="lineno"><a class="line" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a"> 4192</a></span>&#160;<a class="code" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04193"></a><span class="lineno"> 4193</span>&#160; </div>
+<div class="line"><a name="l04214"></a><span class="lineno"> 4214</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04215"></a><span class="lineno"><a class="line" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455"> 4215</a></span>&#160;<a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04216"></a><span class="lineno"> 4216</span>&#160; </div>
+<div class="line"><a name="l04217"></a><span class="lineno"> 4217</span>&#160;<span class="comment">/*--- Text state ---------------------------------------------------------*/</span></div>
+<div class="line"><a name="l04218"></a><span class="lineno"> 4218</span>&#160; </div>
+<div class="line"><a name="l04238"></a><span class="lineno"> 4238</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04239"></a><span class="lineno"><a class="line" href="group__graphics.html#ga121388468bd4aff11a4e99fd533266c2"> 4239</a></span>&#160;<a class="code" href="group__graphics.html#ga121388468bd4aff11a4e99fd533266c2">HPDF_Page_SetCharSpace</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04240"></a><span class="lineno"> 4240</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
+<div class="line"><a name="l04241"></a><span class="lineno"> 4241</span>&#160; </div>
+<div class="line"><a name="l04261"></a><span class="lineno"> 4261</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04262"></a><span class="lineno"><a class="line" href="group__graphics.html#ga88181c4b826795191c4e00b5c92c4d91"> 4262</a></span>&#160;<a class="code" href="group__graphics.html#ga88181c4b826795191c4e00b5c92c4d91">HPDF_Page_SetWordSpace</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04263"></a><span class="lineno"> 4263</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
+<div class="line"><a name="l04264"></a><span class="lineno"> 4264</span>&#160; </div>
+<div class="line"><a name="l04286"></a><span class="lineno"> 4286</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04287"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3fcd2d3fe1503e9f6973f9d1c471e0f1"> 4287</a></span>&#160;<a class="code" href="group__graphics.html#ga3fcd2d3fe1503e9f6973f9d1c471e0f1">HPDF_Page_SetHorizontalScalling</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04288"></a><span class="lineno"> 4288</span>&#160;                                  <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
+<div class="line"><a name="l04289"></a><span class="lineno"> 4289</span>&#160; </div>
+<div class="line"><a name="l04309"></a><span class="lineno"> 4309</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04310"></a><span class="lineno"><a class="line" href="group__graphics.html#ga44eed527a7be80b2a1210aab97cea595"> 4310</a></span>&#160;<a class="code" href="group__graphics.html#ga44eed527a7be80b2a1210aab97cea595">HPDF_Page_SetTextLeading</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04311"></a><span class="lineno"> 4311</span>&#160;                           <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  value);</div>
+<div class="line"><a name="l04312"></a><span class="lineno"> 4312</span>&#160; </div>
+<div class="line"><a name="l04332"></a><span class="lineno"> 4332</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04333"></a><span class="lineno"><a class="line" href="group__graphics.html#ga90bb0ba6368c193774b13630b11f2a7e"> 4333</a></span>&#160;<a class="code" href="group__graphics.html#ga90bb0ba6368c193774b13630b11f2a7e">HPDF_Page_SetFontAndSize</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04334"></a><span class="lineno"> 4334</span>&#160;                           <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Font</a>  font,</div>
+<div class="line"><a name="l04335"></a><span class="lineno"> 4335</span>&#160;                           <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  size);</div>
+<div class="line"><a name="l04336"></a><span class="lineno"> 4336</span>&#160; </div>
+<div class="line"><a name="l04371"></a><span class="lineno"> 4371</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04372"></a><span class="lineno"><a class="line" href="group__graphics.html#gae0b6e2d0a3a6ae97a7e3f0325181247c"> 4372</a></span>&#160;<a class="code" href="group__graphics.html#gae0b6e2d0a3a6ae97a7e3f0325181247c">HPDF_Page_SetTextRenderingMode</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>               page,</div>
+<div class="line"><a name="l04373"></a><span class="lineno"> 4373</span>&#160;                                 <a class="code" href="hpdf__types_8h.html#a4dd7022d4a42f60751ab955e978bba8e">HPDF_TextRenderingMode</a>  mode);</div>
+<div class="line"><a name="l04374"></a><span class="lineno"> 4374</span>&#160; </div>
+<div class="line"><a name="l04400"></a><span class="lineno"> 4400</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04401"></a><span class="lineno"><a class="line" href="group__graphics.html#gaa1099c4490ee57dd5a44b9b228c39151"> 4401</a></span>&#160;<a class="code" href="group__graphics.html#gaa1099c4490ee57dd5a44b9b228c39151">HPDF_Page_SetTextRise</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
+<div class="line"><a name="l04402"></a><span class="lineno"> 4402</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
+<div class="line"><a name="l04403"></a><span class="lineno"> 4403</span>&#160; </div>
+<div class="line"><a name="l04431"></a><span class="lineno"> 4431</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04432"></a><span class="lineno"><a class="line" href="group__graphics.html#ga4f4ff1d0715264728e7cc05b7057f55e"> 4432</a></span>&#160;<a class="code" href="group__graphics.html#ga4f4ff1d0715264728e7cc05b7057f55e">HPDF_Page_SetTextRaise</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
+<div class="line"><a name="l04433"></a><span class="lineno"> 4433</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
+<div class="line"><a name="l04434"></a><span class="lineno"> 4434</span>&#160; </div>
+<div class="line"><a name="l04435"></a><span class="lineno"> 4435</span>&#160;<span class="comment">/*--- Text positioning ---------------------------------------------------*/</span></div>
+<div class="line"><a name="l04436"></a><span class="lineno"> 4436</span>&#160; </div>
+<div class="line"><a name="l04458"></a><span class="lineno"> 4458</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04459"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d"> 4459</a></span>&#160;<a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
+<div class="line"><a name="l04460"></a><span class="lineno"> 4460</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   x,</div>
+<div class="line"><a name="l04461"></a><span class="lineno"> 4461</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   y);</div>
+<div class="line"><a name="l04462"></a><span class="lineno"> 4462</span>&#160; </div>
+<div class="line"><a name="l04486"></a><span class="lineno"> 4486</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04487"></a><span class="lineno"><a class="line" href="group__graphics.html#gac0db505b9415eca01701f6fcca2e5c38"> 4487</a></span>&#160;<a class="code" href="group__graphics.html#gac0db505b9415eca01701f6fcca2e5c38">HPDF_Page_MoveTextPos2</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04488"></a><span class="lineno"> 4488</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   x,</div>
+<div class="line"><a name="l04489"></a><span class="lineno"> 4489</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   y);</div>
+<div class="line"><a name="l04490"></a><span class="lineno"> 4490</span>&#160; </div>
+<div class="line"><a name="l04491"></a><span class="lineno"> 4491</span>&#160;<span class="comment">/* Tm */</span></div>
+<div class="line"><a name="l04492"></a><span class="lineno"> 4492</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04493"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc"> 4493</a></span>&#160;<a class="code" href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc">HPDF_Page_SetTextMatrix</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>         page,</div>
+<div class="line"><a name="l04494"></a><span class="lineno"> 4494</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    a,</div>
+<div class="line"><a name="l04495"></a><span class="lineno"> 4495</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    b,</div>
+<div class="line"><a name="l04496"></a><span class="lineno"> 4496</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    c,</div>
+<div class="line"><a name="l04497"></a><span class="lineno"> 4497</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    d,</div>
+<div class="line"><a name="l04498"></a><span class="lineno"> 4498</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
+<div class="line"><a name="l04499"></a><span class="lineno"> 4499</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y);</div>
+<div class="line"><a name="l04500"></a><span class="lineno"> 4500</span>&#160; </div>
 <div class="line"><a name="l04501"></a><span class="lineno"> 4501</span>&#160; </div>
-<div class="line"><a name="l04502"></a><span class="lineno"> 4502</span>&#160; </div>
-<div class="line"><a name="l04523"></a><span class="lineno"> 4523</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04524"></a><span class="lineno"><a class="line" href="group__graphics.html#gab3d6020a403b1e8cd7f8c1f79cfe9058"> 4524</a></span>&#160;<a class="code" href="group__graphics.html#gab3d6020a403b1e8cd7f8c1f79cfe9058">HPDF_Page_MoveToNextLine</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
-<div class="line"><a name="l04525"></a><span class="lineno"> 4525</span>&#160; </div>
-<div class="line"><a name="l04526"></a><span class="lineno"> 4526</span>&#160;<span class="comment">/*--- Text showing -------------------------------------------------------*/</span></div>
-<div class="line"><a name="l04527"></a><span class="lineno"> 4527</span>&#160; </div>
-<div class="line"><a name="l04549"></a><span class="lineno"> 4549</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04550"></a><span class="lineno"><a class="line" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6"> 4550</a></span>&#160;<a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l04551"></a><span class="lineno"> 4551</span>&#160;                     const <span class="keywordtype">char</span>  *text);</div>
-<div class="line"><a name="l04552"></a><span class="lineno"> 4552</span>&#160; </div>
-<div class="line"><a name="l04553"></a><span class="lineno"> 4553</span>&#160;<span class="comment">/* TJ */</span></div>
-<div class="line"><a name="l04554"></a><span class="lineno"> 4554</span>&#160; </div>
-<div class="line"><a name="l04575"></a><span class="lineno"> 4575</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04576"></a><span class="lineno"><a class="line" href="group__graphics.html#ga2cc656f230b0faa2da691403058beb59"> 4576</a></span>&#160;<a class="code" href="group__graphics.html#ga2cc656f230b0faa2da691403058beb59">HPDF_Page_ShowTextNextLine</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l04577"></a><span class="lineno"> 4577</span>&#160;                             const <span class="keywordtype">char</span>  *text);</div>
-<div class="line"><a name="l04578"></a><span class="lineno"> 4578</span>&#160; </div>
-<div class="line"><a name="l04604"></a><span class="lineno"> 4604</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04605"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf2566f97afb96da4764343511879050d"> 4605</a></span>&#160;<a class="code" href="group__graphics.html#gaf2566f97afb96da4764343511879050d">HPDF_Page_ShowTextNextLineEx</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l04606"></a><span class="lineno"> 4606</span>&#160;                               <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    word_space,</div>
-<div class="line"><a name="l04607"></a><span class="lineno"> 4607</span>&#160;                               <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    char_space,</div>
-<div class="line"><a name="l04608"></a><span class="lineno"> 4608</span>&#160;                               const <span class="keywordtype">char</span>  *text);</div>
+<div class="line"><a name="l04522"></a><span class="lineno"> 4522</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04523"></a><span class="lineno"><a class="line" href="group__graphics.html#gab3d6020a403b1e8cd7f8c1f79cfe9058"> 4523</a></span>&#160;<a class="code" href="group__graphics.html#gab3d6020a403b1e8cd7f8c1f79cfe9058">HPDF_Page_MoveToNextLine</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page);</div>
+<div class="line"><a name="l04524"></a><span class="lineno"> 4524</span>&#160; </div>
+<div class="line"><a name="l04525"></a><span class="lineno"> 4525</span>&#160;<span class="comment">/*--- Text showing -------------------------------------------------------*/</span></div>
+<div class="line"><a name="l04526"></a><span class="lineno"> 4526</span>&#160; </div>
+<div class="line"><a name="l04548"></a><span class="lineno"> 4548</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04549"></a><span class="lineno"><a class="line" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6"> 4549</a></span>&#160;<a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l04550"></a><span class="lineno"> 4550</span>&#160;                     const <span class="keywordtype">char</span>  *text);</div>
+<div class="line"><a name="l04551"></a><span class="lineno"> 4551</span>&#160; </div>
+<div class="line"><a name="l04552"></a><span class="lineno"> 4552</span>&#160;<span class="comment">/* TJ */</span></div>
+<div class="line"><a name="l04553"></a><span class="lineno"> 4553</span>&#160; </div>
+<div class="line"><a name="l04574"></a><span class="lineno"> 4574</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04575"></a><span class="lineno"><a class="line" href="group__graphics.html#ga2cc656f230b0faa2da691403058beb59"> 4575</a></span>&#160;<a class="code" href="group__graphics.html#ga2cc656f230b0faa2da691403058beb59">HPDF_Page_ShowTextNextLine</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l04576"></a><span class="lineno"> 4576</span>&#160;                             const <span class="keywordtype">char</span>  *text);</div>
+<div class="line"><a name="l04577"></a><span class="lineno"> 4577</span>&#160; </div>
+<div class="line"><a name="l04603"></a><span class="lineno"> 4603</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04604"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf2566f97afb96da4764343511879050d"> 4604</a></span>&#160;<a class="code" href="group__graphics.html#gaf2566f97afb96da4764343511879050d">HPDF_Page_ShowTextNextLineEx</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l04605"></a><span class="lineno"> 4605</span>&#160;                               <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    word_space,</div>
+<div class="line"><a name="l04606"></a><span class="lineno"> 4606</span>&#160;                               <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    char_space,</div>
+<div class="line"><a name="l04607"></a><span class="lineno"> 4607</span>&#160;                               const <span class="keywordtype">char</span>  *text);</div>
+<div class="line"><a name="l04608"></a><span class="lineno"> 4608</span>&#160; </div>
 <div class="line"><a name="l04609"></a><span class="lineno"> 4609</span>&#160; </div>
-<div class="line"><a name="l04610"></a><span class="lineno"> 4610</span>&#160; </div>
-<div class="line"><a name="l04611"></a><span class="lineno"> 4611</span>&#160;<span class="comment">/*--- Color showing ------------------------------------------------------*/</span></div>
-<div class="line"><a name="l04612"></a><span class="lineno"> 4612</span>&#160; </div>
-<div class="line"><a name="l04613"></a><span class="lineno"> 4613</span>&#160;<span class="comment">/* cs --not implemented yet */</span></div>
-<div class="line"><a name="l04614"></a><span class="lineno"> 4614</span>&#160;<span class="comment">/* CS --not implemented yet */</span></div>
-<div class="line"><a name="l04615"></a><span class="lineno"> 4615</span>&#160;<span class="comment">/* sc --not implemented yet */</span></div>
-<div class="line"><a name="l04616"></a><span class="lineno"> 4616</span>&#160;<span class="comment">/* scn --not implemented yet */</span></div>
-<div class="line"><a name="l04617"></a><span class="lineno"> 4617</span>&#160;<span class="comment">/* SC --not implemented yet */</span></div>
-<div class="line"><a name="l04618"></a><span class="lineno"> 4618</span>&#160;<span class="comment">/* SCN --not implemented yet */</span></div>
-<div class="line"><a name="l04619"></a><span class="lineno"> 4619</span>&#160; </div>
-<div class="line"><a name="l04639"></a><span class="lineno"> 4639</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04640"></a><span class="lineno"><a class="line" href="group__graphics.html#gad0b577c0fa51188750c262b2814660e4"> 4640</a></span>&#160;<a class="code" href="group__graphics.html#gad0b577c0fa51188750c262b2814660e4">HPDF_Page_SetGrayFill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
-<div class="line"><a name="l04641"></a><span class="lineno"> 4641</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
-<div class="line"><a name="l04642"></a><span class="lineno"> 4642</span>&#160; </div>
-<div class="line"><a name="l04662"></a><span class="lineno"> 4662</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04663"></a><span class="lineno"><a class="line" href="group__graphics.html#gae5790a3259744ea829e84de6547ea9bb"> 4663</a></span>&#160;<a class="code" href="group__graphics.html#gae5790a3259744ea829e84de6547ea9bb">HPDF_Page_SetGrayStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
-<div class="line"><a name="l04664"></a><span class="lineno"> 4664</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
-<div class="line"><a name="l04665"></a><span class="lineno"> 4665</span>&#160; </div>
-<div class="line"><a name="l04685"></a><span class="lineno"> 4685</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04686"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3cd5c40eda13c032c235b8eecd421b19"> 4686</a></span>&#160;<a class="code" href="group__graphics.html#ga3cd5c40eda13c032c235b8eecd421b19">HPDF_Page_SetRGBFill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04687"></a><span class="lineno"> 4687</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  r,</div>
-<div class="line"><a name="l04688"></a><span class="lineno"> 4688</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  g,</div>
-<div class="line"><a name="l04689"></a><span class="lineno"> 4689</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  b);</div>
-<div class="line"><a name="l04690"></a><span class="lineno"> 4690</span>&#160; </div>
-<div class="line"><a name="l04710"></a><span class="lineno"> 4710</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04711"></a><span class="lineno"><a class="line" href="group__graphics.html#ga28030536ea6e1582d15ab57699e885f1"> 4711</a></span>&#160;<a class="code" href="group__graphics.html#ga28030536ea6e1582d15ab57699e885f1">HPDF_Page_SetRGBStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04712"></a><span class="lineno"> 4712</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  r,</div>
-<div class="line"><a name="l04713"></a><span class="lineno"> 4713</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  g,</div>
-<div class="line"><a name="l04714"></a><span class="lineno"> 4714</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  b);</div>
-<div class="line"><a name="l04715"></a><span class="lineno"> 4715</span>&#160; </div>
-<div class="line"><a name="l04735"></a><span class="lineno"> 4735</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04736"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3faf304b08ebb119a550f75f378d8db5"> 4736</a></span>&#160;<a class="code" href="group__graphics.html#ga3faf304b08ebb119a550f75f378d8db5">HPDF_Page_SetCMYKFill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04737"></a><span class="lineno"> 4737</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  c,</div>
-<div class="line"><a name="l04738"></a><span class="lineno"> 4738</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  m,</div>
-<div class="line"><a name="l04739"></a><span class="lineno"> 4739</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y,</div>
-<div class="line"><a name="l04740"></a><span class="lineno"> 4740</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  k);</div>
-<div class="line"><a name="l04741"></a><span class="lineno"> 4741</span>&#160; </div>
-<div class="line"><a name="l04761"></a><span class="lineno"> 4761</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04762"></a><span class="lineno"><a class="line" href="group__graphics.html#ga7ce9fac6f7960dc25a99d851142f9301"> 4762</a></span>&#160;<a class="code" href="group__graphics.html#ga7ce9fac6f7960dc25a99d851142f9301">HPDF_Page_SetCMYKStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
-<div class="line"><a name="l04763"></a><span class="lineno"> 4763</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  c,</div>
-<div class="line"><a name="l04764"></a><span class="lineno"> 4764</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  m,</div>
-<div class="line"><a name="l04765"></a><span class="lineno"> 4765</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y,</div>
-<div class="line"><a name="l04766"></a><span class="lineno"> 4766</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  k);</div>
-<div class="line"><a name="l04767"></a><span class="lineno"> 4767</span>&#160; </div>
-<div class="line"><a name="l04768"></a><span class="lineno"> 4768</span>&#160;<span class="comment">/*--- Shading patterns ---------------------------------------------------*/</span></div>
-<div class="line"><a name="l04769"></a><span class="lineno"> 4769</span>&#160; </div>
-<div class="line"><a name="l04770"></a><span class="lineno"> 4770</span>&#160;<span class="comment">/* Notes for docs:</span></div>
-<div class="line"><a name="l04771"></a><span class="lineno"> 4771</span>&#160;<span class="comment"> * - ShadingType must be HPDF_SHADING_FREE_FORM_TRIANGLE_MESH (the only</span></div>
-<div class="line"><a name="l04772"></a><span class="lineno"> 4772</span>&#160;<span class="comment"> *   defined option...)</span></div>
-<div class="line"><a name="l04773"></a><span class="lineno"> 4773</span>&#160;<span class="comment"> * - colorSpace must be HPDF_CS_DEVICE_RGB for now.</span></div>
-<div class="line"><a name="l04774"></a><span class="lineno"> 4774</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l04775"></a><span class="lineno"> 4775</span>&#160;HPDF_EXPORT(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Shading</a>)</div>
-<div class="line"><a name="l04776"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a56e3630315eef26062193daaccd4374a"> 4776</a></span>&#160;<a class="code" href="hpdf_8h.html#a56e3630315eef26062193daaccd4374a">HPDF_Shading_New</a>  (<a class="code" href="struct__HPDF__Doc__Rec.html">HPDF_Doc</a>           pdf,</div>
-<div class="line"><a name="l04777"></a><span class="lineno"> 4777</span>&#160;                   <a class="code" href="hpdf__types_8h.html#aa0f77a74340f03ab8b52fe973a403075">HPDF_ShadingType</a>   type,</div>
-<div class="line"><a name="l04778"></a><span class="lineno"> 4778</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a7e817a9291d022814f091bd3b924a1f0">HPDF_ColorSpace</a>    colorSpace,</div>
-<div class="line"><a name="l04779"></a><span class="lineno"> 4779</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          xMin,</div>
-<div class="line"><a name="l04780"></a><span class="lineno"> 4780</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          xMax,</div>
-<div class="line"><a name="l04781"></a><span class="lineno"> 4781</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          yMin,</div>
-<div class="line"><a name="l04782"></a><span class="lineno"> 4782</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          yMax);</div>
-<div class="line"><a name="l04783"></a><span class="lineno"> 4783</span>&#160; </div>
-<div class="line"><a name="l04784"></a><span class="lineno"> 4784</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04785"></a><span class="lineno"><a class="line" href="hpdf_8h.html#afa8600419853ab9a511007175be84ca8"> 4785</a></span>&#160;<a class="code" href="hpdf_8h.html#afa8600419853ab9a511007175be84ca8">HPDF_Shading_AddVertexRGB</a>(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Shading</a>                                shading,</div>
-<div class="line"><a name="l04786"></a><span class="lineno"> 4786</span>&#160;                          <a class="code" href="hpdf__types_8h.html#ab9f3457b741f4dea06281ddfa8b542bd">HPDF_Shading_FreeFormTriangleMeshEdgeFlag</a>   edgeFlag,</div>
-<div class="line"><a name="l04787"></a><span class="lineno"> 4787</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>                                   x,</div>
-<div class="line"><a name="l04788"></a><span class="lineno"> 4788</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>                                   y,</div>
-<div class="line"><a name="l04789"></a><span class="lineno"> 4789</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>                                  r,</div>
-<div class="line"><a name="l04790"></a><span class="lineno"> 4790</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>                                  g,</div>
-<div class="line"><a name="l04791"></a><span class="lineno"> 4791</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>                                  b);</div>
-<div class="line"><a name="l04792"></a><span class="lineno"> 4792</span>&#160; </div>
-<div class="line"><a name="l04793"></a><span class="lineno"> 4793</span>&#160;<span class="comment">/*--- In-line images -----------------------------------------------------*/</span></div>
-<div class="line"><a name="l04794"></a><span class="lineno"> 4794</span>&#160; </div>
-<div class="line"><a name="l04795"></a><span class="lineno"> 4795</span>&#160;<span class="comment">/* BI --not implemented yet */</span></div>
-<div class="line"><a name="l04796"></a><span class="lineno"> 4796</span>&#160;<span class="comment">/* ID --not implemented yet */</span></div>
-<div class="line"><a name="l04797"></a><span class="lineno"> 4797</span>&#160;<span class="comment">/* EI --not implemented yet */</span></div>
-<div class="line"><a name="l04798"></a><span class="lineno"> 4798</span>&#160; </div>
-<div class="line"><a name="l04799"></a><span class="lineno"> 4799</span>&#160;<span class="comment">/*--- XObjects -----------------------------------------------------------*/</span></div>
-<div class="line"><a name="l04800"></a><span class="lineno"> 4800</span>&#160; </div>
-<div class="line"><a name="l04824"></a><span class="lineno"> 4824</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04825"></a><span class="lineno"><a class="line" href="group__graphics.html#gac02cc9b136df07117b9aba7137a77aa2"> 4825</a></span>&#160;<a class="code" href="group__graphics.html#gac02cc9b136df07117b9aba7137a77aa2">HPDF_Page_ExecuteXObject</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>      page,</div>
-<div class="line"><a name="l04826"></a><span class="lineno"> 4826</span>&#160;                           <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_XObject</a>   obj);</div>
-<div class="line"><a name="l04827"></a><span class="lineno"> 4827</span>&#160; </div>
-<div class="line"><a name="l04828"></a><span class="lineno"> 4828</span>&#160;<span class="comment">/*--- Content streams ----------------------------------------------------*/</span></div>
-<div class="line"><a name="l04829"></a><span class="lineno"> 4829</span>&#160; </div>
-<div class="line"><a name="l04852"></a><span class="lineno"> 4852</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04853"></a><span class="lineno"><a class="line" href="group__page.html#ga2aeacdd5df00f7ddfffb23b96cb6f419"> 4853</a></span>&#160;<a class="code" href="group__page.html#ga2aeacdd5df00f7ddfffb23b96cb6f419">HPDF_Page_New_Content_Stream</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
-<div class="line"><a name="l04854"></a><span class="lineno"> 4854</span>&#160;                               <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Dict</a>  *new_stream);</div>
-<div class="line"><a name="l04868"></a><span class="lineno"> 4868</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04869"></a><span class="lineno"><a class="line" href="group__page.html#ga81cee1a059803c0367128ee2f501cd9c"> 4869</a></span>&#160;<a class="code" href="group__page.html#ga81cee1a059803c0367128ee2f501cd9c">HPDF_Page_Insert_Shared_Content_Stream</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a> page,</div>
-<div class="line"><a name="l04870"></a><span class="lineno"> 4870</span>&#160;                                         <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Dict</a> shared_stream);</div>
-<div class="line"><a name="l04871"></a><span class="lineno"> 4871</span>&#160; </div>
-<div class="line"><a name="l04872"></a><span class="lineno"> 4872</span>&#160; </div>
-<div class="line"><a name="l04873"></a><span class="lineno"> 4873</span>&#160;<span class="comment">/*--- Marked content -----------------------------------------------------*/</span></div>
-<div class="line"><a name="l04874"></a><span class="lineno"> 4874</span>&#160; </div>
-<div class="line"><a name="l04875"></a><span class="lineno"> 4875</span>&#160;<span class="comment">/* BMC --not implemented yet */</span></div>
-<div class="line"><a name="l04876"></a><span class="lineno"> 4876</span>&#160;<span class="comment">/* BDC --not implemented yet */</span></div>
-<div class="line"><a name="l04877"></a><span class="lineno"> 4877</span>&#160;<span class="comment">/* EMC --not implemented yet */</span></div>
-<div class="line"><a name="l04878"></a><span class="lineno"> 4878</span>&#160;<span class="comment">/* MP --not implemented yet */</span></div>
-<div class="line"><a name="l04879"></a><span class="lineno"> 4879</span>&#160;<span class="comment">/* DP --not implemented yet */</span></div>
-<div class="line"><a name="l04880"></a><span class="lineno"> 4880</span>&#160; </div>
-<div class="line"><a name="l04881"></a><span class="lineno"> 4881</span>&#160;<span class="comment">/*--- Compatibility ------------------------------------------------------*/</span></div>
-<div class="line"><a name="l04882"></a><span class="lineno"> 4882</span>&#160; </div>
-<div class="line"><a name="l04883"></a><span class="lineno"> 4883</span>&#160;<span class="comment">/* BX --not implemented yet */</span></div>
-<div class="line"><a name="l04884"></a><span class="lineno"> 4884</span>&#160;<span class="comment">/* EX --not implemented yet */</span></div>
-<div class="line"><a name="l04885"></a><span class="lineno"> 4885</span>&#160; </div>
-<div class="line"><a name="l04905"></a><span class="lineno"> 4905</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04906"></a><span class="lineno"><a class="line" href="group__graphics.html#ga5fe4d0b538927b3a2231d2d82c8fcbb2"> 4906</a></span>&#160;<a class="code" href="group__graphics.html#ga5fe4d0b538927b3a2231d2d82c8fcbb2">HPDF_Page_DrawImage</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l04907"></a><span class="lineno"> 4907</span>&#160;                      <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Image</a>   image,</div>
-<div class="line"><a name="l04908"></a><span class="lineno"> 4908</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
-<div class="line"><a name="l04909"></a><span class="lineno"> 4909</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y,</div>
-<div class="line"><a name="l04910"></a><span class="lineno"> 4910</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    width,</div>
-<div class="line"><a name="l04911"></a><span class="lineno"> 4911</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    height);</div>
+<div class="line"><a name="l04610"></a><span class="lineno"> 4610</span>&#160;<span class="comment">/*--- Color showing ------------------------------------------------------*/</span></div>
+<div class="line"><a name="l04611"></a><span class="lineno"> 4611</span>&#160; </div>
+<div class="line"><a name="l04612"></a><span class="lineno"> 4612</span>&#160;<span class="comment">/* cs --not implemented yet */</span></div>
+<div class="line"><a name="l04613"></a><span class="lineno"> 4613</span>&#160;<span class="comment">/* CS --not implemented yet */</span></div>
+<div class="line"><a name="l04614"></a><span class="lineno"> 4614</span>&#160;<span class="comment">/* sc --not implemented yet */</span></div>
+<div class="line"><a name="l04615"></a><span class="lineno"> 4615</span>&#160;<span class="comment">/* scn --not implemented yet */</span></div>
+<div class="line"><a name="l04616"></a><span class="lineno"> 4616</span>&#160;<span class="comment">/* SC --not implemented yet */</span></div>
+<div class="line"><a name="l04617"></a><span class="lineno"> 4617</span>&#160;<span class="comment">/* SCN --not implemented yet */</span></div>
+<div class="line"><a name="l04618"></a><span class="lineno"> 4618</span>&#160; </div>
+<div class="line"><a name="l04640"></a><span class="lineno"> 4640</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04641"></a><span class="lineno"><a class="line" href="group__graphics.html#gad0b577c0fa51188750c262b2814660e4"> 4641</a></span>&#160;<a class="code" href="group__graphics.html#gad0b577c0fa51188750c262b2814660e4">HPDF_Page_SetGrayFill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
+<div class="line"><a name="l04642"></a><span class="lineno"> 4642</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
+<div class="line"><a name="l04643"></a><span class="lineno"> 4643</span>&#160; </div>
+<div class="line"><a name="l04665"></a><span class="lineno"> 4665</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04666"></a><span class="lineno"><a class="line" href="group__graphics.html#gae5790a3259744ea829e84de6547ea9bb"> 4666</a></span>&#160;<a class="code" href="group__graphics.html#gae5790a3259744ea829e84de6547ea9bb">HPDF_Page_SetGrayStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
+<div class="line"><a name="l04667"></a><span class="lineno"> 4667</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>   value);</div>
+<div class="line"><a name="l04668"></a><span class="lineno"> 4668</span>&#160; </div>
+<div class="line"><a name="l04690"></a><span class="lineno"> 4690</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04691"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3cd5c40eda13c032c235b8eecd421b19"> 4691</a></span>&#160;<a class="code" href="group__graphics.html#ga3cd5c40eda13c032c235b8eecd421b19">HPDF_Page_SetRGBFill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04692"></a><span class="lineno"> 4692</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  r,</div>
+<div class="line"><a name="l04693"></a><span class="lineno"> 4693</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  g,</div>
+<div class="line"><a name="l04694"></a><span class="lineno"> 4694</span>&#160;                       <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  b);</div>
+<div class="line"><a name="l04695"></a><span class="lineno"> 4695</span>&#160; </div>
+<div class="line"><a name="l04717"></a><span class="lineno"> 4717</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04718"></a><span class="lineno"><a class="line" href="group__graphics.html#ga28030536ea6e1582d15ab57699e885f1"> 4718</a></span>&#160;<a class="code" href="group__graphics.html#ga28030536ea6e1582d15ab57699e885f1">HPDF_Page_SetRGBStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04719"></a><span class="lineno"> 4719</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  r,</div>
+<div class="line"><a name="l04720"></a><span class="lineno"> 4720</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  g,</div>
+<div class="line"><a name="l04721"></a><span class="lineno"> 4721</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  b);</div>
+<div class="line"><a name="l04722"></a><span class="lineno"> 4722</span>&#160; </div>
+<div class="line"><a name="l04744"></a><span class="lineno"> 4744</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04745"></a><span class="lineno"><a class="line" href="group__graphics.html#ga12228da7724dac224f4753f51436068e"> 4745</a></span>&#160;<a class="code" href="group__graphics.html#ga12228da7724dac224f4753f51436068e">HPDF_Page_SetRGBStrokeHex</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04746"></a><span class="lineno"> 4746</span>&#160;                            <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>  r,</div>
+<div class="line"><a name="l04747"></a><span class="lineno"> 4747</span>&#160;                            <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>  g,</div>
+<div class="line"><a name="l04748"></a><span class="lineno"> 4748</span>&#160;                            <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>  b);</div>
+<div class="line"><a name="l04749"></a><span class="lineno"> 4749</span>&#160; </div>
+<div class="line"><a name="l04771"></a><span class="lineno"> 4771</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04772"></a><span class="lineno"><a class="line" href="group__graphics.html#ga3faf304b08ebb119a550f75f378d8db5"> 4772</a></span>&#160;<a class="code" href="group__graphics.html#ga3faf304b08ebb119a550f75f378d8db5">HPDF_Page_SetCMYKFill</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04773"></a><span class="lineno"> 4773</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  c,</div>
+<div class="line"><a name="l04774"></a><span class="lineno"> 4774</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  m,</div>
+<div class="line"><a name="l04775"></a><span class="lineno"> 4775</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y,</div>
+<div class="line"><a name="l04776"></a><span class="lineno"> 4776</span>&#160;                        <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  k);</div>
+<div class="line"><a name="l04777"></a><span class="lineno"> 4777</span>&#160; </div>
+<div class="line"><a name="l04799"></a><span class="lineno"> 4799</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04800"></a><span class="lineno"><a class="line" href="group__graphics.html#ga7ce9fac6f7960dc25a99d851142f9301"> 4800</a></span>&#160;<a class="code" href="group__graphics.html#ga7ce9fac6f7960dc25a99d851142f9301">HPDF_Page_SetCMYKStroke</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>  page,</div>
+<div class="line"><a name="l04801"></a><span class="lineno"> 4801</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  c,</div>
+<div class="line"><a name="l04802"></a><span class="lineno"> 4802</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  m,</div>
+<div class="line"><a name="l04803"></a><span class="lineno"> 4803</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  y,</div>
+<div class="line"><a name="l04804"></a><span class="lineno"> 4804</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>  k);</div>
+<div class="line"><a name="l04805"></a><span class="lineno"> 4805</span>&#160; </div>
+<div class="line"><a name="l04806"></a><span class="lineno"> 4806</span>&#160;<span class="comment">/*--- Shading patterns ---------------------------------------------------*/</span></div>
+<div class="line"><a name="l04807"></a><span class="lineno"> 4807</span>&#160; </div>
+<div class="line"><a name="l04808"></a><span class="lineno"> 4808</span>&#160;<span class="comment">/* Notes for docs:</span></div>
+<div class="line"><a name="l04809"></a><span class="lineno"> 4809</span>&#160;<span class="comment"> * - ShadingType must be HPDF_SHADING_FREE_FORM_TRIANGLE_MESH (the only</span></div>
+<div class="line"><a name="l04810"></a><span class="lineno"> 4810</span>&#160;<span class="comment"> *   defined option...)</span></div>
+<div class="line"><a name="l04811"></a><span class="lineno"> 4811</span>&#160;<span class="comment"> * - colorSpace must be HPDF_CS_DEVICE_RGB for now.</span></div>
+<div class="line"><a name="l04812"></a><span class="lineno"> 4812</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l04813"></a><span class="lineno"> 4813</span>&#160;HPDF_EXPORT(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Shading</a>)</div>
+<div class="line"><a name="l04814"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a56e3630315eef26062193daaccd4374a"> 4814</a></span>&#160;<a class="code" href="hpdf_8h.html#a56e3630315eef26062193daaccd4374a">HPDF_Shading_New</a>  (<a class="code" href="struct__HPDF__Doc__Rec.html">HPDF_Doc</a>           pdf,</div>
+<div class="line"><a name="l04815"></a><span class="lineno"> 4815</span>&#160;                   <a class="code" href="hpdf__types_8h.html#aa0f77a74340f03ab8b52fe973a403075">HPDF_ShadingType</a>   type,</div>
+<div class="line"><a name="l04816"></a><span class="lineno"> 4816</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a7e817a9291d022814f091bd3b924a1f0">HPDF_ColorSpace</a>    colorSpace,</div>
+<div class="line"><a name="l04817"></a><span class="lineno"> 4817</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          xMin,</div>
+<div class="line"><a name="l04818"></a><span class="lineno"> 4818</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          xMax,</div>
+<div class="line"><a name="l04819"></a><span class="lineno"> 4819</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          yMin,</div>
+<div class="line"><a name="l04820"></a><span class="lineno"> 4820</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>          yMax);</div>
+<div class="line"><a name="l04821"></a><span class="lineno"> 4821</span>&#160; </div>
+<div class="line"><a name="l04822"></a><span class="lineno"> 4822</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04823"></a><span class="lineno"><a class="line" href="hpdf_8h.html#afa8600419853ab9a511007175be84ca8"> 4823</a></span>&#160;<a class="code" href="hpdf_8h.html#afa8600419853ab9a511007175be84ca8">HPDF_Shading_AddVertexRGB</a>(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Shading</a>                                shading,</div>
+<div class="line"><a name="l04824"></a><span class="lineno"> 4824</span>&#160;                          <a class="code" href="hpdf__types_8h.html#ab9f3457b741f4dea06281ddfa8b542bd">HPDF_Shading_FreeFormTriangleMeshEdgeFlag</a>   edgeFlag,</div>
+<div class="line"><a name="l04825"></a><span class="lineno"> 4825</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>                                   x,</div>
+<div class="line"><a name="l04826"></a><span class="lineno"> 4826</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>                                   y,</div>
+<div class="line"><a name="l04827"></a><span class="lineno"> 4827</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>                                  r,</div>
+<div class="line"><a name="l04828"></a><span class="lineno"> 4828</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>                                  g,</div>
+<div class="line"><a name="l04829"></a><span class="lineno"> 4829</span>&#160;                          <a class="code" href="hpdf__types_8h.html#a85e4a6df07ecec2ef1e7e14bb8cabb2d">HPDF_UINT8</a>                                  b);</div>
+<div class="line"><a name="l04830"></a><span class="lineno"> 4830</span>&#160; </div>
+<div class="line"><a name="l04831"></a><span class="lineno"> 4831</span>&#160;<span class="comment">/*--- In-line images -----------------------------------------------------*/</span></div>
+<div class="line"><a name="l04832"></a><span class="lineno"> 4832</span>&#160; </div>
+<div class="line"><a name="l04833"></a><span class="lineno"> 4833</span>&#160;<span class="comment">/* BI --not implemented yet */</span></div>
+<div class="line"><a name="l04834"></a><span class="lineno"> 4834</span>&#160;<span class="comment">/* ID --not implemented yet */</span></div>
+<div class="line"><a name="l04835"></a><span class="lineno"> 4835</span>&#160;<span class="comment">/* EI --not implemented yet */</span></div>
+<div class="line"><a name="l04836"></a><span class="lineno"> 4836</span>&#160; </div>
+<div class="line"><a name="l04837"></a><span class="lineno"> 4837</span>&#160;<span class="comment">/*--- XObjects -----------------------------------------------------------*/</span></div>
+<div class="line"><a name="l04838"></a><span class="lineno"> 4838</span>&#160; </div>
+<div class="line"><a name="l04862"></a><span class="lineno"> 4862</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04863"></a><span class="lineno"><a class="line" href="group__graphics.html#gac02cc9b136df07117b9aba7137a77aa2"> 4863</a></span>&#160;<a class="code" href="group__graphics.html#gac02cc9b136df07117b9aba7137a77aa2">HPDF_Page_ExecuteXObject</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>      page,</div>
+<div class="line"><a name="l04864"></a><span class="lineno"> 4864</span>&#160;                           <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_XObject</a>   obj);</div>
+<div class="line"><a name="l04865"></a><span class="lineno"> 4865</span>&#160; </div>
+<div class="line"><a name="l04866"></a><span class="lineno"> 4866</span>&#160;<span class="comment">/*--- Content streams ----------------------------------------------------*/</span></div>
+<div class="line"><a name="l04867"></a><span class="lineno"> 4867</span>&#160; </div>
+<div class="line"><a name="l04890"></a><span class="lineno"> 4890</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04891"></a><span class="lineno"><a class="line" href="group__page.html#ga2aeacdd5df00f7ddfffb23b96cb6f419"> 4891</a></span>&#160;<a class="code" href="group__page.html#ga2aeacdd5df00f7ddfffb23b96cb6f419">HPDF_Page_New_Content_Stream</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>   page,</div>
+<div class="line"><a name="l04892"></a><span class="lineno"> 4892</span>&#160;                               <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Dict</a>  *new_stream);</div>
+<div class="line"><a name="l04906"></a><span class="lineno"> 4906</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04907"></a><span class="lineno"><a class="line" href="group__page.html#ga81cee1a059803c0367128ee2f501cd9c"> 4907</a></span>&#160;<a class="code" href="group__page.html#ga81cee1a059803c0367128ee2f501cd9c">HPDF_Page_Insert_Shared_Content_Stream</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a> page,</div>
+<div class="line"><a name="l04908"></a><span class="lineno"> 4908</span>&#160;                                         <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Dict</a> shared_stream);</div>
+<div class="line"><a name="l04909"></a><span class="lineno"> 4909</span>&#160; </div>
+<div class="line"><a name="l04910"></a><span class="lineno"> 4910</span>&#160; </div>
+<div class="line"><a name="l04911"></a><span class="lineno"> 4911</span>&#160;<span class="comment">/*--- Marked content -----------------------------------------------------*/</span></div>
 <div class="line"><a name="l04912"></a><span class="lineno"> 4912</span>&#160; </div>
-<div class="line"><a name="l04930"></a><span class="lineno"> 4930</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04931"></a><span class="lineno"><a class="line" href="group__graphics.html#gac9229a584d6e282ac49f1a2938942d69"> 4931</a></span>&#160;<a class="code" href="group__graphics.html#gac9229a584d6e282ac49f1a2938942d69">HPDF_Page_Circle</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>     page,</div>
-<div class="line"><a name="l04932"></a><span class="lineno"> 4932</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>     x,</div>
-<div class="line"><a name="l04933"></a><span class="lineno"> 4933</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>     y,</div>
-<div class="line"><a name="l04934"></a><span class="lineno"> 4934</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>     radius);</div>
-<div class="line"><a name="l04935"></a><span class="lineno"> 4935</span>&#160; </div>
-<div class="line"><a name="l04936"></a><span class="lineno"> 4936</span>&#160; </div>
-<div class="line"><a name="l04954"></a><span class="lineno"> 4954</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04955"></a><span class="lineno"><a class="line" href="group__graphics.html#ga11547cac3fd5e8194bb9033625856d7b"> 4955</a></span>&#160;<a class="code" href="group__graphics.html#ga11547cac3fd5e8194bb9033625856d7b">HPDF_Page_Ellipse</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l04956"></a><span class="lineno"> 4956</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
-<div class="line"><a name="l04957"></a><span class="lineno"> 4957</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y,</div>
-<div class="line"><a name="l04958"></a><span class="lineno"> 4958</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x_radius,</div>
-<div class="line"><a name="l04959"></a><span class="lineno"> 4959</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y_radius);</div>
-<div class="line"><a name="l04960"></a><span class="lineno"> 4960</span>&#160; </div>
-<div class="line"><a name="l04982"></a><span class="lineno"> 4982</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l04983"></a><span class="lineno"><a class="line" href="group__graphics.html#ga52f8e3a7ab2993f4344886672a133093"> 4983</a></span>&#160;<a class="code" href="group__graphics.html#ga52f8e3a7ab2993f4344886672a133093">HPDF_Page_Arc</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l04984"></a><span class="lineno"> 4984</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
-<div class="line"><a name="l04985"></a><span class="lineno"> 4985</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y,</div>
-<div class="line"><a name="l04986"></a><span class="lineno"> 4986</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    radius,</div>
-<div class="line"><a name="l04987"></a><span class="lineno"> 4987</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    ang1,</div>
-<div class="line"><a name="l04988"></a><span class="lineno"> 4988</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    ang2);</div>
-<div class="line"><a name="l04989"></a><span class="lineno"> 4989</span>&#160; </div>
-<div class="line"><a name="l05007"></a><span class="lineno"> 5007</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l05008"></a><span class="lineno"><a class="line" href="group__graphics.html#ga6ad4939b3689beb7a1f4212a4ebe63d0"> 5008</a></span>&#160;<a class="code" href="group__graphics.html#ga6ad4939b3689beb7a1f4212a4ebe63d0">HPDF_Page_TextOut</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
-<div class="line"><a name="l05009"></a><span class="lineno"> 5009</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    xpos,</div>
-<div class="line"><a name="l05010"></a><span class="lineno"> 5010</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    ypos,</div>
-<div class="line"><a name="l05011"></a><span class="lineno"> 5011</span>&#160;                    const <span class="keywordtype">char</span>  *text);</div>
-<div class="line"><a name="l05012"></a><span class="lineno"> 5012</span>&#160; </div>
-<div class="line"><a name="l05013"></a><span class="lineno"> 5013</span>&#160; </div>
-<div class="line"><a name="l05042"></a><span class="lineno"> 5042</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l05043"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf782aa56673ff73be0c5880b2fbcd37a"> 5043</a></span>&#160;<a class="code" href="group__graphics.html#gaf782aa56673ff73be0c5880b2fbcd37a">HPDF_Page_TextRect</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>            page,</div>
-<div class="line"><a name="l05044"></a><span class="lineno"> 5044</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            left,</div>
-<div class="line"><a name="l05045"></a><span class="lineno"> 5045</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            top,</div>
-<div class="line"><a name="l05046"></a><span class="lineno"> 5046</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            right,</div>
-<div class="line"><a name="l05047"></a><span class="lineno"> 5047</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            bottom,</div>
-<div class="line"><a name="l05048"></a><span class="lineno"> 5048</span>&#160;                     const <span class="keywordtype">char</span>          *text,</div>
-<div class="line"><a name="l05049"></a><span class="lineno"> 5049</span>&#160;                     <a class="code" href="hpdf__types_8h.html#ad614c18f2a12387b04db0d57013e7940">HPDF_TextAlignment</a>   align,</div>
-<div class="line"><a name="l05050"></a><span class="lineno"> 5050</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a47cf73f26b8868af2be7f8ce82995b90">HPDF_UINT</a>           *len);</div>
+<div class="line"><a name="l04913"></a><span class="lineno"> 4913</span>&#160;<span class="comment">/* BMC --not implemented yet */</span></div>
+<div class="line"><a name="l04914"></a><span class="lineno"> 4914</span>&#160;<span class="comment">/* BDC --not implemented yet */</span></div>
+<div class="line"><a name="l04915"></a><span class="lineno"> 4915</span>&#160;<span class="comment">/* EMC --not implemented yet */</span></div>
+<div class="line"><a name="l04916"></a><span class="lineno"> 4916</span>&#160;<span class="comment">/* MP --not implemented yet */</span></div>
+<div class="line"><a name="l04917"></a><span class="lineno"> 4917</span>&#160;<span class="comment">/* DP --not implemented yet */</span></div>
+<div class="line"><a name="l04918"></a><span class="lineno"> 4918</span>&#160; </div>
+<div class="line"><a name="l04919"></a><span class="lineno"> 4919</span>&#160;<span class="comment">/*--- Compatibility ------------------------------------------------------*/</span></div>
+<div class="line"><a name="l04920"></a><span class="lineno"> 4920</span>&#160; </div>
+<div class="line"><a name="l04921"></a><span class="lineno"> 4921</span>&#160;<span class="comment">/* BX --not implemented yet */</span></div>
+<div class="line"><a name="l04922"></a><span class="lineno"> 4922</span>&#160;<span class="comment">/* EX --not implemented yet */</span></div>
+<div class="line"><a name="l04923"></a><span class="lineno"> 4923</span>&#160; </div>
+<div class="line"><a name="l04943"></a><span class="lineno"> 4943</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04944"></a><span class="lineno"><a class="line" href="group__graphics.html#ga5fe4d0b538927b3a2231d2d82c8fcbb2"> 4944</a></span>&#160;<a class="code" href="group__graphics.html#ga5fe4d0b538927b3a2231d2d82c8fcbb2">HPDF_Page_DrawImage</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l04945"></a><span class="lineno"> 4945</span>&#160;                      <a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Image</a>   image,</div>
+<div class="line"><a name="l04946"></a><span class="lineno"> 4946</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
+<div class="line"><a name="l04947"></a><span class="lineno"> 4947</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y,</div>
+<div class="line"><a name="l04948"></a><span class="lineno"> 4948</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    width,</div>
+<div class="line"><a name="l04949"></a><span class="lineno"> 4949</span>&#160;                      <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    height);</div>
+<div class="line"><a name="l04950"></a><span class="lineno"> 4950</span>&#160; </div>
+<div class="line"><a name="l04968"></a><span class="lineno"> 4968</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04969"></a><span class="lineno"><a class="line" href="group__graphics.html#gac9229a584d6e282ac49f1a2938942d69"> 4969</a></span>&#160;<a class="code" href="group__graphics.html#gac9229a584d6e282ac49f1a2938942d69">HPDF_Page_Circle</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>     page,</div>
+<div class="line"><a name="l04970"></a><span class="lineno"> 4970</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>     x,</div>
+<div class="line"><a name="l04971"></a><span class="lineno"> 4971</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>     y,</div>
+<div class="line"><a name="l04972"></a><span class="lineno"> 4972</span>&#160;                   <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>     radius);</div>
+<div class="line"><a name="l04973"></a><span class="lineno"> 4973</span>&#160; </div>
+<div class="line"><a name="l04974"></a><span class="lineno"> 4974</span>&#160; </div>
+<div class="line"><a name="l04992"></a><span class="lineno"> 4992</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l04993"></a><span class="lineno"><a class="line" href="group__graphics.html#ga11547cac3fd5e8194bb9033625856d7b"> 4993</a></span>&#160;<a class="code" href="group__graphics.html#ga11547cac3fd5e8194bb9033625856d7b">HPDF_Page_Ellipse</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l04994"></a><span class="lineno"> 4994</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
+<div class="line"><a name="l04995"></a><span class="lineno"> 4995</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y,</div>
+<div class="line"><a name="l04996"></a><span class="lineno"> 4996</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x_radius,</div>
+<div class="line"><a name="l04997"></a><span class="lineno"> 4997</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y_radius);</div>
+<div class="line"><a name="l04998"></a><span class="lineno"> 4998</span>&#160; </div>
+<div class="line"><a name="l05020"></a><span class="lineno"> 5020</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l05021"></a><span class="lineno"><a class="line" href="group__graphics.html#ga52f8e3a7ab2993f4344886672a133093"> 5021</a></span>&#160;<a class="code" href="group__graphics.html#ga52f8e3a7ab2993f4344886672a133093">HPDF_Page_Arc</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l05022"></a><span class="lineno"> 5022</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    x,</div>
+<div class="line"><a name="l05023"></a><span class="lineno"> 5023</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    y,</div>
+<div class="line"><a name="l05024"></a><span class="lineno"> 5024</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    radius,</div>
+<div class="line"><a name="l05025"></a><span class="lineno"> 5025</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    ang1,</div>
+<div class="line"><a name="l05026"></a><span class="lineno"> 5026</span>&#160;                <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    ang2);</div>
+<div class="line"><a name="l05027"></a><span class="lineno"> 5027</span>&#160; </div>
+<div class="line"><a name="l05045"></a><span class="lineno"> 5045</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l05046"></a><span class="lineno"><a class="line" href="group__graphics.html#ga6ad4939b3689beb7a1f4212a4ebe63d0"> 5046</a></span>&#160;<a class="code" href="group__graphics.html#ga6ad4939b3689beb7a1f4212a4ebe63d0">HPDF_Page_TextOut</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>    page,</div>
+<div class="line"><a name="l05047"></a><span class="lineno"> 5047</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    xpos,</div>
+<div class="line"><a name="l05048"></a><span class="lineno"> 5048</span>&#160;                    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>    ypos,</div>
+<div class="line"><a name="l05049"></a><span class="lineno"> 5049</span>&#160;                    const <span class="keywordtype">char</span>  *text);</div>
+<div class="line"><a name="l05050"></a><span class="lineno"> 5050</span>&#160; </div>
 <div class="line"><a name="l05051"></a><span class="lineno"> 5051</span>&#160; </div>
-<div class="line"><a name="l05052"></a><span class="lineno"> 5052</span>&#160; </div>
-<div class="line"><a name="l05066"></a><span class="lineno"> 5066</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
-<div class="line"><a name="l05067"></a><span class="lineno"><a class="line" href="group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01"> 5067</a></span>&#160;<a class="code" href="group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01">HPDF_Page_SetSlideShow</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>              page,</div>
-<div class="line"><a name="l05068"></a><span class="lineno"> 5068</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a7a8fd62ec269fbcc987902921199c054">HPDF_TransitionStyle</a>   type,</div>
-<div class="line"><a name="l05069"></a><span class="lineno"> 5069</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>              disp_time,</div>
-<div class="line"><a name="l05070"></a><span class="lineno"> 5070</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>              trans_time);</div>
-<div class="line"><a name="l05071"></a><span class="lineno"> 5071</span>&#160; </div>
-<div class="line"><a name="l05072"></a><span class="lineno"> 5072</span>&#160; </div>
-<div class="line"><a name="l05073"></a><span class="lineno"> 5073</span>&#160;HPDF_EXPORT(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_OutputIntent</a>)</div>
-<div class="line"><a name="l05074"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a08541422dcf51f0d655c29faa65f4ff8"> 5074</a></span>&#160;<a class="code" href="hpdf_8h.html#a08541422dcf51f0d655c29faa65f4ff8">HPDF_ICC_LoadIccFromMem</a> (<a class="code" href="struct__HPDF__Doc__Rec.html">HPDF_Doc</a>   pdf,</div>
-<div class="line"><a name="l05075"></a><span class="lineno"> 5075</span>&#160;                        <a class="code" href="struct__HPDF__MMgr__Rec.html">HPDF_MMgr</a>   mmgr,</div>
-<div class="line"><a name="l05076"></a><span class="lineno"> 5076</span>&#160;                        <a class="code" href="struct__HPDF__Stream__Rec.html">HPDF_Stream</a> iccdata,</div>
-<div class="line"><a name="l05077"></a><span class="lineno"> 5077</span>&#160;                        <a class="code" href="struct__HPDF__Xref__Rec.html">HPDF_Xref</a>   xref,</div>
-<div class="line"><a name="l05078"></a><span class="lineno"> 5078</span>&#160;                        <span class="keywordtype">int</span>         numcomponent);</div>
-<div class="line"><a name="l05079"></a><span class="lineno"> 5079</span>&#160; </div>
-<div class="line"><a name="l05080"></a><span class="lineno"> 5080</span>&#160;HPDF_EXPORT(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_OutputIntent</a>)</div>
-<div class="line"><a name="l05081"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a6239fc6db39ae2580a1f68d67a1b1e6d"> 5081</a></span>&#160;<a class="code" href="hpdf_8h.html#a6239fc6db39ae2580a1f68d67a1b1e6d">HPDF_LoadIccProfileFromFile</a>  (<a class="code" href="struct__HPDF__Doc__Rec.html">HPDF_Doc</a>     pdf,</div>
-<div class="line"><a name="l05082"></a><span class="lineno"> 5082</span>&#160;                              const <span class="keywordtype">char</span>  *icc_file_name,</div>
-<div class="line"><a name="l05083"></a><span class="lineno"> 5083</span>&#160;                              <span class="keywordtype">int</span>          numcomponent);</div>
-<div class="line"><a name="l05084"></a><span class="lineno"> 5084</span>&#160; </div>
-<div class="line"><a name="l05085"></a><span class="lineno"> 5085</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l05086"></a><span class="lineno"> 5086</span>&#160;}</div>
-<div class="line"><a name="l05087"></a><span class="lineno"> 5087</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l05088"></a><span class="lineno"> 5088</span>&#160; </div>
-<div class="line"><a name="l05089"></a><span class="lineno"> 5089</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _HPDF_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l05080"></a><span class="lineno"> 5080</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l05081"></a><span class="lineno"><a class="line" href="group__graphics.html#gaf782aa56673ff73be0c5880b2fbcd37a"> 5081</a></span>&#160;<a class="code" href="group__graphics.html#gaf782aa56673ff73be0c5880b2fbcd37a">HPDF_Page_TextRect</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>            page,</div>
+<div class="line"><a name="l05082"></a><span class="lineno"> 5082</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            left,</div>
+<div class="line"><a name="l05083"></a><span class="lineno"> 5083</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            top,</div>
+<div class="line"><a name="l05084"></a><span class="lineno"> 5084</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            right,</div>
+<div class="line"><a name="l05085"></a><span class="lineno"> 5085</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>            bottom,</div>
+<div class="line"><a name="l05086"></a><span class="lineno"> 5086</span>&#160;                     const <span class="keywordtype">char</span>          *text,</div>
+<div class="line"><a name="l05087"></a><span class="lineno"> 5087</span>&#160;                     <a class="code" href="hpdf__types_8h.html#ad614c18f2a12387b04db0d57013e7940">HPDF_TextAlignment</a>   align,</div>
+<div class="line"><a name="l05088"></a><span class="lineno"> 5088</span>&#160;                     <a class="code" href="hpdf__types_8h.html#a47cf73f26b8868af2be7f8ce82995b90">HPDF_UINT</a>           *len);</div>
+<div class="line"><a name="l05089"></a><span class="lineno"> 5089</span>&#160; </div>
+<div class="line"><a name="l05090"></a><span class="lineno"> 5090</span>&#160; </div>
+<div class="line"><a name="l05104"></a><span class="lineno"> 5104</span>&#160;HPDF_EXPORT(<a class="code" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>)</div>
+<div class="line"><a name="l05105"></a><span class="lineno"><a class="line" href="group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01"> 5105</a></span>&#160;<a class="code" href="group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01">HPDF_Page_SetSlideShow</a>  (<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a>              page,</div>
+<div class="line"><a name="l05106"></a><span class="lineno"> 5106</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a7a8fd62ec269fbcc987902921199c054">HPDF_TransitionStyle</a>   type,</div>
+<div class="line"><a name="l05107"></a><span class="lineno"> 5107</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>              disp_time,</div>
+<div class="line"><a name="l05108"></a><span class="lineno"> 5108</span>&#160;                         <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a>              trans_time);</div>
+<div class="line"><a name="l05109"></a><span class="lineno"> 5109</span>&#160; </div>
+<div class="line"><a name="l05110"></a><span class="lineno"> 5110</span>&#160; </div>
+<div class="line"><a name="l05111"></a><span class="lineno"> 5111</span>&#160;HPDF_EXPORT(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_OutputIntent</a>)</div>
+<div class="line"><a name="l05112"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a08541422dcf51f0d655c29faa65f4ff8"> 5112</a></span>&#160;<a class="code" href="hpdf_8h.html#a08541422dcf51f0d655c29faa65f4ff8">HPDF_ICC_LoadIccFromMem</a> (<a class="code" href="struct__HPDF__Doc__Rec.html">HPDF_Doc</a>   pdf,</div>
+<div class="line"><a name="l05113"></a><span class="lineno"> 5113</span>&#160;                        <a class="code" href="struct__HPDF__MMgr__Rec.html">HPDF_MMgr</a>   mmgr,</div>
+<div class="line"><a name="l05114"></a><span class="lineno"> 5114</span>&#160;                        <a class="code" href="struct__HPDF__Stream__Rec.html">HPDF_Stream</a> iccdata,</div>
+<div class="line"><a name="l05115"></a><span class="lineno"> 5115</span>&#160;                        <a class="code" href="struct__HPDF__Xref__Rec.html">HPDF_Xref</a>   xref,</div>
+<div class="line"><a name="l05116"></a><span class="lineno"> 5116</span>&#160;                        <span class="keywordtype">int</span>         numcomponent);</div>
+<div class="line"><a name="l05117"></a><span class="lineno"> 5117</span>&#160; </div>
+<div class="line"><a name="l05118"></a><span class="lineno"> 5118</span>&#160;HPDF_EXPORT(<a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_OutputIntent</a>)</div>
+<div class="line"><a name="l05119"></a><span class="lineno"><a class="line" href="hpdf_8h.html#a6239fc6db39ae2580a1f68d67a1b1e6d"> 5119</a></span>&#160;<a class="code" href="hpdf_8h.html#a6239fc6db39ae2580a1f68d67a1b1e6d">HPDF_LoadIccProfileFromFile</a>  (<a class="code" href="struct__HPDF__Doc__Rec.html">HPDF_Doc</a>     pdf,</div>
+<div class="line"><a name="l05120"></a><span class="lineno"> 5120</span>&#160;                              const <span class="keywordtype">char</span>  *icc_file_name,</div>
+<div class="line"><a name="l05121"></a><span class="lineno"> 5121</span>&#160;                              <span class="keywordtype">int</span>          numcomponent);</div>
+<div class="line"><a name="l05122"></a><span class="lineno"> 5122</span>&#160; </div>
+<div class="line"><a name="l05123"></a><span class="lineno"> 5123</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l05124"></a><span class="lineno"> 5124</span>&#160;}</div>
+<div class="line"><a name="l05125"></a><span class="lineno"> 5125</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __cplusplus */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l05126"></a><span class="lineno"> 5126</span>&#160; </div>
+<div class="line"><a name="l05127"></a><span class="lineno"> 5127</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _HPDF_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="agroup__doc_html_ga1ceeea25dd4fcac5736df7ea2ad5da1a"><div class="ttname"><a href="group__doc.html#ga1ceeea25dd4fcac5736df7ea2ad5da1a">HPDF_ResetStream</a></div><div class="ttdeci">HPDF_STATUS HPDF_ResetStream(HPDF_Doc pdf)</div><div class="ttdoc">Rewind temporary stream of the document.</div></div>
 <div class="ttc" id="agroup__doc_html_ga4b890d8652971713ab7a9bd6a0be801c"><div class="ttname"><a href="group__doc.html#ga4b890d8652971713ab7a9bd6a0be801c">HPDF_SetPagesConfiguration</a></div><div class="ttdeci">HPDF_STATUS HPDF_SetPagesConfiguration(HPDF_Doc pdf, HPDF_UINT page_per_pages)</div><div class="ttdoc">Specify number of pages Pages object can own.</div></div>
 <div class="ttc" id="agroup__doc_html_ga4dd76e5414eb1c71ee711499bd84d069"><div class="ttname"><a href="group__doc.html#ga4dd76e5414eb1c71ee711499bd84d069">HPDF_NewDoc</a></div><div class="ttdeci">HPDF_STATUS HPDF_NewDoc(HPDF_Doc pdf)</div><div class="ttdoc">Create a new document. If doc object already has a document, the current document is revoked.</div></div>
@@ -1686,6 +1692,7 @@ $(document).ready(function(){initNavTree('hpdf_8h_source.html',''); initResizabl
 <div class="ttc" id="agroup__graphics_html_ga0253d1437eb4943ac646cc62eb60717a"><div class="ttname"><a href="group__graphics.html#ga0253d1437eb4943ac646cc62eb60717a">HPDF_Page_EndPath</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_EndPath(HPDF_Page page)</div><div class="ttdoc">Finish path object without filling or painting.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga11547cac3fd5e8194bb9033625856d7b"><div class="ttname"><a href="group__graphics.html#ga11547cac3fd5e8194bb9033625856d7b">HPDF_Page_Ellipse</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_Ellipse(HPDF_Page page, HPDF_REAL x, HPDF_REAL y, HPDF_REAL x_radius, HPDF_REAL y_radius)</div><div class="ttdoc">Append ellipse to current path.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga121388468bd4aff11a4e99fd533266c2"><div class="ttname"><a href="group__graphics.html#ga121388468bd4aff11a4e99fd533266c2">HPDF_Page_SetCharSpace</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetCharSpace(HPDF_Page page, HPDF_REAL value)</div><div class="ttdoc">Set text character spacing.</div></div>
+<div class="ttc" id="agroup__graphics_html_ga12228da7724dac224f4753f51436068e"><div class="ttname"><a href="group__graphics.html#ga12228da7724dac224f4753f51436068e">HPDF_Page_SetRGBStrokeHex</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetRGBStrokeHex(HPDF_Page page, HPDF_UINT8 r, HPDF_UINT8 g, HPDF_UINT8 b)</div><div class="ttdoc">Set stroke color (RGB) using HPDF_UINT8 values.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga13bd835af9daa235ec6d81f7ceec2cd6"><div class="ttname"><a href="group__graphics.html#ga13bd835af9daa235ec6d81f7ceec2cd6">HPDF_Page_ClosePathFillStroke</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_ClosePathFillStroke(HPDF_Page page)</div><div class="ttdoc">Close current path, fill current path using the non-zero winding number rule, then paint path.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga13c9fa94dae6be2bbec48a2768c6ca7b"><div class="ttname"><a href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b">HPDF_Page_SetLineWidth</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetLineWidth(HPDF_Page page, HPDF_REAL line_width)</div><div class="ttdoc">Set width of the line used to stroke paths.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga23bab59d5ab58b5d6aef5891300297e4"><div class="ttname"><a href="group__graphics.html#ga23bab59d5ab58b5d6aef5891300297e4">HPDF_Page_CurveTo2</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_CurveTo2(HPDF_Page page, HPDF_REAL x2, HPDF_REAL y2, HPDF_REAL x3, HPDF_REAL y3)</div><div class="ttdoc">Append Bézier curve to current path using current point and (x2, y2) and (x3, y3) as control points....</div></div>

@@ -45,6 +45,7 @@ var group__graphics =
     [ "HPDF_Page_SetMiterLimit", "group__graphics.html#gade32129595418adbb3a3a5918b67a57b", null ],
     [ "HPDF_Page_SetRGBFill", "group__graphics.html#ga3cd5c40eda13c032c235b8eecd421b19", null ],
     [ "HPDF_Page_SetRGBStroke", "group__graphics.html#ga28030536ea6e1582d15ab57699e885f1", null ],
+    [ "HPDF_Page_SetRGBStrokeHex", "group__graphics.html#ga12228da7724dac224f4753f51436068e", null ],
     [ "HPDF_Page_SetTextLeading", "group__graphics.html#ga44eed527a7be80b2a1210aab97cea595", null ],
     [ "HPDF_Page_SetTextRaise", "group__graphics.html#ga4f4ff1d0715264728e7cc05b7057f55e", null ],
     [ "HPDF_Page_SetTextRenderingMode", "group__graphics.html#gae0b6e2d0a3a6ae97a7e3f0325181247c", null ],

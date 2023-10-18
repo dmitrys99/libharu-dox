@@ -1,5 +1,10 @@
 var NAVTREEINDEX10 =
 {
+"struct__HPDF__RGBColor.html#a9357f59c4b3c9570b940b15f68ac4303":[7,0,39,1],
+"struct__HPDF__Real__Rec.html":[7,0,37],
+"struct__HPDF__Real__Rec.html#a7cf2d234d65de677c19f5858dd60f454":[7,0,37,1],
+"struct__HPDF__Real__Rec.html#a975a89d18fac22308c658590d4db0fa1":[7,0,37,2],
+"struct__HPDF__Real__Rec.html#ac0625bc974c8c52bc88e41028dc218bf":[7,0,37,0],
 "struct__HPDF__Rect.html":[7,0,38],
 "struct__HPDF__Rect.html#a1dbb3da0959caed4e2d9bf46bc6b6280":[7,0,38,3],
 "struct__HPDF__Rect.html#a6bf468c7755ffa0248e96b6e795b6505":[7,0,38,2],
@@ -155,10 +160,10 @@ var NAVTREEINDEX10 =
 "struct__HPDF__Xref__Rec.html#a65b3c89d3647d8dd0d0aa6bee20d09b8":[7,0,55,6],
 "struct__HPDF__Xref__Rec.html#ae8598f81f95a93bf3be18c90a91554ba":[7,0,55,1],
 "struct__HPDF__Xref__Rec.html#afaf25dba84f1f9b899a29e273ee0014b":[7,0,55,4],
-"text_annotation_8c-example.html":[9,24],
-"text_demo2_8c-example.html":[9,25],
-"text_demo_8c-example.html":[9,26],
+"text_annotation_8c-example.html":[9,25],
+"text_demo2_8c-example.html":[9,26],
+"text_demo_8c-example.html":[9,27],
 "todo.html":[4],
-"ttfont_demo_8c-example.html":[9,27],
-"ttfont_demo_jp_8c-example.html":[9,28]
+"ttfont_demo_8c-example.html":[9,28],
+"ttfont_demo_jp_8c-example.html":[9,29]
 };

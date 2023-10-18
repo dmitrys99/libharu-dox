@@ -4,6 +4,7 @@ var examples =
     [ "attach.c", "attach_8c-example.html", null ],
     [ "character_map.c", "character_map_8c-example.html", null ],
     [ "chfont_demo.c", "chfont_demo_8c-example.html", null ],
+    [ "clip_hatch.c", "clip_hatch_8c-example.html", null ],
     [ "encoding_list.c", "encoding_list_8c-example.html", null ],
     [ "encryption.c", "encryption_8c-example.html", null ],
     [ "ext_gstate_demo.c", "ext_gstate_demo_8c-example.html", null ],

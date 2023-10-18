@@ -229,6 +229,7 @@ var hpdf_8h =
     [ "HPDF_Page_SetMiterLimit", "group__graphics.html#gade32129595418adbb3a3a5918b67a57b", null ],
     [ "HPDF_Page_SetRGBFill", "group__graphics.html#ga3cd5c40eda13c032c235b8eecd421b19", null ],
     [ "HPDF_Page_SetRGBStroke", "group__graphics.html#ga28030536ea6e1582d15ab57699e885f1", null ],
+    [ "HPDF_Page_SetRGBStrokeHex", "group__graphics.html#ga12228da7724dac224f4753f51436068e", null ],
     [ "HPDF_Page_SetRotate", "group__page.html#ga3d5be95c93a7386d0109a6826d469aa6", null ],
     [ "HPDF_Page_SetShading", "hpdf_8h.html#a6745dcd98c363cf2fa7603cce91504da", null ],
     [ "HPDF_Page_SetSize", "group__page.html#ga4686913145b2c34b5ddaac39548bfc2c", null ],
