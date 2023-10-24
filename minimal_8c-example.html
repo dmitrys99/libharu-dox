@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('minimal_8c-example.html',''); initResi
 <div class="line"><span class="comment"> */</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;setjmp.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;<a class="code" href="hpdf_8h.html">hpdf.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;handler.h&quot;</span></div>
@@ -113,7 +114,10 @@ $(document).ready(function(){initNavTree('minimal_8c-example.html',''); initResi
 <div class="line">{</div>
 <div class="line">    <a name="_a0"></a><a class="code" href="struct__HPDF__Doc__Rec.html">HPDF_Doc</a>  pdf;</div>
 <div class="line">    <a name="_a1"></a><a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Page</a> page;</div>
-<div class="line">    <span class="keywordtype">char</span> fname[11] = <span class="stringliteral">&quot;minimal.pdf&quot;</span>;</div>
+<div class="line">    <span class="keywordtype">char</span> fname[256];</div>
+<div class="line"> </div>
+<div class="line">    strcpy (fname, argv[0]);</div>
+<div class="line">    strcat (fname, <span class="stringliteral">&quot;.pdf&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* create document object*/</span></div>
 <div class="line">    pdf = <a name="a2"></a><a class="code" href="group__doc.html#gab67288af90e6b56d92261df2f2ea2439">HPDF_New</a> (demo_error_handler, NULL);</div>

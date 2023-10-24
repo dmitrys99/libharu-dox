@@ -201,16 +201,16 @@ $(document).ready(function(){initNavTree('slide_show_demo_8c-example.html',''); 
 <div class="line">    font = <a name="a27"></a><a class="code" href="group__font.html#ga7ce5b80963073f86913021081f436570">HPDF_GetFont</a> (pdf, <span class="stringliteral">&quot;Courier&quot;</span>, NULL);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* Add 17 pages to the document. */</span></div>
-<div class="line">    page[0] = <a name="a28"></a><a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[1] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[2] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[3] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[4] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[5] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[6] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[7] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[8] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
-<div class="line">    page[9] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 0] = <a name="a28"></a><a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 1] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 2] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 3] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 4] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 5] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 6] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 7] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 8] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page[ 9] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
 <div class="line">    page[10] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
 <div class="line">    page[11] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
 <div class="line">    page[12] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
@@ -219,41 +219,23 @@ $(document).ready(function(){initNavTree('slide_show_demo_8c-example.html',''); 
 <div class="line">    page[15] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
 <div class="line">    page[16] = <a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
 <div class="line"> </div>
-<div class="line">    print_page(page[0], <span class="stringliteral">&quot;HPDF_TS_WIPE_RIGHT&quot;</span>, font, </div>
-<div class="line">            <a name="a29"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898daa65878aae1e9b6ae334b314d08697142">HPDF_TS_WIPE_RIGHT</a>, NULL, page[1]);</div>
-<div class="line">    print_page(page[1], <span class="stringliteral">&quot;HPDF_TS_WIPE_UP&quot;</span>, font, </div>
-<div class="line">            <a name="a30"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6fc96a0fb0b4d3d54cf165087f0cac64">HPDF_TS_WIPE_UP</a>, page[0], page[2]);</div>
-<div class="line">    print_page(page[2], <span class="stringliteral">&quot;HPDF_TS_WIPE_LEFT&quot;</span>, font, </div>
-<div class="line">            <a name="a31"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da22c45ed3826aa8a9d285900033b36603">HPDF_TS_WIPE_LEFT</a>, page[1], page[3]);</div>
-<div class="line">    print_page(page[3], <span class="stringliteral">&quot;HPDF_TS_WIPE_DOWN&quot;</span>, font, </div>
-<div class="line">            <a name="a32"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da894421d9711b28a02ce1e8019bfdaa29">HPDF_TS_WIPE_DOWN</a>, page[2], page[4]);</div>
-<div class="line">    print_page(page[4], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_HORIZONTAL_OUT&quot;</span>, font, </div>
-<div class="line">            <a name="a33"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898dabb354cf0cbfb624f03c998c25ca6d8ab">HPDF_TS_BARN_DOORS_HORIZONTAL_OUT</a>, page[3], page[5]);</div>
-<div class="line">    print_page(page[5], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_HORIZONTAL_IN&quot;</span>, font, </div>
-<div class="line">            <a name="a34"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6a1a58942f8a43fc58146acf5f64108a">HPDF_TS_BARN_DOORS_HORIZONTAL_IN</a>, page[4], page[6]);</div>
-<div class="line">    print_page(page[6], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_VERTICAL_OUT&quot;</span>, font, </div>
-<div class="line">            <a name="a35"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da555820f7befd0d7f74b0307c7faeacb1">HPDF_TS_BARN_DOORS_VERTICAL_OUT</a>, page[5], page[7]);</div>
-<div class="line">    print_page(page[7], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_VERTICAL_IN&quot;</span>, font, </div>
-<div class="line">            <a name="a36"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898dadad9de493fc62e177083ece7a498353e">HPDF_TS_BARN_DOORS_VERTICAL_IN</a>, page[6], page[8]);</div>
-<div class="line">    print_page(page[8], <span class="stringliteral">&quot;HPDF_TS_BOX_OUT&quot;</span>, font, </div>
-<div class="line">            <a name="a37"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6cd949928f7fd2b221a562a8547c32ea">HPDF_TS_BOX_OUT</a>, page[7], page[9]);</div>
-<div class="line">    print_page(page[9], <span class="stringliteral">&quot;HPDF_TS_BOX_IN&quot;</span>, font, </div>
-<div class="line">            <a name="a38"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6703ac064d2aba5e8df45b552cea8208">HPDF_TS_BOX_IN</a>, page[8], page[10]);</div>
-<div class="line">    print_page(page[10], <span class="stringliteral">&quot;HPDF_TS_BLINDS_HORIZONTAL&quot;</span>, font, </div>
-<div class="line">            <a name="a39"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da2a2062fb82bb91032cfbf4308a8e45de">HPDF_TS_BLINDS_HORIZONTAL</a>, page[9], page[11]);</div>
-<div class="line">    print_page(page[11], <span class="stringliteral">&quot;HPDF_TS_BLINDS_VERTICAL&quot;</span>, font, </div>
-<div class="line">            <a name="a40"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da55f6450ff834d40ebb1938cd9119f6a4">HPDF_TS_BLINDS_VERTICAL</a>, page[10], page[12]);</div>
-<div class="line">    print_page(page[12], <span class="stringliteral">&quot;HPDF_TS_DISSOLVE&quot;</span>, font, </div>
-<div class="line">            <a name="a41"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6f03e39d9dd1ad1ee426fc0a25c45415">HPDF_TS_DISSOLVE</a>, page[11], page[13]);</div>
-<div class="line">    print_page(page[13], <span class="stringliteral">&quot;HPDF_TS_GLITTER_RIGHT&quot;</span>, font, </div>
-<div class="line">            <a name="a42"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da5a7144a299d7aaa7b373e708a588773c">HPDF_TS_GLITTER_RIGHT</a>, page[12], page[14]);</div>
-<div class="line">    print_page(page[14], <span class="stringliteral">&quot;HPDF_TS_GLITTER_DOWN&quot;</span>, font, </div>
-<div class="line">            <a name="a43"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6edc4f0e43da038561784d1fdb849833">HPDF_TS_GLITTER_DOWN</a>, page[13], page[15]);</div>
-<div class="line">    print_page(page[15], <span class="stringliteral">&quot;HPDF_TS_GLITTER_TOP_LEFT_TO_BOTTOM_RIGHT&quot;</span>, font, </div>
-<div class="line">            <a name="a44"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da5be14f67518d109dee2edd97eabc526a">HPDF_TS_GLITTER_TOP_LEFT_TO_BOTTOM_RIGHT</a>, page[14], page[16]);</div>
-<div class="line">    print_page(page[16], <span class="stringliteral">&quot;HPDF_TS_REPLACE&quot;</span>, font, </div>
-<div class="line">            <a name="a45"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da770125515b68636bb410fa554b016b82">HPDF_TS_REPLACE</a>, page[15], NULL);</div>
-<div class="line"> </div>
+<div class="line">    print_page(page[ 0], <span class="stringliteral">&quot;HPDF_TS_WIPE_RIGHT&quot;</span>,                       font, <a name="a29"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898daa65878aae1e9b6ae334b314d08697142">HPDF_TS_WIPE_RIGHT</a>,                       NULL,     page[ 1]);</div>
+<div class="line">    print_page(page[ 1], <span class="stringliteral">&quot;HPDF_TS_WIPE_UP&quot;</span>,                          font, <a name="a30"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6fc96a0fb0b4d3d54cf165087f0cac64">HPDF_TS_WIPE_UP</a>,                          page[ 0], page[ 2]);</div>
+<div class="line">    print_page(page[ 2], <span class="stringliteral">&quot;HPDF_TS_WIPE_LEFT&quot;</span>,                        font, <a name="a31"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da22c45ed3826aa8a9d285900033b36603">HPDF_TS_WIPE_LEFT</a>,                        page[ 1], page[ 3]);</div>
+<div class="line">    print_page(page[ 3], <span class="stringliteral">&quot;HPDF_TS_WIPE_DOWN&quot;</span>,                        font, <a name="a32"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da894421d9711b28a02ce1e8019bfdaa29">HPDF_TS_WIPE_DOWN</a>,                        page[ 2], page[ 4]);</div>
+<div class="line">    print_page(page[ 4], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_HORIZONTAL_OUT&quot;</span>,        font, <a name="a33"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898dabb354cf0cbfb624f03c998c25ca6d8ab">HPDF_TS_BARN_DOORS_HORIZONTAL_OUT</a>,        page[ 3], page[ 5]);</div>
+<div class="line">    print_page(page[ 5], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_HORIZONTAL_IN&quot;</span>,         font, <a name="a34"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6a1a58942f8a43fc58146acf5f64108a">HPDF_TS_BARN_DOORS_HORIZONTAL_IN</a>,         page[ 4], page[ 6]);</div>
+<div class="line">    print_page(page[ 6], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_VERTICAL_OUT&quot;</span>,          font, <a name="a35"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da555820f7befd0d7f74b0307c7faeacb1">HPDF_TS_BARN_DOORS_VERTICAL_OUT</a>,          page[ 5], page[ 7]);</div>
+<div class="line">    print_page(page[ 7], <span class="stringliteral">&quot;HPDF_TS_BARN_DOORS_VERTICAL_IN&quot;</span>,           font, <a name="a36"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898dadad9de493fc62e177083ece7a498353e">HPDF_TS_BARN_DOORS_VERTICAL_IN</a>,           page[ 6], page[ 8]);</div>
+<div class="line">    print_page(page[ 8], <span class="stringliteral">&quot;HPDF_TS_BOX_OUT&quot;</span>,                          font, <a name="a37"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6cd949928f7fd2b221a562a8547c32ea">HPDF_TS_BOX_OUT</a>,                          page[ 7], page[ 9]);</div>
+<div class="line">    print_page(page[ 9], <span class="stringliteral">&quot;HPDF_TS_BOX_IN&quot;</span>,                           font, <a name="a38"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6703ac064d2aba5e8df45b552cea8208">HPDF_TS_BOX_IN</a>,                           page[ 8], page[10]);</div>
+<div class="line">    print_page(page[10], <span class="stringliteral">&quot;HPDF_TS_BLINDS_HORIZONTAL&quot;</span>,                font, <a name="a39"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da2a2062fb82bb91032cfbf4308a8e45de">HPDF_TS_BLINDS_HORIZONTAL</a>,                page[ 9], page[11]);</div>
+<div class="line">    print_page(page[11], <span class="stringliteral">&quot;HPDF_TS_BLINDS_VERTICAL&quot;</span>,                  font, <a name="a40"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da55f6450ff834d40ebb1938cd9119f6a4">HPDF_TS_BLINDS_VERTICAL</a>,                  page[10], page[12]);</div>
+<div class="line">    print_page(page[12], <span class="stringliteral">&quot;HPDF_TS_DISSOLVE&quot;</span>,                         font, <a name="a41"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6f03e39d9dd1ad1ee426fc0a25c45415">HPDF_TS_DISSOLVE</a>,                         page[11], page[13]);</div>
+<div class="line">    print_page(page[13], <span class="stringliteral">&quot;HPDF_TS_GLITTER_RIGHT&quot;</span>,                    font, <a name="a42"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da5a7144a299d7aaa7b373e708a588773c">HPDF_TS_GLITTER_RIGHT</a>,                    page[12], page[14]);</div>
+<div class="line">    print_page(page[14], <span class="stringliteral">&quot;HPDF_TS_GLITTER_DOWN&quot;</span>,                     font, <a name="a43"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da6edc4f0e43da038561784d1fdb849833">HPDF_TS_GLITTER_DOWN</a>,                     page[13], page[15]);</div>
+<div class="line">    print_page(page[15], <span class="stringliteral">&quot;HPDF_TS_GLITTER_TOP_LEFT_TO_BOTTOM_RIGHT&quot;</span>, font, <a name="a44"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da5be14f67518d109dee2edd97eabc526a">HPDF_TS_GLITTER_TOP_LEFT_TO_BOTTOM_RIGHT</a>, page[14], page[16]);</div>
+<div class="line">    print_page(page[16], <span class="stringliteral">&quot;HPDF_TS_REPLACE&quot;</span>,                          font, <a name="a45"></a><a class="code" href="hpdf__types_8h.html#ad29125697f89a97262c8e3e01ae5898da770125515b68636bb410fa554b016b82">HPDF_TS_REPLACE</a>,                          page[15], NULL);</div>
 <div class="line"> </div>
 <div class="line">    <a name="a46"></a><a class="code" href="group__page.html#ga63f1d87c975bfc594ee1e4e464ce8467">HPDF_SetPageMode</a> (pdf, <a name="a47"></a><a class="code" href="hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a014bddbc38f6473b3b781d992327fd34">HPDF_PAGE_MODE_FULL_SCREEN</a>);</div>
 <div class="line"> </div>

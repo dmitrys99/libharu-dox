@@ -4,6 +4,7 @@ var examples =
     [ "attach.c", "attach_8c-example.html", null ],
     [ "character_map.c", "character_map_8c-example.html", null ],
     [ "chfont_demo.c", "chfont_demo_8c-example.html", null ],
+    [ "clip_hatch2.c", "clip_hatch2_8c-example.html", null ],
     [ "clip_hatch.c", "clip_hatch_8c-example.html", null ],
     [ "encoding_list.c", "encoding_list_8c-example.html", null ],
     [ "encryption.c", "encryption_8c-example.html", null ],
@@ -29,5 +30,6 @@ var examples =
     [ "text_demo2.c", "text_demo2_8c-example.html", null ],
     [ "text_demo.c", "text_demo_8c-example.html", null ],
     [ "ttfont_demo.c", "ttfont_demo_8c-example.html", null ],
-    [ "ttfont_demo_jp.c", "ttfont_demo_jp_8c-example.html", null ]
+    [ "ttfont_demo_jp.c", "ttfont_demo_jp_8c-example.html", null ],
+    [ "utf8.c", "utf8_8c-example.html", null ]
 ];

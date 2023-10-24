@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"hpdf__info_8h.html#ade4d98ccf949b49d3472c84adcf0b36f":[8,0,18,1],
 "hpdf__info_8h_source.html":[8,0,18],
 "hpdf__list_8h.html":[8,0,19],
 "hpdf__list_8h.html#a0bf859a65550ffc66dda0e570605afd2":[8,0,19,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "hpdf__streams_8h.html#a52fff9af5964f44a3edebda525fb6173":[8,0,27,43],
 "hpdf__streams_8h.html#a61e55e72cd8f1f1a49b881f68b4e08be":[8,0,27,13],
 "hpdf__streams_8h.html#a63dd89cbea3dd57c39d83b449dea92fa":[8,0,27,27],
-"hpdf__streams_8h.html#a6a5570a3c88edb862d87fa21295bc646":[8,0,27,32],
-"hpdf__streams_8h.html#a6f00e289dc88ae091a500fb713a8645a":[8,0,27,15]
+"hpdf__streams_8h.html#a6a5570a3c88edb862d87fa21295bc646":[8,0,27,32]
 };
