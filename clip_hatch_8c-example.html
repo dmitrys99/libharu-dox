@@ -116,36 +116,31 @@ $(document).ready(function(){initNavTree('clip_hatch_8c-example.html',''); initR
 <div class="line">{</div>
 <div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> height = <a name="a2"></a><a class="code" href="group__page.html#ga201a3c2f0d0628c865b7de187321913e">HPDF_Page_GetHeight</a> (page);</div>
 <div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> width = <a name="a3"></a><a class="code" href="group__page.html#ga7833f542b2409736ba6382118402cb33">HPDF_Page_GetWidth</a> (page);</div>
-<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> x = -height;</div>
+<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> x = 0.0;</div>
 <div class="line"> </div>
 <div class="line">    <a name="a4"></a><a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <a name="a5"></a><a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, 0, 0, width, 15 * <a name="a6"></a><a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>);</div>
-<div class="line">    <a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, width-15 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 0, width, height);</div>
-<div class="line">    <a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, width-15 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 0, width, 15*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>);</div>
-<div class="line">    <a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, width-10 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 5 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, width - 10 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, height - 10 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>);</div>
-<div class="line"> </div>
-<div class="line">    <a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, 5*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 5*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, width-25*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 5*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>);</div>
-<div class="line">    <a name="a7"></a><a class="code" href="group__graphics.html#ga37571afec5e6c48ffd1a7d4dbc50b822">HPDF_Page_Eoclip</a> (page);</div>
+<div class="line">    <a name="a7"></a><a class="code" href="group__graphics.html#gaa398a65088a381581c2fd8c5d7f18784">HPDF_Page_Clip</a> (page);</div>
 <div class="line">    <a name="a8"></a><a class="code" href="group__graphics.html#ga0253d1437eb4943ac646cc62eb60717a">HPDF_Page_EndPath</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <a name="a9"></a><a class="code" href="group__graphics.html#ga12228da7724dac224f4753f51436068e">HPDF_Page_SetRGBStrokeHex</a> (page, 0x55, 0x77, 0x22);</div>
 <div class="line">    <a name="a10"></a><a class="code" href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b">HPDF_Page_SetLineWidth</a> (page, 0.25 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>);</div>
-<div class="line"><span class="comment">//    HPDF_REAL angle1 = -45;</span></div>
-<div class="line"><span class="comment">//    HPDF_REAL rad1 = angle1 / 180 * 3.141592;</span></div>
+<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> angle1 = -45;</div>
+<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> rad1 = angle1 / 180 * 3.141592;</div>
 <div class="line"> </div>
-<div class="line"><span class="comment">//    HPDF_Page_Concat (page, cos(rad1), sin(rad1), -sin(rad1), cos(rad1), -15*HPDF_MM, 0);</span></div>
+<div class="line">    <a name="a11"></a><a class="code" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a> (page, cos(rad1), sin(rad1), -sin(rad1), cos(rad1), -15*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 0);</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">while</span> (x &lt; width) {</div>
-<div class="line">        <a name="a11"></a><a class="code" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c">HPDF_Page_MoveTo</a> (page, x, 0);</div>
-<div class="line">        <a name="a12"></a><a class="code" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451">HPDF_Page_LineTo</a> (page, x+height, height);</div>
-<div class="line">        <a name="a13"></a><a class="code" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88">HPDF_Page_Stroke</a> (page);</div>
+<div class="line">        <a name="a12"></a><a class="code" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c">HPDF_Page_MoveTo</a> (page, x, 0);</div>
+<div class="line">        <a name="a13"></a><a class="code" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451">HPDF_Page_LineTo</a> (page, x, height);</div>
+<div class="line">        <a name="a14"></a><a class="code" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88">HPDF_Page_Stroke</a> (page);</div>
 <div class="line">        x += <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <a name="a14"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
+<div class="line">    <a name="a15"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -160,27 +155,27 @@ $(document).ready(function(){initNavTree('clip_hatch_8c-example.html',''); initR
 <div class="line">    strcat (fname, <span class="stringliteral">&quot;.pdf&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* create document object*/</span></div>
-<div class="line">    pdf = <a name="a15"></a><a class="code" href="group__doc.html#gab67288af90e6b56d92261df2f2ea2439">HPDF_New</a> (demo_error_handler, NULL);</div>
+<div class="line">    pdf = <a name="a16"></a><a class="code" href="group__doc.html#gab67288af90e6b56d92261df2f2ea2439">HPDF_New</a> (demo_error_handler, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> (!pdf) {</div>
 <div class="line">        printf (<span class="stringliteral">&quot;error: cannot create PdfDoc object\n&quot;</span>);</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> (setjmp(env)) {</div>
-<div class="line">        <a name="a16"></a><a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
+<div class="line">        <a name="a17"></a><a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* add a new page object. */</span></div>
-<div class="line">    page = <a name="a17"></a><a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page = <a name="a18"></a><a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* set up added page */</span></div>
-<div class="line">    <a name="a18"></a><a class="code" href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a> (page, <a name="a19"></a><a class="code" href="hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c">HPDF_PAGE_SIZE_A4</a>, <a name="a20"></a><a class="code" href="hpdf__types_8h.html#a9975729eeae492084d64839f91063e77aad7036d993d1e34259cd0b39f8a218b4">HPDF_PAGE_PORTRAIT</a>);</div>
+<div class="line">    <a name="a19"></a><a class="code" href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a> (page, <a name="a20"></a><a class="code" href="hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c">HPDF_PAGE_SIZE_A4</a>, <a name="a21"></a><a class="code" href="hpdf__types_8h.html#a9975729eeae492084d64839f91063e77aad7036d993d1e34259cd0b39f8a218b4">HPDF_PAGE_PORTRAIT</a>);</div>
 <div class="line"> </div>
 <div class="line">    hatch (pdf, page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* save document to a file */</span></div>
-<div class="line">    <a name="a21"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
+<div class="line">    <a name="a22"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* clean up */</span></div>
 <div class="line">    <a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
@@ -195,9 +190,10 @@ $(document).ready(function(){initNavTree('clip_hatch_8c-example.html',''); initR
 <div class="ttc" id="agroup__graphics_html_ga13c9fa94dae6be2bbec48a2768c6ca7b"><div class="ttname"><a href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b">HPDF_Page_SetLineWidth</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetLineWidth(HPDF_Page page, HPDF_REAL line_width)</div><div class="ttdoc">Set width of the line used to stroke paths.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga252f2415683319dd6a9bea8e70a5fc88"><div class="ttname"><a href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88">HPDF_Page_Stroke</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_Stroke(HPDF_Page page)</div><div class="ttdoc">Paint current path.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga29e5faa12ec95b9fb29b2aacfba2370c"><div class="ttname"><a href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c">HPDF_Page_MoveTo</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_MoveTo(HPDF_Page page, HPDF_REAL x, HPDF_REAL y)</div><div class="ttdoc">Start new subpath and move current point for drawing path.</div></div>
-<div class="ttc" id="agroup__graphics_html_ga37571afec5e6c48ffd1a7d4dbc50b822"><div class="ttname"><a href="group__graphics.html#ga37571afec5e6c48ffd1a7d4dbc50b822">HPDF_Page_Eoclip</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_Eoclip(HPDF_Page page)</div><div class="ttdoc">Modifies the current clipping path by intersecting it with current path using the even-odd rule....</div></div>
 <div class="ttc" id="agroup__graphics_html_ga8e4ca270c2882373b1fb1355c285a295"><div class="ttname"><a href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_GSave(HPDF_Page page)</div><div class="ttdoc">Save the page's current graphics state to the stack.</div></div>
 <div class="ttc" id="agroup__graphics_html_ga9a10ed25f2e895d60a07a7d7348a331f"><div class="ttname"><a href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_Rectangle(HPDF_Page page, HPDF_REAL x, HPDF_REAL y, HPDF_REAL width, HPDF_REAL height)</div><div class="ttdoc">Append rectangle to the current path.</div></div>
+<div class="ttc" id="agroup__graphics_html_gaa398a65088a381581c2fd8c5d7f18784"><div class="ttname"><a href="group__graphics.html#gaa398a65088a381581c2fd8c5d7f18784">HPDF_Page_Clip</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_Clip(HPDF_Page page)</div><div class="ttdoc">Modify current clipping path by intersecting it with current path using the nonzero winding number ru...</div></div>
+<div class="ttc" id="agroup__graphics_html_gaaa2a55621b7f659227440ae68c0f8289"><div class="ttname"><a href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_Concat(HPDF_Page page, HPDF_REAL a, HPDF_REAL b, HPDF_REAL c, HPDF_REAL d, HPDF_REAL x, HPDF_REAL y)</div><div class="ttdoc">Concatenate the page's transformation matrix and specified matrix.</div></div>
 <div class="ttc" id="agroup__graphics_html_gad24cff4edddf8e687fad7e8bd6923451"><div class="ttname"><a href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451">HPDF_Page_LineTo</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_LineTo(HPDF_Page page, HPDF_REAL x, HPDF_REAL y)</div><div class="ttdoc">Append path from current point to specified point.</div></div>
 <div class="ttc" id="agroup__graphics_html_gad53768cdcfd14bc75be2cd59ab84f9c1"><div class="ttname"><a href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_GRestore(HPDF_Page page)</div><div class="ttdoc">Restore graphics state which is saved by HPDF_Page_GSave().</div></div>
 <div class="ttc" id="agroup__page_html_ga201a3c2f0d0628c865b7de187321913e"><div class="ttname"><a href="group__page.html#ga201a3c2f0d0628c865b7de187321913e">HPDF_Page_GetHeight</a></div><div class="ttdeci">HPDF_REAL HPDF_Page_GetHeight(HPDF_Page page)</div><div class="ttdoc">Get page height.</div></div>
