@@ -108,6 +108,10 @@ $(document).ready(function(){initNavTree('handler_8c-example.html',''); initResi
 <div class="line"><span class="preprocessor">#include &lt;setjmp.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"> </div>
+<div class="line"><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"> </div>
 <div class="line">jmp_buf env;</div>
 <div class="line"> </div>
 <div class="line"><a name="a0"></a><a class="code" href="hpdf_8h.html#a490e294d740d4b9823db55e0dda67939">HPDF_HANDLER</a>(<span class="keywordtype">void</span>)</div>
@@ -118,6 +122,10 @@ $(document).ready(function(){initNavTree('handler_8c-example.html',''); initResi
 <div class="line">    printf (<span class="stringliteral">&quot;ERROR: error_no=0x%04X, detail_no=%u\n&quot;</span>, (<a class="code" href="hpdf__types_8h.html#a47cf73f26b8868af2be7f8ce82995b90">HPDF_UINT</a>)error_no, (<a class="code" href="hpdf__types_8h.html#a47cf73f26b8868af2be7f8ce82995b90">HPDF_UINT</a>)detail_no);</div>
 <div class="line">    longjmp(env, 1);</div>
 <div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line">}</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#endif </span><span class="comment">/* __HANDLER_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="ahpdf_8h_html"><div class="ttname"><a href="hpdf_8h.html">hpdf.h</a></div></div>
