@@ -80,16 +80,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"group__graphics.html#ga82d08b512db23ffb4b1dd8343a1a1a47",
-"group__security.html#gab56d52341a8e9372810539c2e484bb18",
-"hpdf__consts_8h.html#a3879893c5488b9bc6c9ac4d70a899c5b",
-"hpdf__consts_8h.html#ac21e9146a0f16e0fd62481bc35bdf82e",
-"hpdf__encrypt_8h.html#a9c7c8e014a5b026ad00325f852a203cb",
-"hpdf__info_8h.html#ade4d98ccf949b49d3472c84adcf0b36f",
-"hpdf__streams_8h.html#a6f00e289dc88ae091a500fb713a8645a",
-"hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a0b2da3e0fe032867679cfc61d4c9e601",
-"struct__HPDF__CMapEncoderAttr__Rec.html#a27778c19a64d5cd36c7317fc6cd9175f",
-"struct__HPDF__RGBColor.html#a46b369170bf123db020d701c0167068e"
+"group__graphics.html#ga7ce9fac6f7960dc25a99d851142f9301",
+"group__prop.html#ga949266911b8c92d7b25340219b6da929",
+"hpdf__consts_8h.html#a33188eb67270f64b3d8fe7475f5ee35e",
+"hpdf__consts_8h.html#abec473c30d820ab544b731c756b493e0",
+"hpdf__encrypt_8h.html#a3bf5a8b71c9e8bc3304f6f930362667a",
+"hpdf__image_8h.html#a99cbbf5a0ef542a416b48afeda83cb45",
+"hpdf__streams_8h.html#a3d7855c07ea16de9185273f6473f0a13",
+"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eab5a04edaf777a57bb1c01908bf115b0c",
+"struct__HPDF__CMYKColor.html",
+"struct__HPDF__Point3D.html#a10a4a6c78a94e4c945647d1a3eb61441"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

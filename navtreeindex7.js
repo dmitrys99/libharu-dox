@@ -1,5 +1,13 @@
 var NAVTREEINDEX7 =
 {
+"hpdf__streams_8h.html#a3d7855c07ea16de9185273f6473f0a13":[8,0,27,42],
+"hpdf__streams_8h.html#a4002a12a7ad739e2e1f83f8a6493b7dc":[8,0,27,6],
+"hpdf__streams_8h.html#a43e95e63d6a0e3713d39f44048192b6e":[8,0,27,39],
+"hpdf__streams_8h.html#a503410764c9c65a63ac17e7c286b7e4e":[8,0,27,40],
+"hpdf__streams_8h.html#a52fff9af5964f44a3edebda525fb6173":[8,0,27,43],
+"hpdf__streams_8h.html#a61e55e72cd8f1f1a49b881f68b4e08be":[8,0,27,13],
+"hpdf__streams_8h.html#a63dd89cbea3dd57c39d83b449dea92fa":[8,0,27,27],
+"hpdf__streams_8h.html#a6a5570a3c88edb862d87fa21295bc646":[8,0,27,32],
 "hpdf__streams_8h.html#a6f00e289dc88ae091a500fb713a8645a":[8,0,27,15],
 "hpdf__streams_8h.html#a7310e5c25dd6cc4d51e84ce8d3bec369":[8,0,27,14],
 "hpdf__streams_8h.html#a7fa3ebda33ec0cbfd9f20e9352b8723d":[8,0,27,36],
@@ -241,13 +249,5 @@ var NAVTREEINDEX7 =
 "hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780ea2e8ec892a5dc3d1da950c168ab6448f0":[8,0,28,77,4],
 "hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780ea38c7417b7530bd177e4587725a972855":[8,0,28,77,5],
 "hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780ea38fe2a80c3526df0dfdf77c4a6b3dd45":[8,0,28,77,3],
-"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780ea97c81a2ec7ed7adc8fe55d77bb019572":[8,0,28,77,7],
-"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eab5a04edaf777a57bb1c01908bf115b0c":[8,0,28,77,1],
-"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eac3f331731732d6dd84c6ce35e237e052":[8,0,28,77,0],
-"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eae654e7d18bc9d37a4201e75d31c9c8a4":[8,0,28,77,6],
-"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eafd7aec41976aecfd525b9f4d1e2234ff":[8,0,28,77,2],
-"hpdf__types_8h.html#aa0f77a74340f03ab8b52fe973a403075":[8,0,28,60],
-"hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6":[8,0,28,96],
-"hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a014bddbc38f6473b3b781d992327fd34":[8,0,28,96,3],
-"hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a041630c1d0adb944761a21b015b39512":[8,0,28,96,4]
+"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780ea97c81a2ec7ed7adc8fe55d77bb019572":[8,0,28,77,7]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX8 =
 {
+"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eab5a04edaf777a57bb1c01908bf115b0c":[8,0,28,77,1],
+"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eac3f331731732d6dd84c6ce35e237e052":[8,0,28,77,0],
+"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eae654e7d18bc9d37a4201e75d31c9c8a4":[8,0,28,77,6],
+"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eafd7aec41976aecfd525b9f4d1e2234ff":[8,0,28,77,2],
+"hpdf__types_8h.html#aa0f77a74340f03ab8b52fe973a403075":[8,0,28,60],
+"hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6":[8,0,28,96],
+"hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a014bddbc38f6473b3b781d992327fd34":[8,0,28,96,3],
+"hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a041630c1d0adb944761a21b015b39512":[8,0,28,96,4],
 "hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a0b2da3e0fe032867679cfc61d4c9e601":[8,0,28,96,1],
 "hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6a60b6a158f7e922410ef9e04cca7420f4":[8,0,28,96,0],
 "hpdf__types_8h.html#aa59b97c703c0c470cf65d0bad3d0bea6af690e218ab1675428972464aec29b499":[8,0,28,96,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX8 =
 "struct__HPDF__CIDFontDefAttrRec.html#a6ce7cf035ba43f1490466af98ccb2ce5":[7,0,8,0],
 "struct__HPDF__CID__Width.html":[7,0,7],
 "struct__HPDF__CID__Width.html#ab1cd1513cd7933b53e3e117c3ffd362e":[7,0,7,1],
-"struct__HPDF__CID__Width.html#abd2b8093f97ed7e9100015dd536a248c":[7,0,7,0],
-"struct__HPDF__CMYKColor.html":[7,0,11],
-"struct__HPDF__CMYKColor.html#a005f6fea7b4c2b0e61bf96fe84b77296":[7,0,11,3],
-"struct__HPDF__CMYKColor.html#a2cef040ac8962849080aa04d7a63e6d9":[7,0,11,1],
-"struct__HPDF__CMYKColor.html#a4c8f252ae3c67d37a0025520d66acb05":[7,0,11,2],
-"struct__HPDF__CMYKColor.html#a53ac814c5e9c969d232485dc9959b945":[7,0,11,0],
-"struct__HPDF__CMapEncoderAttr__Rec.html":[7,0,10],
-"struct__HPDF__CMapEncoderAttr__Rec.html#a17dfb93621587d166566ca40ad2634a1":[7,0,10,6],
-"struct__HPDF__CMapEncoderAttr__Rec.html#a1d5bacf4788b615a897d16ae3d3498b9":[7,0,10,0]
+"struct__HPDF__CID__Width.html#abd2b8093f97ed7e9100015dd536a248c":[7,0,7,0]
 };

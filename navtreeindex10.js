@@ -1,5 +1,13 @@
 var NAVTREEINDEX10 =
 {
+"struct__HPDF__Point3D.html#a10a4a6c78a94e4c945647d1a3eb61441":[7,0,35,0],
+"struct__HPDF__Point3D.html#a8787f35fc112c9f45cc234412c741043":[7,0,35,1],
+"struct__HPDF__Point3D.html#aa48a8b769e2e20f6638d815766f047f2":[7,0,35,2],
+"struct__HPDF__Proxy__Rec.html":[7,0,36],
+"struct__HPDF__Proxy__Rec.html#ac2d9ca9d73bf83f9e909cfdd10c8e0be":[7,0,36,0],
+"struct__HPDF__Proxy__Rec.html#af362d4231cc2e4c158ecc3cd6e164a52":[7,0,36,1],
+"struct__HPDF__RGBColor.html":[7,0,39],
+"struct__HPDF__RGBColor.html#a335a19bfd2467d17b477e6707c3282ef":[7,0,39,2],
 "struct__HPDF__RGBColor.html#a46b369170bf123db020d701c0167068e":[7,0,39,0],
 "struct__HPDF__RGBColor.html#a9357f59c4b3c9570b940b15f68ac4303":[7,0,39,1],
 "struct__HPDF__Real__Rec.html":[7,0,37],

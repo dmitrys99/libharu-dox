@@ -1,5 +1,13 @@
 var NAVTREEINDEX9 =
 {
+"struct__HPDF__CMYKColor.html":[7,0,11],
+"struct__HPDF__CMYKColor.html#a005f6fea7b4c2b0e61bf96fe84b77296":[7,0,11,3],
+"struct__HPDF__CMYKColor.html#a2cef040ac8962849080aa04d7a63e6d9":[7,0,11,1],
+"struct__HPDF__CMYKColor.html#a4c8f252ae3c67d37a0025520d66acb05":[7,0,11,2],
+"struct__HPDF__CMYKColor.html#a53ac814c5e9c969d232485dc9959b945":[7,0,11,0],
+"struct__HPDF__CMapEncoderAttr__Rec.html":[7,0,10],
+"struct__HPDF__CMapEncoderAttr__Rec.html#a17dfb93621587d166566ca40ad2634a1":[7,0,10,6],
+"struct__HPDF__CMapEncoderAttr__Rec.html#a1d5bacf4788b615a897d16ae3d3498b9":[7,0,10,0],
 "struct__HPDF__CMapEncoderAttr__Rec.html#a27778c19a64d5cd36c7317fc6cd9175f":[7,0,10,3],
 "struct__HPDF__CMapEncoderAttr__Rec.html#a27eb2bae41a8742af0edd8b51ddeca81":[7,0,10,9],
 "struct__HPDF__CMapEncoderAttr__Rec.html#a37319d6fe2f4ef321ebce711eaf0f7b4":[7,0,10,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX9 =
 "struct__HPDF__Point.html":[7,0,34],
 "struct__HPDF__Point.html#a5bb41b7c3d5557bac68e55a4d6af56e3":[7,0,34,1],
 "struct__HPDF__Point.html#a5d19006ec9d9b9df1181f455f5b3957c":[7,0,34,0],
-"struct__HPDF__Point3D.html":[7,0,35],
-"struct__HPDF__Point3D.html#a10a4a6c78a94e4c945647d1a3eb61441":[7,0,35,0],
-"struct__HPDF__Point3D.html#a8787f35fc112c9f45cc234412c741043":[7,0,35,1],
-"struct__HPDF__Point3D.html#aa48a8b769e2e20f6638d815766f047f2":[7,0,35,2],
-"struct__HPDF__Proxy__Rec.html":[7,0,36],
-"struct__HPDF__Proxy__Rec.html#ac2d9ca9d73bf83f9e909cfdd10c8e0be":[7,0,36,0],
-"struct__HPDF__Proxy__Rec.html#af362d4231cc2e4c158ecc3cd6e164a52":[7,0,36,1],
-"struct__HPDF__RGBColor.html":[7,0,39],
-"struct__HPDF__RGBColor.html#a335a19bfd2467d17b477e6707c3282ef":[7,0,39,2]
+"struct__HPDF__Point3D.html":[7,0,35]
 };

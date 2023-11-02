@@ -30,6 +30,8 @@ var group__graphics =
     [ "HPDF_Page_MoveTo", "group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c", null ],
     [ "HPDF_Page_MoveToNextLine", "group__graphics.html#gab3d6020a403b1e8cd7f8c1f79cfe9058", null ],
     [ "HPDF_Page_Rectangle", "group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f", null ],
+    [ "HPDF_Page_Rotate", "group__graphics.html#gae133f267d56784cc4d4ad1809da21cbe", null ],
+    [ "HPDF_Page_Scale", "group__graphics.html#ga806d8a0b2d2da42e479695fa916e09f3", null ],
     [ "HPDF_Page_SetCharSpace", "group__graphics.html#ga121388468bd4aff11a4e99fd533266c2", null ],
     [ "HPDF_Page_SetCMYKFill", "group__graphics.html#ga3faf304b08ebb119a550f75f378d8db5", null ],
     [ "HPDF_Page_SetCMYKStroke", "group__graphics.html#ga7ce9fac6f7960dc25a99d851142f9301", null ],
@@ -54,7 +56,9 @@ var group__graphics =
     [ "HPDF_Page_ShowText", "group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6", null ],
     [ "HPDF_Page_ShowTextNextLine", "group__graphics.html#ga2cc656f230b0faa2da691403058beb59", null ],
     [ "HPDF_Page_ShowTextNextLineEx", "group__graphics.html#gaf2566f97afb96da4764343511879050d", null ],
+    [ "HPDF_Page_Skew", "group__graphics.html#ga149b851fc3f95d5caf0a8f5810227e34", null ],
     [ "HPDF_Page_Stroke", "group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88", null ],
     [ "HPDF_Page_TextOut", "group__graphics.html#ga6ad4939b3689beb7a1f4212a4ebe63d0", null ],
-    [ "HPDF_Page_TextRect", "group__graphics.html#gaf782aa56673ff73be0c5880b2fbcd37a", null ]
+    [ "HPDF_Page_TextRect", "group__graphics.html#gaf782aa56673ff73be0c5880b2fbcd37a", null ],
+    [ "HPDF_Page_Translate", "group__graphics.html#gadc36fffe743ca2c4d972ff78e1f99ba7", null ]
 ];
