@@ -152,17 +152,17 @@ $(document).ready(function(){initNavTree('utf8_8c-example.html',''); initResizab
 <div class="line"> </div>
 <div class="line">    <a name="a19"></a><a class="code" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a>(page);</div>
 <div class="line"> </div>
-<div class="line">    <a name="a20"></a><a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>(page, 100, 100);</div>
-<div class="line">    <a name="a21"></a><a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a>(page, <span class="stringliteral">&quot;Привет, мир!&quot;</span>);</div>
-<div class="line">    <a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>(page, 0, 100);</div>
+<div class="line">    <a name="a20"></a><a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>(page, 100, <a name="a21"></a><a class="code" href="group__page.html#ga201a3c2f0d0628c865b7de187321913e">HPDF_Page_GetHeight</a> (page) - 100);</div>
+<div class="line">    <a name="a22"></a><a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a>(page, <span class="stringliteral">&quot;Привет, мир!&quot;</span>);</div>
+<div class="line">    <a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>(page, 0, -100);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a>(page, <span class="stringliteral">&quot;Peña, ¿cómo va, mundo?&quot;</span>);</div>
-<div class="line">    <a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>(page, 0, 100);</div>
+<div class="line">    <a class="code" href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a>(page, 0, -100);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a>(page, <span class="stringliteral">&quot;你好，世界！&quot;</span>);</div>
 <div class="line"> </div>
-<div class="line">    <a name="a22"></a><a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a>(page);</div>
-<div class="line">    <a name="a23"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
+<div class="line">    <a name="a23"></a><a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a>(page);</div>
+<div class="line">    <a name="a24"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line"> </div>
-<div class="line">    <a name="a24"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a>(pdf, fname);</div>
+<div class="line">    <a name="a25"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a>(pdf, fname);</div>
 <div class="line">    <a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a>(pdf);</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
@@ -183,6 +183,7 @@ $(document).ready(function(){initNavTree('utf8_8c-example.html',''); initResizab
 <div class="ttc" id="agroup__graphics_html_gae65d9f710899b01962c119c2710ee33a"><div class="ttname"><a href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_BeginText(HPDF_Page page)</div><div class="ttdoc">Begin text object and set text position to (0, 0).</div></div>
 <div class="ttc" id="agroup__graphics_html_gae7ea816e86d3ef80408de40cff249455"><div class="ttname"><a href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_EndText(HPDF_Page page)</div><div class="ttdoc">Finish text object.</div></div>
 <div class="ttc" id="agroup__graphics_html_gaf302878220e1fe0585cc287801a9af6d"><div class="ttname"><a href="group__graphics.html#gaf302878220e1fe0585cc287801a9af6d">HPDF_Page_MoveTextPos</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_MoveTextPos(HPDF_Page page, HPDF_REAL x, HPDF_REAL y)</div><div class="ttdoc">Change current text position using the specified offset values.</div></div>
+<div class="ttc" id="agroup__page_html_ga201a3c2f0d0628c865b7de187321913e"><div class="ttname"><a href="group__page.html#ga201a3c2f0d0628c865b7de187321913e">HPDF_Page_GetHeight</a></div><div class="ttdeci">HPDF_REAL HPDF_Page_GetHeight(HPDF_Page page)</div><div class="ttdoc">Get page height.</div></div>
 <div class="ttc" id="agroup__page_html_ga34a21b31555f9700fdc93ec805d446fc"><div class="ttname"><a href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a></div><div class="ttdeci">HPDF_Page HPDF_AddPage(HPDF_Doc pdf)</div><div class="ttdoc">Create new page and add it after the last page of document.</div></div>
 <div class="ttc" id="agroup__page_html_ga4686913145b2c34b5ddaac39548bfc2c"><div class="ttname"><a href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetSize(HPDF_Page page, HPDF_PageSizes size, HPDF_PageDirection direction)</div><div class="ttdoc">Change page size and direction to a predefined ones.</div></div>
 <div class="ttc" id="ahpdf_8h_html"><div class="ttname"><a href="hpdf_8h.html">hpdf.h</a></div></div>

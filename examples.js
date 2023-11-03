@@ -29,6 +29,7 @@ var examples =
     [ "text_annotation.c", "text_annotation_8c-example.html", null ],
     [ "text_demo2.c", "text_demo2_8c-example.html", null ],
     [ "text_demo.c", "text_demo_8c-example.html", null ],
+    [ "transforms.c", "transforms_8c-example.html", null ],
     [ "ttfont_demo.c", "ttfont_demo_8c-example.html", null ],
     [ "ttfont_demo_jp.c", "ttfont_demo_jp_8c-example.html", null ],
     [ "utf8.c", "utf8_8c-example.html", null ]
