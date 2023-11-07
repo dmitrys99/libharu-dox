@@ -12,6 +12,7 @@ var hpdf__utils_8h =
     [ "HPDF_MemCmp", "hpdf__utils_8h.html#a2023f5561b47da7614e09879a5b67f86", null ],
     [ "HPDF_MemCpy", "hpdf__utils_8h.html#a25c36e1ce7e2357cfdf00735931f476f", null ],
     [ "HPDF_MemSet", "hpdf__utils_8h.html#a717e4025fa05595601ed385ebeabc501", null ],
+    [ "HPDF_PageSizeName", "group__page.html#ga41eea422eb4d37448e23f5d50c5a4de6", null ],
     [ "HPDF_StrCmp", "hpdf__utils_8h.html#ad74810bf42c3e88fdff729496533d404", null ],
     [ "HPDF_StrCpy", "hpdf__utils_8h.html#ae56ded45e3b594d38fb25b034502c8ce", null ],
     [ "HPDF_StrLen", "hpdf__utils_8h.html#a04885bae3cdfaa665e83b4da82a200df", null ],

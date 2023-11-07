@@ -1,8 +1,7 @@
 var hpdf__page__sizes_8h =
 [
-    [ "_HPDF_PageSizeValue", "struct__HPDF__PageSizeValue.html", "struct__HPDF__PageSizeValue" ],
     [ "HPDF_PageSizes", "hpdf__page__sizes_8h.html#a2c6358beed95f4c07d543e4abfb60b7a", null ],
-    [ "HPDF_PageSizeValue", "hpdf__page__sizes_8h.html#acd58b28efe8331fbb4c19e3bdd55d658", null ],
+    [ "HPDF_PageSizeValue", "group__page.html#gacd58b28efe8331fbb4c19e3bdd55d658", null ],
     [ "_HPDF_PageSizes", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2", [
       [ "HPDF_PAGE_SIZE_US_LETTER", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a0e0bc9091a68e1f8d20c17dd6ac45944", null ],
       [ "HPDF_PAGE_SIZE_US_LEGAL", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2ad9cdeebaaf27ba844519f67d1a842e19", null ],
@@ -223,9 +222,6 @@ var hpdf__page__sizes_8h =
       [ "HPDF_PAGE_SIZE_BILLBOARD_12_SHEET", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2aca1115ad45072e6dd92d055fceeb42cd", null ],
       [ "HPDF_PAGE_SIZE_BILLBOARD_16_SHEET", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a7f07b677d2f89f5980d4d24ea30e307e", null ],
       [ "HPDF_PAGE_SIZE_BILLBOARD_32_SHEET", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a69cedeed986fdbcd080b6a66940d8a22", null ],
-      [ "HPDF_PAGE_SIZE_BILLBOARD_48_SHEET", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2ac28f8b2faca877f04c64367caecacab5", null ],
-      [ "HPDF_PAGE_SIZE_BILLBOARD_64_SHEET", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2adacd209733bffdb0f3039ddedd9509af", null ],
-      [ "HPDF_PAGE_SIZE_BILLBOARD_96_SHEET", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a04446161bc880bfa3d0ebffd4bd0b6ea", null ],
       [ "HPDF_PAGE_SIZE_JAPANESE_JB0", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2ab4b5fe03c47f17db0bc53075059015f9", null ],
       [ "HPDF_PAGE_SIZE_JAPANESE_JB1", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2aa0ae123c9e43349465c89f58800f29b4", null ],
       [ "HPDF_PAGE_SIZE_JAPANESE_JB2", "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2ab5e8b2e3ac98d59b6169e7287ac654fe", null ],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"struct__HPDF__Encoder__Rec.html#aadd66850b88316ade8cd6fd76c922d34":[7,0,18,0],
-"struct__HPDF__Encoder__Rec.html#ab265b51089f5b2728d7491121ae61886":[7,0,18,8],
-"struct__HPDF__Encoder__Rec.html#acc78162c0e92c1d06cad5f38c5c4b285":[7,0,18,2],
 "struct__HPDF__Encrypt__Rec.html":[7,0,19],
 "struct__HPDF__Encrypt__Rec.html#a05113d821e9c98ee72764d41c6593df1":[7,0,19,9],
 "struct__HPDF__Encrypt__Rec.html#a1b6629933481b42de5dce44db1212a31":[7,0,19,4],
@@ -141,9 +138,9 @@ var NAVTREEINDEX11 =
 "struct__HPDF__PageAttr__Rec.html#ae3e33ff169f42e3ab63992ef3be05e33":[7,0,32,0],
 "struct__HPDF__PageAttr__Rec.html#aea03e8b7ec3374e9e54cf0a0dd4ba959":[7,0,32,14],
 "struct__HPDF__PageAttr__Rec.html#affaa9fdf7a8e0b4091d15bcb7b2ff79b":[7,0,32,6],
-"struct__HPDF__PageSizeValue.html":[7,0,33],
-"struct__HPDF__PageSizeValue.html#a930b8764af2b43bc064eacc6ffa0627a":[7,0,33,0],
-"struct__HPDF__PageSizeValue.html#ac0fcdc78e23fe38af30e3068cf328356":[7,0,33,1],
+"struct__HPDF__PageSizeValue.html":[6,1,0],
+"struct__HPDF__PageSizeValue.html#a930b8764af2b43bc064eacc6ffa0627a":[6,1,0,0],
+"struct__HPDF__PageSizeValue.html#ac0fcdc78e23fe38af30e3068cf328356":[6,1,0,1],
 "struct__HPDF__ParseText__Rec.html":[7,0,34],
 "struct__HPDF__ParseText__Rec.html#a451fb74e0826c1e12f0e328fa6813819":[7,0,34,2],
 "struct__HPDF__ParseText__Rec.html#a784c730449d29b394ae931e448014c23":[7,0,34,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX11 =
 "struct__HPDF__TTF__OffsetTbl.html#a5b7cbb9db63e3d7449a71457fc3d7ed3":[7,0,51,4],
 "struct__HPDF__TTF__OffsetTbl.html#a60ba9923c644ef9a1f8b325457853fe5":[7,0,51,5],
 "struct__HPDF__TTF__OffsetTbl.html#a73514f54820d2c12238ebd37b6128fda":[7,0,51,3],
-"struct__HPDF__TTF__OffsetTbl.html#a9593db5291b47c6705ff779ef70d19c1":[7,0,51,2]
+"struct__HPDF__TTF__OffsetTbl.html#a9593db5291b47c6705ff779ef70d19c1":[7,0,51,2],
+"struct__HPDF__TTF__OffsetTbl.html#ab3bff10c980002cf28111089a4b53e79":[7,0,51,0],
+"struct__HPDF__TTF__Table.html":[7,0,52],
+"struct__HPDF__TTF__Table.html#a3cd13df0de93a4cb8203971a915f5589":[7,0,52,1]
 };

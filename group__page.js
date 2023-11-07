@@ -1,5 +1,10 @@
 var group__page =
 [
+    [ "_HPDF_PageSizeValue", "struct__HPDF__PageSizeValue.html", [
+      [ "x", "struct__HPDF__PageSizeValue.html#a930b8764af2b43bc064eacc6ffa0627a", null ],
+      [ "y", "struct__HPDF__PageSizeValue.html#ac0fcdc78e23fe38af30e3068cf328356", null ]
+    ] ],
+    [ "HPDF_PageSizeValue", "group__page.html#gacd58b28efe8331fbb4c19e3bdd55d658", null ],
     [ "HPDF_AddPage", "group__page.html#ga34a21b31555f9700fdc93ec805d446fc", null ],
     [ "HPDF_AddPageLabel", "group__page.html#ga23bfb376906fa0683b0745d24c704d31", null ],
     [ "HPDF_GetCurrentPage", "group__page.html#gacc3dfeb50e86c4fccec4e592185d1b33", null ],
@@ -45,6 +50,7 @@ var group__page =
     [ "HPDF_Page_SetSlideShow", "group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01", null ],
     [ "HPDF_Page_SetWidth", "group__page.html#gab42283aaebcf31d7262b9fa6fd2c20f7", null ],
     [ "HPDF_Page_TextWidth", "group__page.html#ga1ed213c8541ed8ceab64eecf7bd1c5c1", null ],
+    [ "HPDF_PageSizeName", "group__page.html#ga41eea422eb4d37448e23f5d50c5a4de6", null ],
     [ "HPDF_SetOpenAction", "group__page.html#ga21abfb99833d63f0b0ecc091dc462b6f", null ],
     [ "HPDF_SetPageLayout", "group__page.html#gab666a015dae4c2a58097292a728d2c74", null ],
     [ "HPDF_SetPageMode", "group__page.html#ga63f1d87c975bfc594ee1e4e464ce8467", null ]
