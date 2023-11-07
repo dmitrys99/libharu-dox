@@ -1,17 +1,18 @@
 <map id="hpdf.h" name="hpdf.h">
-<area shape="rect" id="node1" title=" " alt="" coords="271,5,328,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="296,5,353,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,80,105,107"/>
 <area shape="rect" id="node3" href="$hpdf__version_8h.html" title=" " alt="" coords="130,80,237,107"/>
 <area shape="rect" id="node4" href="$hpdf__consts_8h.html" title=" " alt="" coords="311,677,415,704"/>
-<area shape="rect" id="node5" href="$hpdf__doc_8h.html" title=" " alt="" coords="565,155,652,181"/>
+<area shape="rect" id="node5" href="$hpdf__doc_8h.html" title=" " alt="" coords="496,155,583,181"/>
 <area shape="rect" id="node11" href="$hpdf__error_8h.html" title=" " alt="" coords="306,901,397,928"/>
-<area shape="rect" id="node23" href="$hpdf__pdfa_8h.html" title=" " alt="" coords="563,80,654,107"/>
-<area shape="rect" id="node6" href="$hpdf__catalog_8h.html" title=" " alt="" coords="778,379,885,405"/>
-<area shape="rect" id="node16" href="$hpdf__image_8h.html" title=" " alt="" coords="603,453,703,480"/>
-<area shape="rect" id="node17" href="$hpdf__pages_8h.html" title=" " alt="" coords="515,229,615,256"/>
+<area shape="rect" id="node23" href="$hpdf__pdfa_8h.html" title=" " alt="" coords="473,80,563,107"/>
+<area shape="rect" id="node24" href="$hpdf__page__sizes_8h.html" title=" " alt="" coords="587,80,718,107"/>
+<area shape="rect" id="node6" href="$hpdf__catalog_8h.html" title=" " alt="" coords="775,379,882,405"/>
+<area shape="rect" id="node16" href="$hpdf__image_8h.html" title=" " alt="" coords="600,453,700,480"/>
+<area shape="rect" id="node17" href="$hpdf__pages_8h.html" title=" " alt="" coords="489,229,589,256"/>
 <area shape="rect" id="node21" href="$hpdf__ext__gstate_8h.html" title=" " alt="" coords="363,304,489,331"/>
-<area shape="rect" id="node22" href="$hpdf__outline_8h.html" title=" " alt="" coords="691,229,793,256"/>
-<area shape="rect" id="node7" href="$hpdf__objects_8h.html" title=" " alt="" coords="599,528,706,555"/>
+<area shape="rect" id="node22" href="$hpdf__outline_8h.html" title=" " alt="" coords="688,229,791,256"/>
+<area shape="rect" id="node7" href="$hpdf__objects_8h.html" title=" " alt="" coords="597,528,703,555"/>
 <area shape="rect" id="node8" href="$hpdf__encoder_8h.html" title=" " alt="" coords="440,603,551,629"/>
 <area shape="rect" id="node9" href="$hpdf__streams_8h.html" title=" " alt="" coords="439,677,551,704"/>
 <area shape="rect" id="node10" href="$hpdf__list_8h.html" title=" " alt="" coords="336,752,417,779"/>
@@ -21,5 +22,5 @@
 <area shape="rect" id="node13" title=" " alt="" coords="361,1051,425,1077"/>
 <area shape="rect" id="node18" href="$hpdf__gstate_8h.html" title=" " alt="" coords="514,304,615,331"/>
 <area shape="rect" id="node19" href="$hpdf__font_8h.html" title=" " alt="" coords="501,379,588,405"/>
-<area shape="rect" id="node20" href="$hpdf__fontdef_8h.html" title=" " alt="" coords="474,453,578,480"/>
+<area shape="rect" id="node20" href="$hpdf__fontdef_8h.html" title=" " alt="" coords="471,453,575,480"/>
 </map>

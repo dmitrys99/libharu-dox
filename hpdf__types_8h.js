@@ -51,7 +51,6 @@ var hpdf__types_8h =
     [ "HPDF_PageLayout", "hpdf__types_8h.html#ae27d254c064b221142a4392960e6c398", null ],
     [ "HPDF_PageMode", "hpdf__types_8h.html#a1319ae70a2a8dfbdf0e10db57f6c02f4", null ],
     [ "HPDF_PageNumStyle", "hpdf__types_8h.html#a38446c9ccaf03d7df6870e28e973aece", null ],
-    [ "HPDF_PageSizes", "hpdf__types_8h.html#a2c6358beed95f4c07d543e4abfb60b7a", null ],
     [ "HPDF_PDFAType", "hpdf__types_8h.html#a5f5674ac34bd9146a92f82fda07b1862", null ],
     [ "HPDF_PDFVer", "hpdf__types_8h.html#a872093dc66773f73ecb820983ed7716e", null ],
     [ "HPDF_Point", "hpdf__types_8h.html#a9bd8774121d4e4958d9213cdbc60dbc9", null ],
@@ -272,21 +271,6 @@ var hpdf__types_8h =
       [ "HPDF_PAGE_NUM_STYLE_UPPER_LETTERS", "hpdf__types_8h.html#aed5dd3d9c858ba5d705b7dc271c7e85ba08835bc75ebb1afefe10cc9679fa9eb2", null ],
       [ "HPDF_PAGE_NUM_STYLE_LOWER_LETTERS", "hpdf__types_8h.html#aed5dd3d9c858ba5d705b7dc271c7e85ba736d6456a949ef9db4224bc013c7c404", null ],
       [ "HPDF_PAGE_NUM_STYLE_EOF", "hpdf__types_8h.html#aed5dd3d9c858ba5d705b7dc271c7e85ba853cc9f1e1ef92dbbeaa8a37190bc62a", null ]
-    ] ],
-    [ "_HPDF_PageSizes", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2", [
-      [ "HPDF_PAGE_SIZE_LETTER", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a5323d06472aaffb21113c4e446bcd7a7", null ],
-      [ "HPDF_PAGE_SIZE_LEGAL", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a4b1774ed95e4e78a13694a1b7b729d6c", null ],
-      [ "HPDF_PAGE_SIZE_A3", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a9f8174b58ab4e3638f26db2c131a65c4", null ],
-      [ "HPDF_PAGE_SIZE_A4", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c", null ],
-      [ "HPDF_PAGE_SIZE_A5", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2ac98176de5b2e0c9804e74935e3294a4d", null ],
-      [ "HPDF_PAGE_SIZE_B4", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a67eefc64be749b4905cdc3edb05cfef3", null ],
-      [ "HPDF_PAGE_SIZE_B5", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a12a522e2770e56220d36a27361b33ac3", null ],
-      [ "HPDF_PAGE_SIZE_EXECUTIVE", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a3a5786e56648c1ea0774eb7f78d4cd55", null ],
-      [ "HPDF_PAGE_SIZE_US4x6", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2ad9ba48408fa932e622d2f3c27787437a", null ],
-      [ "HPDF_PAGE_SIZE_US4x8", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2ad87b4d044b75624fd137593b89a44e15", null ],
-      [ "HPDF_PAGE_SIZE_US5x7", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a88fac05718ebb62922a7fe1e8a695ea7", null ],
-      [ "HPDF_PAGE_SIZE_COMM10", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2a9a6876c7c3c710cdb4b46f54c1d56476", null ],
-      [ "HPDF_PAGE_SIZE_EOF", "hpdf__types_8h.html#a1ba75cf22a06a4b44088add026254cc2ac13120d20accf84d93ba462b4bc7caf6", null ]
     ] ],
     [ "_HPDF_PDFA_TYPE", "hpdf__types_8h.html#a274f53f83d5bd6500c5c78e43fb2d05c", [
       [ "HPDF_PDFA_1A", "hpdf__types_8h.html#a274f53f83d5bd6500c5c78e43fb2d05caca7773c858891adc2232cdcd18c86fac", null ],

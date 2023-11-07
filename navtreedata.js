@@ -86,10 +86,12 @@ var NAVTREEINDEX =
 "hpdf__consts_8h.html#abec473c30d820ab544b731c756b493e0",
 "hpdf__encrypt_8h.html#a3bf5a8b71c9e8bc3304f6f930362667a",
 "hpdf__image_8h.html#a99cbbf5a0ef542a416b48afeda83cb45",
-"hpdf__streams_8h.html#a3d7855c07ea16de9185273f6473f0a13",
-"hpdf__types_8h.html#a9fc89a9989bc3c354bc3b5b7a0c9780eab5a04edaf777a57bb1c01908bf115b0c",
-"struct__HPDF__CMYKColor.html",
-"struct__HPDF__Point3D.html#a10a4a6c78a94e4c945647d1a3eb61441"
+"hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a1837563ad27d690f78150f8b376d537e",
+"hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2ab5e8b2e3ac98d59b6169e7287ac654fe",
+"hpdf__types_8h.html#a2377e162f05f4fa183988a552ed2913bad6e4eacccf589d74e405d279f27961fa",
+"hpdf__types_8h.html#aed5dd3d9c858ba5d705b7dc271c7e85ba736d6456a949ef9db4224bc013c7c404",
+"struct__HPDF__Encoder__Rec.html#aadd66850b88316ade8cd6fd76c922d34",
+"struct__HPDF__TTF__OffsetTbl.html#ab3bff10c980002cf28111089a4b53e79"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

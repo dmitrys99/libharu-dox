@@ -33,6 +33,7 @@ var annotated_dup =
     [ "_HPDF_Number_Rec", "struct__HPDF__Number__Rec.html", "struct__HPDF__Number__Rec" ],
     [ "_HPDF_Obj_Header", "struct__HPDF__Obj__Header.html", "struct__HPDF__Obj__Header" ],
     [ "_HPDF_PageAttr_Rec", "struct__HPDF__PageAttr__Rec.html", "struct__HPDF__PageAttr__Rec" ],
+    [ "_HPDF_PageSizeValue", "struct__HPDF__PageSizeValue.html", "struct__HPDF__PageSizeValue" ],
     [ "_HPDF_ParseText_Rec", "struct__HPDF__ParseText__Rec.html", "struct__HPDF__ParseText__Rec" ],
     [ "_HPDF_Point", "struct__HPDF__Point.html", "struct__HPDF__Point" ],
     [ "_HPDF_Point3D", "struct__HPDF__Point3D.html", "struct__HPDF__Point3D" ],

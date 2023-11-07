@@ -25,6 +25,7 @@ var files_dup =
     [ "hpdf_objects.h", "hpdf__objects_8h.html", "hpdf__objects_8h" ],
     [ "hpdf_outline.h", "hpdf__outline_8h.html", "hpdf__outline_8h" ],
     [ "hpdf_page_label.h", "hpdf__page__label_8h.html", "hpdf__page__label_8h" ],
+    [ "hpdf_page_sizes.h", "hpdf__page__sizes_8h.html", "hpdf__page__sizes_8h" ],
     [ "hpdf_pages.h", "hpdf__pages_8h.html", "hpdf__pages_8h" ],
     [ "hpdf_pdfa.h", "hpdf__pdfa_8h.html", "hpdf__pdfa_8h" ],
     [ "hpdf_streams.h", "hpdf__streams_8h.html", "hpdf__streams_8h" ],
