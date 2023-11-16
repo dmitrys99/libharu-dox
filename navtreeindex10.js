@@ -86,9 +86,10 @@ var NAVTREEINDEX10 =
 "outline_demo_jp_8c-example.html":[9,21],
 "page_sizes_demo_8c-example.html":[9,22],
 "pages.html":[],
-"permission_8c-example.html":[9,23],
-"png_demo_8c-example.html":[9,24],
-"raw_image_demo_8c-example.html":[9,25],
+"pattern_8c-example.html":[9,23],
+"permission_8c-example.html":[9,24],
+"png_demo_8c-example.html":[9,25],
+"raw_image_demo_8c-example.html":[9,26],
 "roadmap.html":[3],
 "roadmap.html#rm-bench":[3,5],
 "roadmap.html#rm-coverage":[3,3],
@@ -97,7 +98,7 @@ var NAVTREEINDEX10 =
 "roadmap.html#rm-infra":[3,6],
 "roadmap.html#rm-test":[3,4],
 "roadmap.html#rm-user-features":[3,1],
-"slide_show_demo_8c-example.html":[9,26],
+"slide_show_demo_8c-example.html":[9,27],
 "structHPDF__MD5Context.html":[7,0,58],
 "structHPDF__MD5Context.html#a868ae61ea453f2b458a8b2a5a52e9fe3":[7,0,58,2],
 "structHPDF__MD5Context.html#ae86582233ca8ab7a54db1c908def8945":[7,0,58,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "struct__HPDF__Encoder__Rec.html#a96607ce284e6fe698bfc3b7623301bed":[7,0,18,11],
 "struct__HPDF__Encoder__Rec.html#aa0a2cc394f1b6d93d1b675f4239551a5":[7,0,18,4],
 "struct__HPDF__Encoder__Rec.html#aadd66850b88316ade8cd6fd76c922d34":[7,0,18,0],
-"struct__HPDF__Encoder__Rec.html#ab265b51089f5b2728d7491121ae61886":[7,0,18,8],
-"struct__HPDF__Encoder__Rec.html#acc78162c0e92c1d06cad5f38c5c4b285":[7,0,18,2]
+"struct__HPDF__Encoder__Rec.html#ab265b51089f5b2728d7491121ae61886":[7,0,18,8]
 };

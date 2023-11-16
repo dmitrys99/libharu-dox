@@ -23,6 +23,7 @@ var examples =
     [ "outline_demo.c", "outline_demo_8c-example.html", null ],
     [ "outline_demo_jp.c", "outline_demo_jp_8c-example.html", null ],
     [ "page_sizes_demo.c", "page_sizes_demo_8c-example.html", null ],
+    [ "pattern.c", "pattern_8c-example.html", null ],
     [ "permission.c", "permission_8c-example.html", null ],
     [ "png_demo.c", "png_demo_8c-example.html", null ],
     [ "raw_image_demo.c", "raw_image_demo_8c-example.html", null ],

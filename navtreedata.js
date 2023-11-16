@@ -90,8 +90,8 @@ var NAVTREEINDEX =
 "hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2ab603e1deb3c985f61d00a88ee798f4eb",
 "hpdf__types_8h.html#a274f53f83d5bd6500c5c78e43fb2d05caca7773c858891adc2232cdcd18c86fac",
 "hpdf__types_8h.html#af28cd98bd8900d5004507b599a8e478babd533593188c479b1899c450d8a5418e",
-"struct__HPDF__Encrypt__Rec.html",
-"struct__HPDF__TTF__Table.html#a7620433f0990e05502fa4eefd116df56"
+"struct__HPDF__Encoder__Rec.html#acc78162c0e92c1d06cad5f38c5c4b285",
+"struct__HPDF__TTF__Table.html#a3cd13df0de93a4cb8203971a915f5589"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

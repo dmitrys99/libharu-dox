@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"struct__HPDF__TTF__Table.html#a3cd13df0de93a4cb8203971a915f5589":[7,0,52,1],
 "struct__HPDF__TTF__Table.html#a7620433f0990e05502fa4eefd116df56":[7,0,52,0],
 "struct__HPDF__TTF__Table.html#a983c0f66bd583f647f65d9ea3b6821d3":[7,0,52,2],
 "struct__HPDF__TTF__Table.html#ac6a620053beee0030d67f9a7dbf627f5":[7,0,52,3],
@@ -69,12 +70,12 @@ var NAVTREEINDEX12 =
 "struct__HPDF__Xref__Rec.html#a65b3c89d3647d8dd0d0aa6bee20d09b8":[7,0,56,6],
 "struct__HPDF__Xref__Rec.html#ae8598f81f95a93bf3be18c90a91554ba":[7,0,56,1],
 "struct__HPDF__Xref__Rec.html#afaf25dba84f1f9b899a29e273ee0014b":[7,0,56,4],
-"text_annotation_8c-example.html":[9,27],
-"text_demo2_8c-example.html":[9,29],
-"text_demo_8c-example.html":[9,28],
+"text_annotation_8c-example.html":[9,28],
+"text_demo2_8c-example.html":[9,30],
+"text_demo_8c-example.html":[9,29],
 "todo.html":[4],
-"transforms_8c-example.html":[9,30],
-"ttfont_demo_8c-example.html":[9,31],
-"ttfont_demo_jp_8c-example.html":[9,32],
-"utf8_8c-example.html":[9,33]
+"transforms_8c-example.html":[9,31],
+"ttfont_demo_8c-example.html":[9,32],
+"ttfont_demo_jp_8c-example.html":[9,33],
+"utf8_8c-example.html":[9,34]
 };

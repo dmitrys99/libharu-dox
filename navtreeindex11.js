@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"struct__HPDF__Encoder__Rec.html#acc78162c0e92c1d06cad5f38c5c4b285":[7,0,18,2],
 "struct__HPDF__Encrypt__Rec.html":[7,0,19],
 "struct__HPDF__Encrypt__Rec.html#a05113d821e9c98ee72764d41c6593df1":[7,0,19,9],
 "struct__HPDF__Encrypt__Rec.html#a1b6629933481b42de5dce44db1212a31":[7,0,19,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "struct__HPDF__TTF__OffsetTbl.html#a73514f54820d2c12238ebd37b6128fda":[7,0,51,3],
 "struct__HPDF__TTF__OffsetTbl.html#a9593db5291b47c6705ff779ef70d19c1":[7,0,51,2],
 "struct__HPDF__TTF__OffsetTbl.html#ab3bff10c980002cf28111089a4b53e79":[7,0,51,0],
-"struct__HPDF__TTF__Table.html":[7,0,52],
-"struct__HPDF__TTF__Table.html#a3cd13df0de93a4cb8203971a915f5589":[7,0,52,1]
+"struct__HPDF__TTF__Table.html":[7,0,52]
 };
