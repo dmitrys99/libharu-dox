@@ -82,16 +82,14 @@ var NAVTREEINDEX =
 "annotated.html",
 "group__graphics.html#ga6da4d5f7a88843555eb5be3030e85298",
 "group__prop.html",
-"hpdf__consts_8h.html#a31c1c6d39a0d5f3ef781e01cc6792985",
-"hpdf__consts_8h.html#abec473c30d820ab544b731c756b493e0",
-"hpdf__encrypt_8h.html#a2e6592d79b92942702eddc740f032564",
-"hpdf__image_8h.html#a82f80b9dbc158020a56d128cba9cf797",
-"hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a1837563ad27d690f78150f8b376d537e",
-"hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2ab5e8b2e3ac98d59b6169e7287ac654fe",
-"hpdf__types_8h.html#a274f53f83d5bd6500c5c78e43fb2d05cac1398813fd5dca6d9660b208cd8a6ced",
-"hpdf__types_8h.html#af28cd98bd8900d5004507b599a8e478ba4d76c52fad419e092466e08ed98b61d3",
-"struct__HPDF__Encoder__Rec.html#a2521c12b93e7ec463fa395164681c3d3",
-"struct__HPDF__TTF__NamingTable.html#a5bf759a8fd09d8849c6e0ff0846d05f5"
+"hpdf__consts_8h.html#ae02636b7782c0946bfc8932b84594cad",
+"hpdf__error_8h.html#ac4e6c1dc1be1ea9cd616562163bc33eb",
+"hpdf__objects_8h.html#a90babdb782d0a978037d16310bc0016b",
+"hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a6d037764030f1d38f58d9659deee2176",
+"hpdf__pages_8h.html#a213258a17033f690b29e4a12cb014d34",
+"hpdf__types_8h.html#a896819dab96fa2f7db1f1c1f243391d5a90b2b544b38afa33a7a617d763139255",
+"struct__HPDF__3DMatrix.html#a9d58c00e5a4e00b9049e0e4fc936bbc5",
+"struct__HPDF__Null__Rec.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
