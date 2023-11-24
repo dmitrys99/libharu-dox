@@ -129,18 +129,18 @@ $(document).ready(function(){initNavTree('clip_hatch_8c-example.html',''); initR
 <div class="line">    <a name="a9"></a><a class="code" href="group__graphics.html#ga12228da7724dac224f4753f51436068e">HPDF_Page_SetRGBStrokeHex</a> (page, 0x55, 0x77, 0x22);</div>
 <div class="line">    <a name="a10"></a><a class="code" href="group__graphics.html#ga13c9fa94dae6be2bbec48a2768c6ca7b">HPDF_Page_SetLineWidth</a> (page, 0.25 * <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>);</div>
 <div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> angle1 = -45;</div>
-<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> rad1 = angle1 / 180 * 3.141592;</div>
+<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> rad1 = angle1 / 180 * <a name="a11"></a><a class="code" href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a>;</div>
 <div class="line"> </div>
-<div class="line">    <a name="a11"></a><a class="code" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a> (page, cos(rad1), sin(rad1), -sin(rad1), cos(rad1), -15*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 0);</div>
+<div class="line">    <a name="a12"></a><a class="code" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a> (page, cos(rad1), sin(rad1), -sin(rad1), cos(rad1), -15*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>, 0);</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">while</span> (x &lt; width) {</div>
-<div class="line">        <a name="a12"></a><a class="code" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c">HPDF_Page_MoveTo</a> (page, x, 0);</div>
-<div class="line">        <a name="a13"></a><a class="code" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451">HPDF_Page_LineTo</a> (page, x, height);</div>
-<div class="line">        <a name="a14"></a><a class="code" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88">HPDF_Page_Stroke</a> (page);</div>
+<div class="line">        <a name="a13"></a><a class="code" href="group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c">HPDF_Page_MoveTo</a> (page, x, 0);</div>
+<div class="line">        <a name="a14"></a><a class="code" href="group__graphics.html#gad24cff4edddf8e687fad7e8bd6923451">HPDF_Page_LineTo</a> (page, x, height);</div>
+<div class="line">        <a name="a15"></a><a class="code" href="group__graphics.html#ga252f2415683319dd6a9bea8e70a5fc88">HPDF_Page_Stroke</a> (page);</div>
 <div class="line">        x += <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <a name="a15"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
+<div class="line">    <a name="a16"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line">}</div>
 <div class="line"> </div>
@@ -155,27 +155,27 @@ $(document).ready(function(){initNavTree('clip_hatch_8c-example.html',''); initR
 <div class="line">    strcat (fname, <span class="stringliteral">&quot;.pdf&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* create document object*/</span></div>
-<div class="line">    pdf = <a name="a16"></a><a class="code" href="group__doc.html#gab67288af90e6b56d92261df2f2ea2439">HPDF_New</a> (demo_error_handler, NULL);</div>
+<div class="line">    pdf = <a name="a17"></a><a class="code" href="group__doc.html#gab67288af90e6b56d92261df2f2ea2439">HPDF_New</a> (demo_error_handler, NULL);</div>
 <div class="line">    <span class="keywordflow">if</span> (!pdf) {</div>
 <div class="line">        printf (<span class="stringliteral">&quot;error: cannot create PdfDoc object\n&quot;</span>);</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> (setjmp(env)) {</div>
-<div class="line">        <a name="a17"></a><a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
+<div class="line">        <a name="a18"></a><a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* add a new page object. */</span></div>
-<div class="line">    page = <a name="a18"></a><a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
+<div class="line">    page = <a name="a19"></a><a class="code" href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a> (pdf);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* set up added page */</span></div>
-<div class="line">    <a name="a19"></a><a class="code" href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a> (page, <a name="a20"></a><a class="code" href="hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c">HPDF_PAGE_SIZE_A4</a>, <a name="a21"></a><a class="code" href="hpdf__types_8h.html#a9975729eeae492084d64839f91063e77aad7036d993d1e34259cd0b39f8a218b4">HPDF_PAGE_PORTRAIT</a>);</div>
+<div class="line">    <a name="a20"></a><a class="code" href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a> (page, <a name="a21"></a><a class="code" href="hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c">HPDF_PAGE_SIZE_A4</a>, <a name="a22"></a><a class="code" href="hpdf__types_8h.html#a9975729eeae492084d64839f91063e77aad7036d993d1e34259cd0b39f8a218b4">HPDF_PAGE_PORTRAIT</a>);</div>
 <div class="line"> </div>
 <div class="line">    hatch (pdf, page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* save document to a file */</span></div>
-<div class="line">    <a name="a22"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
+<div class="line">    <a name="a23"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* clean up */</span></div>
 <div class="line">    <a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
@@ -201,7 +201,8 @@ $(document).ready(function(){initNavTree('clip_hatch_8c-example.html',''); initR
 <div class="ttc" id="agroup__page_html_ga4686913145b2c34b5ddaac39548bfc2c"><div class="ttname"><a href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetSize(HPDF_Page page, HPDF_PageSizes size, HPDF_PageDirection direction)</div><div class="ttdoc">Change page size and direction to a predefined ones.</div></div>
 <div class="ttc" id="agroup__page_html_ga7833f542b2409736ba6382118402cb33"><div class="ttname"><a href="group__page.html#ga7833f542b2409736ba6382118402cb33">HPDF_Page_GetWidth</a></div><div class="ttdeci">HPDF_REAL HPDF_Page_GetWidth(HPDF_Page page)</div><div class="ttdoc">Get page width.</div></div>
 <div class="ttc" id="ahpdf_8h_html"><div class="ttname"><a href="hpdf_8h.html">hpdf.h</a></div></div>
-<div class="ttc" id="ahpdf__consts_8h_html_ac0926165280878d459a50e74f2e19f02"><div class="ttname"><a href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a></div><div class="ttdeci">#define HPDF_MM</div><div class="ttdoc">Predefined value for calculations with millimeters. Equals to 72.0/25.4 (72 points pre inch per mm).</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:551</div></div>
+<div class="ttc" id="ahpdf__consts_8h_html_ac0926165280878d459a50e74f2e19f02"><div class="ttname"><a href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a></div><div class="ttdeci">#define HPDF_MM</div><div class="ttdoc">Predefined value for calculations with millimeters. Equals to 72.0/25.4 (72 points pre inch per mm).</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:560</div></div>
+<div class="ttc" id="ahpdf__consts_8h_html_ac3985182fc974d3724a1e94b53e5aa80"><div class="ttname"><a href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a></div><div class="ttdeci">#define HPDF_PI</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:32</div></div>
 <div class="ttc" id="ahpdf__page__sizes_8h_html_a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c"><div class="ttname"><a href="hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c">HPDF_PAGE_SIZE_A4</a></div><div class="ttdeci">@ HPDF_PAGE_SIZE_A4</div><div class="ttdoc">ISO 216 &quot;A4&quot; page size (210.0mm x 297.0mm)</div><div class="ttdef"><b>Definition:</b> hpdf_page_sizes.h:137</div></div>
 <div class="ttc" id="ahpdf__types_8h_html_a748ce71a3ce5fdf2e1ba374d6e54157c"><div class="ttname"><a href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a></div><div class="ttdeci">float HPDF_REAL</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:79</div></div>
 <div class="ttc" id="ahpdf__types_8h_html_a9975729eeae492084d64839f91063e77aad7036d993d1e34259cd0b39f8a218b4"><div class="ttname"><a href="hpdf__types_8h.html#a9975729eeae492084d64839f91063e77aad7036d993d1e34259cd0b39f8a218b4">HPDF_PAGE_PORTRAIT</a></div><div class="ttdeci">@ HPDF_PAGE_PORTRAIT</div><div class="ttdoc">Portrait orientation (longest size vertical)</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:575</div></div>

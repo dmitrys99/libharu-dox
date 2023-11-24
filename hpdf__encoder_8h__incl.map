@@ -1,11 +1,11 @@
 <map id="hpdf_encoder.h" name="hpdf_encoder.h">
-<area shape="rect" id="node1" title=" " alt="" coords="67,5,178,32"/>
-<area shape="rect" id="node2" href="$hpdf__consts_8h.html" title=" " alt="" coords="5,80,109,107"/>
-<area shape="rect" id="node3" href="$hpdf__streams_8h.html" title=" " alt="" coords="133,80,245,107"/>
-<area shape="rect" id="node4" href="$hpdf__list_8h.html" title=" " alt="" coords="89,155,170,181"/>
-<area shape="rect" id="node9" href="$hpdf__encrypt_8h.html" title=" " alt="" coords="194,155,302,181"/>
-<area shape="rect" id="node5" href="$hpdf__error_8h.html" title=" " alt="" coords="88,304,179,331"/>
-<area shape="rect" id="node8" href="$hpdf__mmgr_8h.html" title=" " alt="" coords="167,229,265,256"/>
-<area shape="rect" id="node6" href="$hpdf__types_8h.html" title=" " alt="" coords="126,379,223,405"/>
-<area shape="rect" id="node7" title=" " alt="" coords="143,453,207,480"/>
+<area shape="rect" id="node1" title=" " alt="" coords="49,5,159,32"/>
+<area shape="rect" id="node2" href="$hpdf__consts_8h.html" title=" " alt="" coords="5,229,109,256"/>
+<area shape="rect" id="node5" href="$hpdf__streams_8h.html" title=" " alt="" coords="95,80,207,107"/>
+<area shape="rect" id="node3" href="$hpdf__types_8h.html" title=" " alt="" coords="99,379,197,405"/>
+<area shape="rect" id="node4" title=" " alt="" coords="116,453,180,480"/>
+<area shape="rect" id="node6" href="$hpdf__list_8h.html" title=" " alt="" coords="106,155,187,181"/>
+<area shape="rect" id="node9" href="$hpdf__encrypt_8h.html" title=" " alt="" coords="211,155,319,181"/>
+<area shape="rect" id="node7" href="$hpdf__error_8h.html" title=" " alt="" coords="103,304,193,331"/>
+<area shape="rect" id="node8" href="$hpdf__mmgr_8h.html" title=" " alt="" coords="184,229,283,256"/>
 </map>

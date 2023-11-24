@@ -1,5 +1,15 @@
 var NAVTREEINDEX11 =
 {
+"struct__HPDF__Encoder__Rec.html#a2521c12b93e7ec463fa395164681c3d3":[7,0,18,1],
+"struct__HPDF__Encoder__Rec.html#a48f39374055204f3fe50141eadffd32c":[7,0,18,10],
+"struct__HPDF__Encoder__Rec.html#a60847cd703fa67650e72feaf1c13ac98":[7,0,18,9],
+"struct__HPDF__Encoder__Rec.html#a6e3b21d0666a1869e2d7e9abca73e0a2":[7,0,18,7],
+"struct__HPDF__Encoder__Rec.html#a73cc04ce2e0450dbd455da26ce5c5a5f":[7,0,18,5],
+"struct__HPDF__Encoder__Rec.html#a87f4dbc5bb1412d59c081814a351fabf":[7,0,18,3],
+"struct__HPDF__Encoder__Rec.html#a96607ce284e6fe698bfc3b7623301bed":[7,0,18,11],
+"struct__HPDF__Encoder__Rec.html#aa0a2cc394f1b6d93d1b675f4239551a5":[7,0,18,4],
+"struct__HPDF__Encoder__Rec.html#aadd66850b88316ade8cd6fd76c922d34":[7,0,18,0],
+"struct__HPDF__Encoder__Rec.html#ab265b51089f5b2728d7491121ae61886":[7,0,18,8],
 "struct__HPDF__Encoder__Rec.html#acc78162c0e92c1d06cad5f38c5c4b285":[7,0,18,2],
 "struct__HPDF__Encrypt__Rec.html":[7,0,19],
 "struct__HPDF__Encrypt__Rec.html#a05113d821e9c98ee72764d41c6593df1":[7,0,19,9],
@@ -239,15 +249,5 @@ var NAVTREEINDEX11 =
 "struct__HPDF__TTF__NameRecord.html#af27e4492e1b947dc9ae48a15c479cedf":[7,0,49,2],
 "struct__HPDF__TTF__NamingTable.html":[7,0,50],
 "struct__HPDF__TTF__NamingTable.html#a2afd6d372a139958a24c1e05c879beea":[7,0,50,0],
-"struct__HPDF__TTF__NamingTable.html#a4ee61e50e0725c56de5cbeb35c76e59f":[7,0,50,3],
-"struct__HPDF__TTF__NamingTable.html#a5bf759a8fd09d8849c6e0ff0846d05f5":[7,0,50,2],
-"struct__HPDF__TTF__NamingTable.html#aae0f0397c28fc90e26987b722dcd9dda":[7,0,50,1],
-"struct__HPDF__TTF__OffsetTbl.html":[7,0,51],
-"struct__HPDF__TTF__OffsetTbl.html#a4a045e69123f4430fe9e0bb39a47ebeb":[7,0,51,1],
-"struct__HPDF__TTF__OffsetTbl.html#a5b7cbb9db63e3d7449a71457fc3d7ed3":[7,0,51,4],
-"struct__HPDF__TTF__OffsetTbl.html#a60ba9923c644ef9a1f8b325457853fe5":[7,0,51,5],
-"struct__HPDF__TTF__OffsetTbl.html#a73514f54820d2c12238ebd37b6128fda":[7,0,51,3],
-"struct__HPDF__TTF__OffsetTbl.html#a9593db5291b47c6705ff779ef70d19c1":[7,0,51,2],
-"struct__HPDF__TTF__OffsetTbl.html#ab3bff10c980002cf28111089a4b53e79":[7,0,51,0],
-"struct__HPDF__TTF__Table.html":[7,0,52]
+"struct__HPDF__TTF__NamingTable.html#a4ee61e50e0725c56de5cbeb35c76e59f":[7,0,50,3]
 };

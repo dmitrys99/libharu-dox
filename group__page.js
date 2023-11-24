@@ -50,7 +50,6 @@ var group__page =
     [ "HPDF_Page_SetSlideShow", "group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01", null ],
     [ "HPDF_Page_SetWidth", "group__page.html#gab42283aaebcf31d7262b9fa6fd2c20f7", null ],
     [ "HPDF_Page_TextWidth", "group__page.html#ga1ed213c8541ed8ceab64eecf7bd1c5c1", null ],
-    [ "HPDF_PageSizeName", "group__page.html#ga41eea422eb4d37448e23f5d50c5a4de6", null ],
     [ "HPDF_SetOpenAction", "group__page.html#ga21abfb99833d63f0b0ecc091dc462b6f", null ],
     [ "HPDF_SetPageLayout", "group__page.html#gab666a015dae4c2a58097292a728d2c74", null ],
     [ "HPDF_SetPageMode", "group__page.html#ga63f1d87c975bfc594ee1e4e464ce8467", null ]

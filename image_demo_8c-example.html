@@ -263,15 +263,15 @@ $(document).ready(function(){initNavTree('image_demo_8c-example.html',''); initR
 <div class="line">    <span class="comment">/* Skewing image. */</span></div>
 <div class="line">    angle1 = 10;</div>
 <div class="line">    angle2 = 20;</div>
-<div class="line">    rad1 = angle1 / 180 * 3.141592;</div>
-<div class="line">    rad2 = angle2 / 180 * 3.141592;</div>
+<div class="line">    rad1 = angle1 / 180 * <a name="a31"></a><a class="code" href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a>;</div>
+<div class="line">    rad2 = angle2 / 180 * <a class="code" href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a>;</div>
 <div class="line"> </div>
-<div class="line">    <a name="a31"></a><a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
+<div class="line">    <a name="a32"></a><a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
 <div class="line"> </div>
-<div class="line">    <a name="a32"></a><a class="code" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a> (page, iw, tan(rad1) * iw, tan(rad2) * ih, ih, x, y);</div>
+<div class="line">    <a name="a33"></a><a class="code" href="group__graphics.html#gaaa2a55621b7f659227440ae68c0f8289">HPDF_Page_Concat</a> (page, iw, tan(rad1) * iw, tan(rad2) * ih, ih, x, y);</div>
 <div class="line"> </div>
-<div class="line">    <a name="a33"></a><a class="code" href="group__graphics.html#gac02cc9b136df07117b9aba7137a77aa2">HPDF_Page_ExecuteXObject</a> (page, image);</div>
-<div class="line">    <a name="a34"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
+<div class="line">    <a name="a34"></a><a class="code" href="group__graphics.html#gac02cc9b136df07117b9aba7137a77aa2">HPDF_Page_ExecuteXObject</a> (page, image);</div>
+<div class="line">    <a name="a35"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    show_description (page, x, y, <span class="stringliteral">&quot;Skewing image&quot;</span>);</div>
 <div class="line"> </div>
@@ -279,7 +279,7 @@ $(document).ready(function(){initNavTree('image_demo_8c-example.html',''); initR
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* Rotating image */</span></div>
 <div class="line">    angle = 30;     <span class="comment">/* rotation of 30 degrees. */</span></div>
-<div class="line">    rad = angle / 180 * 3.141592; <span class="comment">/* Calculate the radian value. */</span></div>
+<div class="line">    rad = angle / 180 * <a class="code" href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a>; <span class="comment">/* Calculate the radian value. */</span></div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
 <div class="line"> </div>
@@ -299,7 +299,7 @@ $(document).ready(function(){initNavTree('image_demo_8c-example.html',''); initR
 <div class="line">    <span class="comment">/* draw masked image. */</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* Set image2 to the mask image of image1 */</span></div>
-<div class="line">    <a name="a35"></a><a class="code" href="group__image.html#ga6b626cdd55f5f504493ed356b7039d71">HPDF_Image_SetMaskImage</a> (image1, image2);</div>
+<div class="line">    <a name="a36"></a><a class="code" href="group__image.html#ga6b626cdd55f5f504493ed356b7039d71">HPDF_Image_SetMaskImage</a> (image1, image2);</div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="group__graphics.html#ga3cd5c40eda13c032c235b8eecd421b19">HPDF_Page_SetRGBFill</a> (page, 0, 0, 0);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a> (page);</div>
@@ -321,13 +321,13 @@ $(document).ready(function(){initNavTree('image_demo_8c-example.html',''); initR
 <div class="line">    <a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a> (page, <span class="stringliteral">&quot;MASKMASK&quot;</span>);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a> (page);</div>
 <div class="line"> </div>
-<div class="line">    <a name="a36"></a><a class="code" href="group__image.html#ga043f8408de0f03a09a3529b590750535">HPDF_Image_SetColorMask</a> (image3, 0, 255, 0, 0, 0, 255);</div>
+<div class="line">    <a name="a37"></a><a class="code" href="group__image.html#ga043f8408de0f03a09a3529b590750535">HPDF_Image_SetColorMask</a> (image3, 0, 255, 0, 0, 0, 255);</div>
 <div class="line">    <a class="code" href="group__graphics.html#ga5fe4d0b538927b3a2231d2d82c8fcbb2">HPDF_Page_DrawImage</a> (page, image3, x, y, iw, ih);</div>
 <div class="line"> </div>
 <div class="line">    show_description (page, x, y, <span class="stringliteral">&quot;Color Mask&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* save the document to a file */</span></div>
-<div class="line">    <a name="a37"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
+<div class="line">    <a name="a38"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* clean up */</span></div>
 <div class="line">    <a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
@@ -380,7 +380,8 @@ $(document).ready(function(){initNavTree('image_demo_8c-example.html',''); initR
 <div class="ttc" id="agroup__page_html_gad9851c3b4d01e15bb5f0a8663d76d10f"><div class="ttname"><a href="group__page.html#gad9851c3b4d01e15bb5f0a8663d76d10f">HPDF_Page_SetHeight</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetHeight(HPDF_Page page, HPDF_REAL value)</div><div class="ttdoc">Change page height.</div></div>
 <div class="ttc" id="agroup__security_html_gae9b579afe1449ccbee71c19571d3f066"><div class="ttname"><a href="group__security.html#gae9b579afe1449ccbee71c19571d3f066">HPDF_SetCompressionMode</a></div><div class="ttdeci">HPDF_STATUS HPDF_SetCompressionMode(HPDF_Doc pdf, HPDF_UINT mode)</div><div class="ttdoc">Set compression mode.</div></div>
 <div class="ttc" id="ahpdf_8h_html"><div class="ttname"><a href="hpdf_8h.html">hpdf.h</a></div></div>
-<div class="ttc" id="ahpdf__consts_8h_html_a329d23a1f2900de1d5b0638080ba9967"><div class="ttname"><a href="hpdf__consts_8h.html#a329d23a1f2900de1d5b0638080ba9967">HPDF_COMP_ALL</a></div><div class="ttdeci">#define HPDF_COMP_ALL</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:78</div></div>
+<div class="ttc" id="ahpdf__consts_8h_html_a329d23a1f2900de1d5b0638080ba9967"><div class="ttname"><a href="hpdf__consts_8h.html#a329d23a1f2900de1d5b0638080ba9967">HPDF_COMP_ALL</a></div><div class="ttdeci">#define HPDF_COMP_ALL</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:82</div></div>
+<div class="ttc" id="ahpdf__consts_8h_html_ac3985182fc974d3724a1e94b53e5aa80"><div class="ttname"><a href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a></div><div class="ttdeci">#define HPDF_PI</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:32</div></div>
 <div class="ttc" id="astruct__HPDF__Array__Rec_html"><div class="ttname"><a href="struct__HPDF__Array__Rec.html">_HPDF_Array_Rec</a></div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:333</div></div>
 <div class="ttc" id="astruct__HPDF__Dict__Rec_html"><div class="ttname"><a href="struct__HPDF__Dict__Rec.html">_HPDF_Dict_Rec</a></div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:421</div></div>
 <div class="ttc" id="astruct__HPDF__Doc__Rec_html"><div class="ttname"><a href="struct__HPDF__Doc__Rec.html">_HPDF_Doc_Rec</a></div><div class="ttdef"><b>Definition:</b> hpdf_doc.h:36</div></div>

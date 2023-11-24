@@ -1,5 +1,15 @@
 var NAVTREEINDEX12 =
 {
+"struct__HPDF__TTF__NamingTable.html#a5bf759a8fd09d8849c6e0ff0846d05f5":[7,0,50,2],
+"struct__HPDF__TTF__NamingTable.html#aae0f0397c28fc90e26987b722dcd9dda":[7,0,50,1],
+"struct__HPDF__TTF__OffsetTbl.html":[7,0,51],
+"struct__HPDF__TTF__OffsetTbl.html#a4a045e69123f4430fe9e0bb39a47ebeb":[7,0,51,1],
+"struct__HPDF__TTF__OffsetTbl.html#a5b7cbb9db63e3d7449a71457fc3d7ed3":[7,0,51,4],
+"struct__HPDF__TTF__OffsetTbl.html#a60ba9923c644ef9a1f8b325457853fe5":[7,0,51,5],
+"struct__HPDF__TTF__OffsetTbl.html#a73514f54820d2c12238ebd37b6128fda":[7,0,51,3],
+"struct__HPDF__TTF__OffsetTbl.html#a9593db5291b47c6705ff779ef70d19c1":[7,0,51,2],
+"struct__HPDF__TTF__OffsetTbl.html#ab3bff10c980002cf28111089a4b53e79":[7,0,51,0],
+"struct__HPDF__TTF__Table.html":[7,0,52],
 "struct__HPDF__TTF__Table.html#a3cd13df0de93a4cb8203971a915f5589":[7,0,52,1],
 "struct__HPDF__TTF__Table.html#a7620433f0990e05502fa4eefd116df56":[7,0,52,0],
 "struct__HPDF__TTF__Table.html#a983c0f66bd583f647f65d9ea3b6821d3":[7,0,52,2],
@@ -70,12 +80,12 @@ var NAVTREEINDEX12 =
 "struct__HPDF__Xref__Rec.html#a65b3c89d3647d8dd0d0aa6bee20d09b8":[7,0,56,6],
 "struct__HPDF__Xref__Rec.html#ae8598f81f95a93bf3be18c90a91554ba":[7,0,56,1],
 "struct__HPDF__Xref__Rec.html#afaf25dba84f1f9b899a29e273ee0014b":[7,0,56,4],
-"text_annotation_8c-example.html":[9,28],
-"text_demo2_8c-example.html":[9,30],
-"text_demo_8c-example.html":[9,29],
+"text_annotation_8c-example.html":[9,30],
+"text_demo2_8c-example.html":[9,32],
+"text_demo_8c-example.html":[9,31],
 "todo.html":[4],
-"transforms_8c-example.html":[9,31],
-"ttfont_demo_8c-example.html":[9,32],
-"ttfont_demo_jp_8c-example.html":[9,33],
-"utf8_8c-example.html":[9,34]
+"transforms_8c-example.html":[9,33],
+"ttfont_demo_8c-example.html":[9,34],
+"ttfont_demo_jp_8c-example.html":[9,35],
+"utf8_8c-example.html":[9,36]
 };

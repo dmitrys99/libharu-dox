@@ -456,6 +456,7 @@ var hpdf__consts_8h =
     [ "HPDF_NOERROR", "hpdf__consts_8h.html#a0741e2ea9d973403defb370044e21492", null ],
     [ "HPDF_OBJ_ID_LEN", "hpdf__consts_8h.html#aabfc6e559fa1e018de546785d0a0c7db", null ],
     [ "HPDF_OK", "hpdf__consts_8h.html#aba7b5a1fda3f6d65f8285d233bc3bf3b", null ],
+    [ "HPDF_PI", "hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80", null ],
     [ "HPDF_PRINT_SCALING_NONE", "hpdf__consts_8h.html#a96f0a235684bf8edeed674d3dd3b94ee", null ],
     [ "HPDF_REAL_LEN", "hpdf__consts_8h.html#a11d6618e01bff0ad1df485d78f5a5ccf", null ],
     [ "HPDF_SHORT_BUF_SIZ", "hpdf__consts_8h.html#a9a21b1660aaf12ce2e8accb4b9e839eb", null ],

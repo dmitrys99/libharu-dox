@@ -384,11 +384,11 @@ $(document).ready(function(){initNavTree('text_demo_8c-example.html',''); initRe
 <div class="line"><span class="comment">     * Rotating text</span></div>
 <div class="line"><span class="comment">     */</span></div>
 <div class="line">    angle1 = 30;                   <span class="comment">/* A rotation of 30 degrees. */</span></div>
-<div class="line">    rad1 = angle1 / 180 * 3.141592; <span class="comment">/* Calculate the radian value. */</span></div>
+<div class="line">    rad1 = angle1 / 180 * <a name="a41"></a><a class="code" href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a>; <span class="comment">/* Calculate the radian value. */</span></div>
 <div class="line"> </div>
 <div class="line">    show_description (page, 320, ypos - 60, <span class="stringliteral">&quot;Rotating text&quot;</span>);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a> (page);</div>
-<div class="line">    <a name="a41"></a><a class="code" href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc">HPDF_Page_SetTextMatrix</a> (page, cos(rad1), sin(rad1), -sin(rad1), cos(rad1),</div>
+<div class="line">    <a name="a42"></a><a class="code" href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc">HPDF_Page_SetTextMatrix</a> (page, cos(rad1), sin(rad1), -sin(rad1), cos(rad1),</div>
 <div class="line">                330, ypos - 60);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a> (page, <span class="stringliteral">&quot;ABCabc123&quot;</span>);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a> (page);</div>
@@ -402,8 +402,8 @@ $(document).ready(function(){initNavTree('text_demo_8c-example.html',''); initRe
 <div class="line"> </div>
 <div class="line">    angle1 = 10;</div>
 <div class="line">    angle2 = 20;</div>
-<div class="line">    rad1 = angle1 / 180 * 3.141592;</div>
-<div class="line">    rad2 = angle2 / 180 * 3.141592;</div>
+<div class="line">    rad1 = angle1 / 180 * <a class="code" href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a>;</div>
+<div class="line">    rad2 = angle2 / 180 * <a class="code" href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a>;</div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc">HPDF_Page_SetTextMatrix</a> (page, 1, tan(rad1), tan(rad2), 1, 320, ypos - 120);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad3dae6dd9be5fbce5819a260a0f4b3b6">HPDF_Page_ShowText</a> (page, <span class="stringliteral">&quot;ABCabc123&quot;</span>);</div>
@@ -447,21 +447,21 @@ $(document).ready(function(){initNavTree('text_demo_8c-example.html',''); initRe
 <div class="line">    <a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* char-spacing 1.5 */</span></div>
-<div class="line">    <a name="a42"></a><a class="code" href="group__graphics.html#ga121388468bd4aff11a4e99fd533266c2">HPDF_Page_SetCharSpace</a> (page, 1.5);</div>
+<div class="line">    <a name="a43"></a><a class="code" href="group__graphics.html#ga121388468bd4aff11a4e99fd533266c2">HPDF_Page_SetCharSpace</a> (page, 1.5);</div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a> (page);</div>
 <div class="line">    <a class="code" href="group__graphics.html#ga6ad4939b3689beb7a1f4212a4ebe63d0">HPDF_Page_TextOut</a> (page, 60, 100, samp_text2);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* char-spacing 1.5, word-spacing 3.5 */</span></div>
-<div class="line">    <a name="a43"></a><a class="code" href="group__graphics.html#ga88181c4b826795191c4e00b5c92c4d91">HPDF_Page_SetWordSpace</a> (page, 2.5);</div>
+<div class="line">    <a name="a44"></a><a class="code" href="group__graphics.html#ga88181c4b826795191c4e00b5c92c4d91">HPDF_Page_SetWordSpace</a> (page, 2.5);</div>
 <div class="line"> </div>
 <div class="line">    <a class="code" href="group__graphics.html#gae65d9f710899b01962c119c2710ee33a">HPDF_Page_BeginText</a> (page);</div>
 <div class="line">    <a class="code" href="group__graphics.html#ga6ad4939b3689beb7a1f4212a4ebe63d0">HPDF_Page_TextOut</a> (page, 60, 60, samp_text2);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gae7ea816e86d3ef80408de40cff249455">HPDF_Page_EndText</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* save the document to a file */</span></div>
-<div class="line">    <a name="a44"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
+<div class="line">    <a name="a45"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* clean up */</span></div>
 <div class="line">    <a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
@@ -501,8 +501,9 @@ $(document).ready(function(){initNavTree('text_demo_8c-example.html',''); initRe
 <div class="ttc" id="agroup__security_html_gae9b579afe1449ccbee71c19571d3f066"><div class="ttname"><a href="group__security.html#gae9b579afe1449ccbee71c19571d3f066">HPDF_SetCompressionMode</a></div><div class="ttdeci">HPDF_STATUS HPDF_SetCompressionMode(HPDF_Doc pdf, HPDF_UINT mode)</div><div class="ttdoc">Set compression mode.</div></div>
 <div class="ttc" id="ahpdf_8h_html"><div class="ttname"><a href="hpdf_8h.html">hpdf.h</a></div></div>
 <div class="ttc" id="ahpdf_8h_html_a73cdb473cc8d6555ba3d502e9dd3d6dc"><div class="ttname"><a href="hpdf_8h.html#a73cdb473cc8d6555ba3d502e9dd3d6dc">HPDF_Page_SetTextMatrix</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetTextMatrix(HPDF_Page page, HPDF_REAL a, HPDF_REAL b, HPDF_REAL c, HPDF_REAL d, HPDF_REAL x, HPDF_REAL y)</div></div>
-<div class="ttc" id="ahpdf__consts_8h_html_a329d23a1f2900de1d5b0638080ba9967"><div class="ttname"><a href="hpdf__consts_8h.html#a329d23a1f2900de1d5b0638080ba9967">HPDF_COMP_ALL</a></div><div class="ttdeci">#define HPDF_COMP_ALL</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:78</div></div>
-<div class="ttc" id="ahpdf__consts_8h_html_ab3800fcb8a94b7223e804964313a9d36"><div class="ttname"><a href="hpdf__consts_8h.html#ab3800fcb8a94b7223e804964313a9d36">HPDF_FALSE</a></div><div class="ttdeci">#define HPDF_FALSE</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:25</div></div>
+<div class="ttc" id="ahpdf__consts_8h_html_a329d23a1f2900de1d5b0638080ba9967"><div class="ttname"><a href="hpdf__consts_8h.html#a329d23a1f2900de1d5b0638080ba9967">HPDF_COMP_ALL</a></div><div class="ttdeci">#define HPDF_COMP_ALL</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:82</div></div>
+<div class="ttc" id="ahpdf__consts_8h_html_ab3800fcb8a94b7223e804964313a9d36"><div class="ttname"><a href="hpdf__consts_8h.html#ab3800fcb8a94b7223e804964313a9d36">HPDF_FALSE</a></div><div class="ttdeci">#define HPDF_FALSE</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:27</div></div>
+<div class="ttc" id="ahpdf__consts_8h_html_ac3985182fc974d3724a1e94b53e5aa80"><div class="ttname"><a href="hpdf__consts_8h.html#ac3985182fc974d3724a1e94b53e5aa80">HPDF_PI</a></div><div class="ttdeci">#define HPDF_PI</div><div class="ttdef"><b>Definition:</b> hpdf_consts.h:32</div></div>
 <div class="ttc" id="ahpdf__types_8h_html_a47cf73f26b8868af2be7f8ce82995b90"><div class="ttname"><a href="hpdf__types_8h.html#a47cf73f26b8868af2be7f8ce82995b90">HPDF_UINT</a></div><div class="ttdeci">unsigned int HPDF_UINT</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:45</div></div>
 <div class="ttc" id="ahpdf__types_8h_html_a748ce71a3ce5fdf2e1ba374d6e54157c"><div class="ttname"><a href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a></div><div class="ttdeci">float HPDF_REAL</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:79</div></div>
 <div class="ttc" id="ahpdf__types_8h_html_a86f5ed454ac07c86018c534572be544ba296a25c130a6332e5232fa5c8cf65a58"><div class="ttname"><a href="hpdf__types_8h.html#a86f5ed454ac07c86018c534572be544ba296a25c130a6332e5232fa5c8cf65a58">HPDF_FILL</a></div><div class="ttdeci">@ HPDF_FILL</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:327</div></div>
