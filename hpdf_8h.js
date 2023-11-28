@@ -210,6 +210,7 @@ var hpdf_8h =
     [ "HPDF_Page_MoveTo", "group__graphics.html#ga29e5faa12ec95b9fb29b2aacfba2370c", null ],
     [ "HPDF_Page_MoveToNextLine", "group__graphics.html#gab3d6020a403b1e8cd7f8c1f79cfe9058", null ],
     [ "HPDF_Page_New_Content_Stream", "group__page.html#ga2aeacdd5df00f7ddfffb23b96cb6f419", null ],
+    [ "HPDF_Page_RawWrite", "group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2", null ],
     [ "HPDF_Page_Rectangle", "group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f", null ],
     [ "HPDF_Page_Rotate", "group__graphics.html#gae133f267d56784cc4d4ad1809da21cbe", null ],
     [ "HPDF_Page_RotateDeg", "group__graphics.html#ga653d8e756c8a4eba16a5869d0eb2f17b", null ],

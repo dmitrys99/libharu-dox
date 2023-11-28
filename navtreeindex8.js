@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"hpdf__types_8h.html#a896819dab96fa2f7db1f1c1f243391d5a49be1ef5a1807cc5e0ab2aa7ccb49c6d":[8,0,29,79,4],
+"hpdf__types_8h.html#a896819dab96fa2f7db1f1c1f243391d5a580bb908767e77214ebb9a46db52b0e0":[8,0,29,79,2],
 "hpdf__types_8h.html#a896819dab96fa2f7db1f1c1f243391d5a90b2b544b38afa33a7a617d763139255":[8,0,29,79,7],
 "hpdf__types_8h.html#a896819dab96fa2f7db1f1c1f243391d5aadbc6b5a373d5d9c17e4eb8e8054d5ec":[8,0,29,79,1],
 "hpdf__types_8h.html#a896819dab96fa2f7db1f1c1f243391d5ac862597886095f468d2fa9d1b3977d91":[8,0,29,79,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "struct__HPDF__3DMatrix.html#a2124a6a0a4db3a0d29eba307089b5ddc":[7,0,0,9],
 "struct__HPDF__3DMatrix.html#a5b906aea164482738882842d79721a3b":[7,0,0,3],
 "struct__HPDF__3DMatrix.html#a5fa586cd17166528eea9c7c40555ef13":[7,0,0,6],
-"struct__HPDF__3DMatrix.html#a790c35704b9acea42acc7c97e9e35a8a":[7,0,0,11],
-"struct__HPDF__3DMatrix.html#a81aca9d03662a2509d732ea999df41b9":[7,0,0,5],
-"struct__HPDF__3DMatrix.html#a8697f544919e4a21d5c3ed74a442f3c8":[7,0,0,2]
+"struct__HPDF__3DMatrix.html#a790c35704b9acea42acc7c97e9e35a8a":[7,0,0,11]
 };

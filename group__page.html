@@ -248,6 +248,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaae2d86b8b13ea635ffdc59ce202fbf01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01">HPDF_Page_SetSlideShow</a> (<a class="el" href="hpdf__objects_8h.html#aa4581108bbb9f187a2796be594616da8">HPDF_Page</a> page, <a class="el" href="hpdf__types_8h.html#a7a8fd62ec269fbcc987902921199c054">HPDF_TransitionStyle</a> type, <a class="el" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> disp_time, <a class="el" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> trans_time)</td></tr>
 <tr class="memdesc:gaae2d86b8b13ea635ffdc59ce202fbf01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure slide transition of the page.  <a href="group__page.html#gaae2d86b8b13ea635ffdc59ce202fbf01">More...</a><br /></td></tr>
 <tr class="separator:gaae2d86b8b13ea635ffdc59ce202fbf01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26848f8fe3d1384d5a73a3d3962624f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2">HPDF_Page_RawWrite</a> (<a class="el" href="hpdf__objects_8h.html#aa4581108bbb9f187a2796be594616da8">HPDF_Page</a> page, char *data)</td></tr>
+<tr class="memdesc:ga26848f8fe3d1384d5a73a3d3962624f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write raw commands to page stream This command allow user to write some data to page stream unconditionally.  <a href="group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2">More...</a><br /></td></tr>
+<tr class="separator:ga26848f8fe3d1384d5a73a3d3962624f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Page routines are functions for page creation, styling, text setup, line setup and so on. </p>
@@ -1501,6 +1504,51 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="hpdf__consts_8h.html#aba7b5a1fda3f6d65f8285d233bc3bf3b">HPDF_OK</a> on success, otherwise returns error code and calls error handler.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__page.html#ga81cee1a059803c0367128ee2f501cd9c" title="Insert content stream to the page.">HPDF_Page_Insert_Shared_Content_Stream()</a> </dd></dl>
+
+</div>
+</div>
+<a id="ga26848f8fe3d1384d5a73a3d3962624f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga26848f8fe3d1384d5a73a3d3962624f2">&#9670;&nbsp;</a></span>HPDF_Page_RawWrite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="hpdf__types_8h.html#aafccc49c82c4b2e3bed10a4d882a327e">HPDF_STATUS</a> HPDF_Page_RawWrite </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="hpdf__objects_8h.html#aa4581108bbb9f187a2796be594616da8">HPDF_Page</a>&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write raw commands to page stream This command allow user to write some data to page stream unconditionally. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>Page object handle. </td></tr>
+    <tr><td class="paramname">data</td><td>Data to be written to page stream</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="hpdf__consts_8h.html#aba7b5a1fda3f6d65f8285d233bc3bf3b">HPDF_OK</a> on success, otherwise returns error code and calls error handler.</dd></dl>
+<dl class="section user"><dt>Error codes</dt><dd></dd></dl>
+<ul>
+<li><a class="el" href="hpdf__error_8h.html#a84627361b73234328a4f96602000840f">HPDF_INVALID_PAGE</a></li>
+</ul>
+<dl class="section warning"><dt>Warning</dt><dd>This command is dangerous! Use it with caution, library does not validate input. </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="pattern2_8c-example.html#a39">pattern2.c</a>.</dd>
+</dl>
 
 </div>
 </div>

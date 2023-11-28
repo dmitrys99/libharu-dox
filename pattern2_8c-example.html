@@ -112,8 +112,8 @@ $(document).ready(function(){initNavTree('pattern2_8c-example.html',''); initRes
 <div class="line"><span class="preprocessor">#include &quot;<a class="code" href="hpdf__utils_8h.html">hpdf_utils.h</a>&quot;</span></div>
 <div class="line"><span class="preprocessor">#include &quot;handler.h&quot;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> cellWidth = <a name="a0"></a><a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>*5;</div>
-<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> lineWidth = <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>*0.3;</div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> cellWidth = <a name="a0"></a><a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>*2;</div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">const</span> <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> lineWidth = <a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>*0.1;</div>
 <div class="line"> </div>
 <div class="line"><span class="comment">/* pattern creation routine */</span></div>
 <div class="line"><a name="_a1"></a><a class="code" href="struct__HPDF__Dict__Rec.html">HPDF_Dict</a></div>
@@ -130,7 +130,10 @@ $(document).ready(function(){initNavTree('pattern2_8c-example.html',''); initRes
 <div class="line"> </div>
 <div class="line">    <span class="keywordtype">char</span> patternData[200];</div>
 <div class="line"> </div>
-<div class="line">    sprintf(patternData, <span class="stringliteral">&quot;q %f w 0 0 m %f %f l 0 %f m %f 0 l S Q&quot;</span>, lineWidth, cellWidth, cellWidth, cellWidth, cellWidth);</div>
+<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> cellWidth_4 = cellWidth / 4;</div>
+<div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> cellWidth_34 = cellWidth / 4 * 3;</div>
+<div class="line"> </div>
+<div class="line">    sprintf(patternData, <span class="stringliteral">&quot;q %f w %f 0 m %f %f l %f 0 m %f %f l S Q&quot;</span>, lineWidth, cellWidth_4, cellWidth_4, cellWidth, cellWidth_34, cellWidth_34, cellWidth);</div>
 <div class="line">    <span class="comment">/* write simple pattern directly with PDF language */</span></div>
 <div class="line">    <a name="a9"></a><a class="code" href="hpdf__streams_8h.html#ab2c19adab3ba16e1151d48602846accf">HPDF_Stream_WriteStr</a> (patDict-&gt;<a name="a10"></a><a class="code" href="struct__HPDF__Dict__Rec.html#a9c8ce4bc6d96d5bff5ea668d077d7102">stream</a>, (<span class="keyword">const</span> <span class="keywordtype">char</span>*)&amp;patternData);</div>
 <div class="line"> </div>
@@ -221,32 +224,29 @@ $(document).ready(function(){initNavTree('pattern2_8c-example.html',''); initRes
 <div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> margin = 15*<a class="code" href="hpdf__consts_8h.html#ac0926165280878d459a50e74f2e19f02">HPDF_MM</a>;</div>
 <div class="line">    <a class="code" href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a> rectWidth = (width - margin*2)/3;</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">/* get page stream handler to write directly to */</span></div>
-<div class="line">    <a name="_a38"></a><a class="code" href="struct__HPDF__PageAttr__Rec.html">HPDF_PageAttr</a> attr = (<a name="a39"></a><a class="code" href="hpdf__pages_8h.html#a77b2f6972f4e1a312ab88b8f3a135b90">HPDF_PageAttr</a>)page-&gt;<a name="a40"></a><a class="code" href="struct__HPDF__Dict__Rec.html#a4e2312c9462813e1e0cf63c9468852a7">attr</a>;</div>
-<div class="line"> </div>
 <div class="line">    <span class="comment">/* first rectangle */</span></div>
-<div class="line">    <a name="a41"></a><a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
-<div class="line">    <a class="code" href="hpdf__streams_8h.html#ab2c19adab3ba16e1151d48602846accf">HPDF_Stream_WriteStr</a> (attr-&gt;<a name="a42"></a><a class="code" href="struct__HPDF__PageAttr__Rec.html#a5f56c6c02330c3f42940b67065cd5ab3">stream</a>, <span class="stringliteral">&quot;/pgcs cs 0 0 1 /hatch1 scn &quot;</span>);</div>
-<div class="line">    <a name="a43"></a><a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, margin, margin, rectWidth, height - margin*2);</div>
-<div class="line">    <a name="a44"></a><a class="code" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a">HPDF_Page_Fill</a> (page);</div>
-<div class="line">    <a name="a45"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
+<div class="line">    <a name="a38"></a><a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
+<div class="line">    <a name="a39"></a><a class="code" href="group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2">HPDF_Page_RawWrite</a> (page, <span class="stringliteral">&quot;/pgcs cs 0 0 1 /hatch1 scn &quot;</span>);</div>
+<div class="line">    <a name="a40"></a><a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, margin, margin, rectWidth, height - margin*2);</div>
+<div class="line">    <a name="a41"></a><a class="code" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a">HPDF_Page_Fill</a> (page);</div>
+<div class="line">    <a name="a42"></a><a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* second rectangle */</span></div>
 <div class="line">    <a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
-<div class="line">    <a class="code" href="hpdf__streams_8h.html#ab2c19adab3ba16e1151d48602846accf">HPDF_Stream_WriteStr</a> (attr-&gt;<a class="code" href="struct__HPDF__PageAttr__Rec.html#a5f56c6c02330c3f42940b67065cd5ab3">stream</a>, <span class="stringliteral">&quot;/pgcs cs 0 0 1 /hatch2 scn &quot;</span>);</div>
+<div class="line">    <a class="code" href="group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2">HPDF_Page_RawWrite</a> (page, <span class="stringliteral">&quot;/pgcs cs 0 0 1 /hatch2 scn &quot;</span>);</div>
 <div class="line">    <a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, margin+rectWidth, margin, rectWidth, height - margin*2);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a">HPDF_Page_Fill</a> (page);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* third rectangle */</span></div>
 <div class="line">    <a class="code" href="group__graphics.html#ga8e4ca270c2882373b1fb1355c285a295">HPDF_Page_GSave</a> (page);</div>
-<div class="line">    <a class="code" href="hpdf__streams_8h.html#ab2c19adab3ba16e1151d48602846accf">HPDF_Stream_WriteStr</a> (attr-&gt;<a class="code" href="struct__HPDF__PageAttr__Rec.html#a5f56c6c02330c3f42940b67065cd5ab3">stream</a>, <span class="stringliteral">&quot;/pgcs cs 0 0 1 /hatch3 scn &quot;</span>);</div>
+<div class="line">    <a class="code" href="group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2">HPDF_Page_RawWrite</a> (page, <span class="stringliteral">&quot;/pgcs cs 0 0 1 /hatch3 scn &quot;</span>);</div>
 <div class="line">    <a class="code" href="group__graphics.html#ga9a10ed25f2e895d60a07a7d7348a331f">HPDF_Page_Rectangle</a> (page, margin+rectWidth+rectWidth, margin, rectWidth, height - margin*2);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a">HPDF_Page_Fill</a> (page);</div>
 <div class="line">    <a class="code" href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a> (page);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* save document to a file */</span></div>
-<div class="line">    <a name="a46"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
+<div class="line">    <a name="a43"></a><a class="code" href="group__doc.html#ga5bcc7381654651771342dff7ff2b0414">HPDF_SaveToFile</a> (pdf, fname);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">/* clean up */</span></div>
 <div class="line">    <a class="code" href="group__doc.html#ga7d8f4fbb4e08ba7472cfe0d079f93b38">HPDF_Free</a> (pdf);</div>
@@ -261,6 +261,7 @@ $(document).ready(function(){initNavTree('pattern2_8c-example.html',''); initRes
 <div class="ttc" id="agroup__graphics_html_gaa9d8815e43b630f221adb7182624c83a"><div class="ttname"><a href="group__graphics.html#gaa9d8815e43b630f221adb7182624c83a">HPDF_Page_Fill</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_Fill(HPDF_Page page)</div><div class="ttdoc">Fill current path using non-zero winding number rule.</div></div>
 <div class="ttc" id="agroup__graphics_html_gad53768cdcfd14bc75be2cd59ab84f9c1"><div class="ttname"><a href="group__graphics.html#gad53768cdcfd14bc75be2cd59ab84f9c1">HPDF_Page_GRestore</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_GRestore(HPDF_Page page)</div><div class="ttdoc">Restore graphics state which is saved by HPDF_Page_GSave().</div></div>
 <div class="ttc" id="agroup__page_html_ga201a3c2f0d0628c865b7de187321913e"><div class="ttname"><a href="group__page.html#ga201a3c2f0d0628c865b7de187321913e">HPDF_Page_GetHeight</a></div><div class="ttdeci">HPDF_REAL HPDF_Page_GetHeight(HPDF_Page page)</div><div class="ttdoc">Get page height.</div></div>
+<div class="ttc" id="agroup__page_html_ga26848f8fe3d1384d5a73a3d3962624f2"><div class="ttname"><a href="group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2">HPDF_Page_RawWrite</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_RawWrite(HPDF_Page page, char *data)</div><div class="ttdoc">Write raw commands to page stream This command allow user to write some data to page stream unconditi...</div></div>
 <div class="ttc" id="agroup__page_html_ga34a21b31555f9700fdc93ec805d446fc"><div class="ttname"><a href="group__page.html#ga34a21b31555f9700fdc93ec805d446fc">HPDF_AddPage</a></div><div class="ttdeci">HPDF_Page HPDF_AddPage(HPDF_Doc pdf)</div><div class="ttdoc">Create new page and add it after the last page of document.</div></div>
 <div class="ttc" id="agroup__page_html_ga4686913145b2c34b5ddaac39548bfc2c"><div class="ttname"><a href="group__page.html#ga4686913145b2c34b5ddaac39548bfc2c">HPDF_Page_SetSize</a></div><div class="ttdeci">HPDF_STATUS HPDF_Page_SetSize(HPDF_Page page, HPDF_PageSizes size, HPDF_PageDirection direction)</div><div class="ttdoc">Change page size and direction to a predefined ones.</div></div>
 <div class="ttc" id="agroup__page_html_ga7833f542b2409736ba6382118402cb33"><div class="ttname"><a href="group__page.html#ga7833f542b2409736ba6382118402cb33">HPDF_Page_GetWidth</a></div><div class="ttdeci">HPDF_REAL HPDF_Page_GetWidth(HPDF_Page page)</div><div class="ttdoc">Get page width.</div></div>
@@ -278,7 +279,6 @@ $(document).ready(function(){initNavTree('pattern2_8c-example.html',''); initRes
 <div class="ttc" id="ahpdf__objects_8h_html_afdd9659b558e0f324154069975590c15"><div class="ttname"><a href="hpdf__objects_8h.html#afdd9659b558e0f324154069975590c15">HPDF_OCLASS_DICT</a></div><div class="ttdeci">#define HPDF_OCLASS_DICT</div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:47</div></div>
 <div class="ttc" id="ahpdf__objects_8h_html_afe484a621e39eb3bd81895ba2e4ba31e"><div class="ttname"><a href="hpdf__objects_8h.html#afe484a621e39eb3bd81895ba2e4ba31e">HPDF_Dict_AddNumber</a></div><div class="ttdeci">HPDF_STATUS HPDF_Dict_AddNumber(HPDF_Dict dict, const char *key, HPDF_INT32 value)</div></div>
 <div class="ttc" id="ahpdf__page__sizes_8h_html_a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c"><div class="ttname"><a href="hpdf__page__sizes_8h.html#a1ba75cf22a06a4b44088add026254cc2a93165493ffd2eee74a1f3f26f4366b6c">HPDF_PAGE_SIZE_A4</a></div><div class="ttdeci">@ HPDF_PAGE_SIZE_A4</div><div class="ttdoc">ISO 216 &quot;A4&quot; page size (210.0mm x 297.0mm)</div><div class="ttdef"><b>Definition:</b> hpdf_page_sizes.h:137</div></div>
-<div class="ttc" id="ahpdf__pages_8h_html_a77b2f6972f4e1a312ab88b8f3a135b90"><div class="ttname"><a href="hpdf__pages_8h.html#a77b2f6972f4e1a312ab88b8f3a135b90">HPDF_PageAttr</a></div><div class="ttdeci">struct _HPDF_PageAttr_Rec * HPDF_PageAttr</div><div class="ttdef"><b>Definition:</b> hpdf_pages.h:51</div></div>
 <div class="ttc" id="ahpdf__pages_8h_html_a81a8888adf9d3e4eae7b8f705ed55b5e"><div class="ttname"><a href="hpdf__pages_8h.html#a81a8888adf9d3e4eae7b8f705ed55b5e">HPDF_Page_GetInheritableItem</a></div><div class="ttdeci">void * HPDF_Page_GetInheritableItem(HPDF_Page page, const char *key, HPDF_UINT16 obj_class)</div></div>
 <div class="ttc" id="ahpdf__streams_8h_html_ab2c19adab3ba16e1151d48602846accf"><div class="ttname"><a href="hpdf__streams_8h.html#ab2c19adab3ba16e1151d48602846accf">HPDF_Stream_WriteStr</a></div><div class="ttdeci">HPDF_STATUS HPDF_Stream_WriteStr(HPDF_Stream stream, const char *value)</div></div>
 <div class="ttc" id="ahpdf__types_8h_html_a748ce71a3ce5fdf2e1ba374d6e54157c"><div class="ttname"><a href="hpdf__types_8h.html#a748ce71a3ce5fdf2e1ba374d6e54157c">HPDF_REAL</a></div><div class="ttdeci">float HPDF_REAL</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:79</div></div>
@@ -288,14 +288,11 @@ $(document).ready(function(){initNavTree('pattern2_8c-example.html',''); initRes
 <div class="ttc" id="ahpdf__utils_8h_html_ae2ff7e232970bd878f0615d680865045"><div class="ttname"><a href="hpdf__utils_8h.html#ae2ff7e232970bd878f0615d680865045">HPDF_Matrix_Scale</a></div><div class="ttdeci">HPDF_TransMatrix HPDF_Matrix_Scale(HPDF_TransMatrix m, HPDF_REAL sx, HPDF_REAL sy)</div></div>
 <div class="ttc" id="astruct__HPDF__Array__Rec_html"><div class="ttname"><a href="struct__HPDF__Array__Rec.html">_HPDF_Array_Rec</a></div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:333</div></div>
 <div class="ttc" id="astruct__HPDF__Dict__Rec_html"><div class="ttname"><a href="struct__HPDF__Dict__Rec.html">_HPDF_Dict_Rec</a></div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:421</div></div>
-<div class="ttc" id="astruct__HPDF__Dict__Rec_html_a4e2312c9462813e1e0cf63c9468852a7"><div class="ttname"><a href="struct__HPDF__Dict__Rec.html#a4e2312c9462813e1e0cf63c9468852a7">_HPDF_Dict_Rec::attr</a></div><div class="ttdeci">void * attr</div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:433</div></div>
 <div class="ttc" id="astruct__HPDF__Dict__Rec_html_a8dd55ecafc3aab387bf2b571802bcb6f"><div class="ttname"><a href="struct__HPDF__Dict__Rec.html#a8dd55ecafc3aab387bf2b571802bcb6f">_HPDF_Dict_Rec::mmgr</a></div><div class="ttdeci">HPDF_MMgr mmgr</div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:423</div></div>
 <div class="ttc" id="astruct__HPDF__Dict__Rec_html_a9c8ce4bc6d96d5bff5ea668d077d7102"><div class="ttname"><a href="struct__HPDF__Dict__Rec.html#a9c8ce4bc6d96d5bff5ea668d077d7102">_HPDF_Dict_Rec::stream</a></div><div class="ttdeci">HPDF_Stream stream</div><div class="ttdef"><b>Definition:</b> hpdf_objects.h:430</div></div>
 <div class="ttc" id="astruct__HPDF__Doc__Rec_html"><div class="ttname"><a href="struct__HPDF__Doc__Rec.html">_HPDF_Doc_Rec</a></div><div class="ttdef"><b>Definition:</b> hpdf_doc.h:36</div></div>
 <div class="ttc" id="astruct__HPDF__Doc__Rec_html_a0e3211dbe9c8a05cef4c0fe7c2250919"><div class="ttname"><a href="struct__HPDF__Doc__Rec.html#a0e3211dbe9c8a05cef4c0fe7c2250919">_HPDF_Doc_Rec::mmgr</a></div><div class="ttdeci">HPDF_MMgr mmgr</div><div class="ttdef"><b>Definition:</b> hpdf_doc.h:40</div></div>
 <div class="ttc" id="astruct__HPDF__Doc__Rec_html_a803aef2eefe7fb3fe1f25a203a25ded2"><div class="ttname"><a href="struct__HPDF__Doc__Rec.html#a803aef2eefe7fb3fe1f25a203a25ded2">_HPDF_Doc_Rec::xref</a></div><div class="ttdeci">HPDF_Xref xref</div><div class="ttdef"><b>Definition:</b> hpdf_doc.h:43</div></div>
-<div class="ttc" id="astruct__HPDF__PageAttr__Rec_html"><div class="ttname"><a href="struct__HPDF__PageAttr__Rec.html">_HPDF_PageAttr_Rec</a></div><div class="ttdef"><b>Definition:</b> hpdf_pages.h:53</div></div>
-<div class="ttc" id="astruct__HPDF__PageAttr__Rec_html_a5f56c6c02330c3f42940b67065cd5ab3"><div class="ttname"><a href="struct__HPDF__PageAttr__Rec.html#a5f56c6c02330c3f42940b67065cd5ab3">_HPDF_PageAttr_Rec::stream</a></div><div class="ttdeci">HPDF_Stream stream</div><div class="ttdef"><b>Definition:</b> hpdf_pages.h:66</div></div>
 <div class="ttc" id="astruct__HPDF__TransMatrix_html"><div class="ttname"><a href="struct__HPDF__TransMatrix.html">_HPDF_TransMatrix</a></div><div class="ttdef"><b>Definition:</b> hpdf_types.h:240</div></div>
 <div class="ttc" id="astruct__HPDF__TransMatrix_html_a0b319d3986c15b24ce82a6f1d2170c7e"><div class="ttname"><a href="struct__HPDF__TransMatrix.html#a0b319d3986c15b24ce82a6f1d2170c7e">_HPDF_TransMatrix::b</a></div><div class="ttdeci">HPDF_REAL b</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:242</div></div>
 <div class="ttc" id="astruct__HPDF__TransMatrix_html_a5f647e3fc1b219933515891d2d63f4a0"><div class="ttname"><a href="struct__HPDF__TransMatrix.html#a5f647e3fc1b219933515891d2d63f4a0">_HPDF_TransMatrix::y</a></div><div class="ttdeci">HPDF_REAL y</div><div class="ttdef"><b>Definition:</b> hpdf_types.h:246</div></div>

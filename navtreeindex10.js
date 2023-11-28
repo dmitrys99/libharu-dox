@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"struct__HPDF__Name__Rec.html#a6ad35ce89dc431fcfc37c09c697b5cae":[7,0,28,1],
+"struct__HPDF__Name__Rec.html#a77f005f81ddbe0334c912580a6331e1b":[7,0,28,0],
 "struct__HPDF__Null__Rec.html":[7,0,29],
 "struct__HPDF__Null__Rec.html#a0d1e960a9cd2bea7f85cd9565fe877ed":[7,0,29,0],
 "struct__HPDF__Number__Rec.html":[7,0,30],

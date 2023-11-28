@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"struct__HPDF__3DMatrix.html#a81aca9d03662a2509d732ea999df41b9":[7,0,0,5],
+"struct__HPDF__3DMatrix.html#a8697f544919e4a21d5c3ed74a442f3c8":[7,0,0,2],
 "struct__HPDF__3DMatrix.html#a9d58c00e5a4e00b9049e0e4fc936bbc5":[7,0,0,0],
 "struct__HPDF__3DMatrix.html#ad3cdc8c15b354c9e643657bffc1d3620":[7,0,0,1],
 "struct__HPDF__3DMatrix.html#af55bb0be0ca5455e4f34444c52890133":[7,0,0,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "struct__HPDF__MemStreamAttr__Rec.html#ae2c85629dbeb25a04deea15663f711f1":[7,0,25,3],
 "struct__HPDF__MemStreamAttr__Rec.html#ae8dfd5540be4a37fab4d179c4f0a38b4":[7,0,25,6],
 "struct__HPDF__Name__Rec.html":[7,0,28],
-"struct__HPDF__Name__Rec.html#a0fcacaaf2b4fa54c74e97ef6d3896d18":[7,0,28,2],
-"struct__HPDF__Name__Rec.html#a6ad35ce89dc431fcfc37c09c697b5cae":[7,0,28,1],
-"struct__HPDF__Name__Rec.html#a77f005f81ddbe0334c912580a6331e1b":[7,0,28,0]
+"struct__HPDF__Name__Rec.html#a0fcacaaf2b4fa54c74e97ef6d3896d18":[7,0,28,2]
 };

@@ -44,6 +44,7 @@ var group__page =
     [ "HPDF_Page_Insert_Shared_Content_Stream", "group__page.html#ga81cee1a059803c0367128ee2f501cd9c", null ],
     [ "HPDF_Page_MeasureText", "group__page.html#ga120d86937ea24189d18208bd56c3cdd5", null ],
     [ "HPDF_Page_New_Content_Stream", "group__page.html#ga2aeacdd5df00f7ddfffb23b96cb6f419", null ],
+    [ "HPDF_Page_RawWrite", "group__page.html#ga26848f8fe3d1384d5a73a3d3962624f2", null ],
     [ "HPDF_Page_SetHeight", "group__page.html#gad9851c3b4d01e15bb5f0a8663d76d10f", null ],
     [ "HPDF_Page_SetRotate", "group__page.html#ga3d5be95c93a7386d0109a6826d469aa6", null ],
     [ "HPDF_Page_SetSize", "group__page.html#ga4686913145b2c34b5ddaac39548bfc2c", null ],
